@@ -1,0 +1,43 @@
+.sinpadding [class*=col-] {
+  padding: 0;
+}
+
+.imgmh {
+  height: 100%;
+}
+
+.seccion1 {
+  position: relative;
+  display: inline-block;
+  text-align: center;
+  align-content: center;
+}
+
+.titulo {
+  width: 100%;
+  height: 70%;
+}
+
+.subtitulo {
+  position: absolute;
+  top: 26%;
+}
+
+.seccion2 {
+  position: relative;
+  display: inline-block;
+  text-align: center;
+}
+
+.parrafo1 {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+}
+
+@media (max-width: 720px) {
+  .mobile {
+    display: none;
+  }
+}
+
