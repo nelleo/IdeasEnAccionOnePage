@@ -24,15 +24,8 @@
 }
 
 .seccion2 {
-  position: relative;
-  display: inline-block;
-  text-align: center;
-}
-
-.parrafo1 {
-  position: absolute;
-  top: 10px;
-  left: 10px;
+  display: flex;
+  flex-direction: row;
 }
 
 @media (max-width: 720px) {

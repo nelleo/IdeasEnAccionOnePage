@@ -23,7 +23,7 @@
                 <div class="col-12 col-sm-12 col-md-6 col-lg-6 " >
                     <img class="titulo" src="images/img--02.jpg" alt="titulo pricipal">
                     <div class="seccion1">
-                        <img  class="" src="images/img--03.jpg" alt="">
+                        <img   src="images/img--03.jpg" alt="" style="height: 11.1em">
                         <p class="subtitulo" style="color: aliceblue"><strong>TÚ INNOVACIÓN Y/O DESAFÍOS <br> CUENTAN</strong></p>
                     </div>
                 </div>
@@ -31,10 +31,10 @@
                     <img class="imgmh col-lg-12" src="images/img--04.jpg" alt="">
                 </div>
             </div>
-            <div class="row">
-                <div class="col-12 col-sm-12 col-md-6 seccion2" style="text-align: center">
-                    <img src="images/img--05.jpg" alt="">
-                    <p class="parrafo1" style="color: aliceblue">La convocatoria abierta del <strong>Premio Ideas en <br> Acción </strong>invita a presentar innovaciones <br>
+            <div class="row seccion2">
+                <div class="col-12 col-sm-12 col-md-6 col-lg-6 seccion2" >
+                    <img class="col-md-3 imgs205" src="images/img--05.jpg" alt="">
+                    <p class="parrafo1" style="color: aliceblue;">La convocatoria abierta del <strong>Premio Ideas en <br> Acción </strong>invita a presentar innovaciones <br>
                     implementadas por <strong>empresas prestadoras de <br> servicio de agua y/o saneamiento en América <br>
                     Latina y el Caribe </strong><br><br>
                     Este año , la convocatoria también invita a las <br>empresas a presentar desafíos o problemáticas
@@ -43,7 +43,7 @@
                     En el 2020 el <strong>Premio Ideas en Acción</strong> consta <br>de dos categorías</p>
                     <img src="images/img--06.jpg" alt="">
                 </div>
-                <div class="col-6 mobile">
+                <div class="col-6">
                     <img src="images/img--07.jpg" alt="">
                 </div>
             </div>
