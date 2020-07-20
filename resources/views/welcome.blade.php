@@ -16,10 +16,10 @@
     </head>
     <body class="marino">
         <section class="d-flex w-100 marino align-content-between justify-content-center">
-            <div class="d-none d-sm-block oh">
+            <div class="d-none d-sm-block oh mx-0 my-auto">
                 <img class="fr" src="images/img--01.jpg" alt="misc titulo 1">
             </div>
-            <div class="w1">
+            <div class="">
                 <div>
                     <img class="w1" src="images/img--02.jpg" alt="titulo pricipal">
                 </div>
@@ -31,7 +31,7 @@
                 </div>
                 
             </div>
-            <div class="d-none d-sm-block oh">
+            <div class="d-none d-sm-block oh mx-0 my-auto">
                 <img class="fl" src="images/img--04.jpg" alt="misc titulo 1">
             </div>
         </section>
@@ -49,9 +49,41 @@
                 </div>
             </div>
             <div class="col-lg-6 p-0">
-                <img class="fl" src="images/img--07.jpg" alt="misc titulo 1">
+                <img class="fl" src="images/img--07.jpg" alt="ilustración de lampara">
             </div>
-                
+        </section>
+        <section class="ptc d-flex flex-wrap w-100 marino flex-lg-row oh ">
+            <div>
+                <img class="" src="images/img--08.jpg" alt="apertura categorias">
+                <h3 class="ctc text-center align-self-center p-4" style="top:15px">
+                    Categorías
+                </h3>
+            </div>
+            <div class="d-flex w-100 flex-lg-row oh align-content-between justify-content-center oh">
+                <div class="d-flex flex-column flex-wrap justify-content-center oh mx-0 my-auto fr" style="width:33%">
+                    <img class="" src="images/img--09.jpg" alt="">
+                    <p style="color:white">Para innovaciones implementadas por empresas prestadoras de servicio de agua y/o saneamiento en América Latina y el Caribe.</p>
+                    <img class="" src="images/img--10.jpg" alt="">
+                    <p class="text-center" style="color:white">PARTICIPA</p>
+                </div>
+                <div class="d-flex">
+                        <img class="w1" src="images/img--11.jpg" alt="">
+                </div>
+                <div class="d-flex flex-column flex-wrap justify-content-center oh mx-0 my-auto fl" style="width:33%">
+                    <img class="" src="images/img--12.jpg" alt="">
+                    <p style="color:white">Para empresas prestadoras de servicios de agua y/o saneamiento en América Latina y el Caribe con desafíos que puedan ser solucionados a través de la implementación de pilotos innovadores en desalinización, tratamiento y reúso, SWIT y/o gestión.</p>
+                    <img class="" src="images/img--13.jpg" alt="">
+                    <p class="text-center" style="color: #00b1b8;">PARTICIPA</p>
+                </div>
+            </div>
+        </section>
+        <section class="ptc d-flex flex-wrap w-100 marino oh ">
+            <div>
+                <img class="" src="images/img--08.jpg" alt="apertura categorias">
+                <h3 class="ctc text-center align-self-center p-4" style="top:15px">
+                    ¿De qué se trata?
+                </h3>
+            </div>
         </section>
     </body>
 </html>

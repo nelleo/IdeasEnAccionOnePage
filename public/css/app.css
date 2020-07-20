@@ -470,6 +470,14 @@ textarea {
   background-color: #061939;
 }
 
+.amarinado {
+  background-color: #034360;
+}
+
+.amarinadot {
+  color: #034360;
+}
+
 img {
   max-height: 100%;
   width: auto;
