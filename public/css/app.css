@@ -579,8 +579,17 @@ footer {
 }
 
 .foot-ctrl {
-  background-image: url(/images/img--37.jpg?325765c2e05cae74f4d9316939bf5334);
+  background-image: url(/images/img--37-r.jpg?9547f5ec68fc86b252b5825387f765bb);
   background-repeat: no-repeat;
   height: auto;
+}
+
+.abajof {
+  position: absolute;
+  bottom: -3.4%;
+}
+
+.img-ft-lf {
+  position: absolute;
 }
 
