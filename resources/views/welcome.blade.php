@@ -53,5 +53,44 @@
             </div>
                 
         </section>
+        <div class="row">
+            <form class="mx-auto mt-4 mb-5 text-center" method="POST" action="/envioMail">
+                @csrf
+                <div class="form-row mb-3 mw-100">
+                  <div class="form-group col-md-4 mt-2" >
+                    <input type="text" class="form-control @error('nombre') is-invalid @enderror" name="nombre" value="{{ old('nombre') }}" required autocomplete="nombre" autofocus  placeholder="Nombre" >
+                    @error('nombre')
+                    <span class="invalid-feedback" role="alert">
+                        <strong>{{ $message }}</strong>
+                    </span>
+                    @enderror
+                  </div>
+                  <div class="form-group col-md-4 mt-2">
+                    <input type="email" class="form-control @error('email') is-invalid @enderror" name="email" value="{{ old('email') }}" required autocomplete="email" autofocus placeholder="Dirección de correro electrónico">
+                    @error('email')
+                    <span class="invalid-feedback" role="alert">
+                      <strong>{{ $message }}</strong>
+                    </span>
+                    @enderror
+                  </div>
+                </div>
+                <div class="form-row mb-3 mw-100">
+                    <div class="form-group col-md-4 mt-2">
+                      <textarea class="form-control @error('mensaje') is-invalid @enderror radius" name="mensaje"  value="{{ old('mensaje') }}" id="" cols="30" rows="5" required autocomplete="mensaje" autofocus placeholder="Mensaje"></textarea>                              
+                      @error('mensaje')
+                    <span class="invalid-feedback" role="alert">
+                        <strong>{{ $message }}</strong>
+                    </span>
+                    @enderror
+                    </div>
+                </div>
+                  @if(Session::has('mensaje'))
+                    <div class="alert alert-success mt-1 mb-1" role="alert">
+                      {{ Session::get('mensaje')}} 
+                    </div>
+                  @endif
+                  <button type="submit" class="btn ba" style="background-color:#1c4c84;color:#f7ca48;border:none;font-weight: 800;">ENVIAR</button>
+              </form>
+        
     </body>
 </html>
