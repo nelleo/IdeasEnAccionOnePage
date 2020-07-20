@@ -368,7 +368,7 @@ textarea {
 //PAGE
 
 .marino{
-    background-color:#061939;
+    background-color:#061939!important;
 }
 
 img{
@@ -402,7 +402,7 @@ position: absolute;
 }
 
 .w1{
-    width: 100%;
+    width: 100%!important;
 }
 
 
@@ -425,4 +425,43 @@ img{
     .mobile{
         display: none;
     }
+}
+//NELSON 
+    //FORM
+::placeholder { color: aliceblue!important; }
+::-webkit-input-placeholder { /* WebKit, Blink, Edge */
+    color: aliceblue;
+}
+:-moz-placeholder { /* Mozilla Firefox 4 to 18 */
+   color: aliceblue;
+   opacity: 1 /* esto es porque Firefox le reduce la opacidad por defecto */;
+}
+::-moz-placeholder { /* Mozilla Firefox 19+ */
+   color: aliceblue;
+   opacity:  1;
+}
+:-ms-input-placeholder { /* Internet Explorer 10-11 */
+   color: aliceblue;
+}
+
+//FOOTER 
+.sp [class*="col-"] {
+    padding-left: 0!important;
+    padding-right: 0!important;
+}
+footer{
+    position:relative;
+}
+.abajo{
+    position:absolute;
+    bottom:0px;
+    //right:10px;
+}
+.foot-ctrl{
+    background-image: url(../../public/images/img--37.jpg);
+    background-repeat: no-repeat;
+    height: auto;
+}
+.img-ft-ct{
+    
 }
