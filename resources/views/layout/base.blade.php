@@ -23,9 +23,9 @@
             </div>
             <div class="w1 col-md-6 col-lg-6">
                 <div>
-                    <img class="" src="images/img--02.jpg" alt="titulo pricipal">
+                    <img class="ml-5" src="images/img--02.jpg" alt="titulo pricipal">
                 </div>
-                <div class="ptc d-flex">
+                <div class="ptc d-flex pl-3">
                     <img class="fl" src="images/img--03.jpg" alt="titulo bajada">
                     <h2 class="ctc text-center align-self-center p-4 mt-3" style="   color: aliceblue;
                     font-weight: 600;

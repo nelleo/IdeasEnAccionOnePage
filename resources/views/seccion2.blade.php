@@ -9,8 +9,8 @@
         <p style="color:#ecfcf4;font-size:large; ">Para <strong>innovaciones implementadas</strong> por empresas <br>
             prestadoras de servicios de agua y/o saneamiento en <br>
             América Latina y el Caribe.</p>
-        <h3 class="part1">PARTICIPA</h3>
-        <img src="images/img--10.jpg" alt="">
+        <button class="col-md-6 mt-5  btn " style="background-color:#04b3bb " ><h3 class="part1">PARTICIPA</h3></button>
+        {{-- <img src="images/img--10.jpg" alt=""> --}}
     </div>
 
     <div class="text-center">
@@ -20,8 +20,8 @@
             <strong>desafíos</strong> que puedan ser solucionados a través de la <br>
             implementación de pilotos innovadores en <br>
             tecnologías inteligentes, desalinización, reúso y/o gestión.</p>
-        <h3 class="part2">PARTICIPA</h3>
-        <img src="images/img--13.jpg" alt="">
+        <button class="col-md-6 btn mt-5 " style="background-color:#ecfcf4 "><h3 class="part2">PARTICIPA</h3></button>
+        {{-- <img src="images/img--13.jpg" alt=""> --}}
     </div>
 
 </section>

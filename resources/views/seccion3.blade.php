@@ -1,13 +1,13 @@
 <section class="row w1" style="background-color:#04b3bb;margin:0%;">
-    <div class="col-md-2 footer">
-        <img class="" src="images/img--15.jpg" alt="misc titulo 1">
-        <img class="abajo" src="images/img--21.jpg" alt="misc titulo 1">
+    <div class="col-md-2 p-0">
+        <img class="fr w1" src="images/img--15.jpg" alt="misc titulo 1">
+        <img class="abajo fr w1" src="images/img--21.jpg" alt="misc titulo 1">
     </div>
     <div class="col-md-8 text-center" style="color: #ecfcf4;">
         <div class="row">
             <h5 class="col-md-8 offset-2  mt-4" style="font-weight: 400;
             letter-spacing: 0.2em;">CATEGORÍA</h5>
-            <h1 class="col-md-10 offset-1 mt-4" style="font-weight: 500!important;">Excelencia Innovadora Empresarial</h1>
+            <h1 class="col-md-10 offset-1 mt-4" style="font-weight: 650!important;">Excelencia Innovadora Empresarial</h1>
             <p class="col-md-10 offset-1 mt-4 w1" style=" font-size: large;font-weight: 400;">Busca iniciativas, prácticas y modelos innovadores creados y/o utilizados para <br>
                 afrontar retos que tienen las empresas prestadoras de servicios de agua y/o <br>
                 saneamiento en América Latina y el Caribe, que hayan sido probados e <br>

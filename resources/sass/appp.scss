@@ -453,6 +453,7 @@ footer{
     background-image: url(../../public/images/footer1.jpg);
     background-repeat: no-repeat;
     background-size: cover;
+    height: 22rem;
 }
 .abajo{
     position:absolute;
@@ -473,20 +474,19 @@ footer{
     top: -1.9em;
     color:#044363;
     display:inline-block; 
+    font-weight: 650
 }
-.part1{
-    position: relative;
-    top: 2.7em;
+.part1{ 
     color:#ecfcf4; 
     font-weight: 400;
     letter-spacing: 0.2em;
+    margin: unset;
 }
 .part2{
-    position: relative;
-    top: 2.7em;
     color:#04b3bb; 
     font-weight: 400;
     letter-spacing: 0.2em;
+    margin: unset;
 }
 .dqst{
     position: relative;
@@ -494,6 +494,7 @@ footer{
     top: 3.4em;
     color:#044363;
     display:inline-block; 
+    font-weight: 650
 }
 .bomba{
     position: relative;

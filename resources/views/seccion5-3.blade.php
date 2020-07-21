@@ -1,12 +1,12 @@
 <section class="row w1" style="background-color:#ecfcf4;margin:0%; ">
-    <div class="col-md-2 footer">
+    <div class="col-md-2  p-0">
         <img class="abajo" src="images/img--29.jpg" alt="misc titulo 1">
    </div>
    <div class="col-md-8 text-center" style="color: #24959e;">
         <div class="row w1">
             <h5 class="col-md-8 offset-2  mt-4" style="font-weight: 400;
             letter-spacing: 0.2em;">CATEGORÍA</h5>
-            <h1 class="col-md-10 offset-1 mt-4" style="font-weight: 500!important;">Desafíos</h1>
+            <h1 class="col-md-10 offset-1 mt-4" style="font-weight: 650!important;">Desafíos</h1>
             <p class="col-md-10 offset-1 mt-4 w1" style=" font-size: large;font-weight: 400;">Busca identificar desafíos en empresas operadoras de agua y/o <br>
                 saneamiento de América Latina y el Caribe que puedan ser atendidos <br>
                 mediante soluciones innovadoras en tecnologías inteligentes, desalinización, <br> 
