@@ -21,5 +21,5 @@
 </section>
 <div class="d-flex justify-content-center flex-column">
     <h1 class="dqst">¿De qué se trata?</h1> 
-    <img src="images/img--14-f.jpg" alt="fondo ¿De qué trata?">
+    <img src="images/img--14-f.jpg" alt="fondo ¿De qué trata?" style="position: relative;z-index:-1;bottom:-2px;">
 </div>
