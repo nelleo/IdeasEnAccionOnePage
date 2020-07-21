@@ -468,7 +468,6 @@ textarea {
 
 body {
   max-width: 1280px;
-  margin: auto;
 }
 
 .marino {
@@ -516,10 +515,6 @@ h2 {
   right: 0;
 }
 
-.w1 {
-  width: 100% !important;
-}
-
 @media (min-width: 576px) {
   img {
     width: auto !important;
@@ -530,6 +525,12 @@ h2 {
     background-repeat: no-repeat;
     padding-left: 6em;
     padding-top: 9em;
+  }
+}
+
+@media (max-width: 576px) {
+  .w1 {
+    width: 100% !important;
   }
 }
 
