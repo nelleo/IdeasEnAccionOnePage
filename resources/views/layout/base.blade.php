@@ -14,16 +14,16 @@
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
         <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
     </head>
-    <body class="marino">
+    <body class="marino" style="margin: auto;">
       
-        <header class="d-flex w-100 marino align-content-between justify-content-center row-fluid">
+        <header class="d-flex w-100 marino align-content-between justify-content-center">
             
-            <div class="d-none d-sm-block oh col-md-3 col-lg-3 p-0">
-                <img class="fr w1" src="images/img--01.jpg" alt="misc titulo 1">
+            <div class="d-none d-sm-block oh">
+                <img class="fr" src="images/img--01.jpg" alt="misc titulo 1">
             </div>
-            <div class="w1 col-md-6 col-lg-6">
+            <div class="">
                 <div>
-                    <img class="ml-5" src="images/img--02.jpg" alt="titulo pricipal">
+                    <img class="w1" src="images/img--02.jpg" alt="titulo pricipal">
                 </div>
                 <div class="ptc d-flex pl-3">
                     <img class="fl" src="images/img--03.jpg" alt="titulo bajada">
@@ -35,8 +35,8 @@
                 </div>
                 
             </div>
-            <div class="d-none d-sm-block oh col-md-3 col-lg-3 p-0">
-                <img class="fl w1" src="images/img--04.jpg" alt="misc titulo 1">
+            <div class="d-none d-sm-block oh">
+                <img class="fl" src="images/img--04.jpg" alt="misc titulo 1">
             </div>
 
         </header>

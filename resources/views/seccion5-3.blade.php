@@ -11,7 +11,7 @@
                 saneamiento de América Latina y el Caribe que puedan ser atendidos <br>
                 mediante soluciones innovadoras en tecnologías inteligentes, desalinización, <br> 
                 reúso y/o gestión.</p>
-            <div class="col-md-10 offset-1 mr-5 mt-4 d-flex" style="justify-content: center">
+            <div class="col-md-10 offset-1 mr-5 mt-4 d-flex flex-wrap" style="justify-content: center">
                 <div>
                     <img class="" src="images/img--28.jpg" alt="misc titulo 1">
                     <p style=" font-size: large;"><strong> Tecnologías <br>
