@@ -3,9 +3,9 @@
 </div>
 <div class="d-flex flex-wrap w-100 marino flex-lg-row oh mt-3">
     <div class="col-md-6 col-lg-6 text-center mt-3" style="color: aliceblue">
-        <h2 class="col-md-12 mb-4" style="font-weight: 700;font-size:xx-large!important; letter-spacing:0.1em!important;" >Contáctenos</h2>  
-        <div class="">
-            <p style="">¿TieneS preguntas?<br>Si tienes alguna consulta, puedes contactarnos a <a href="#">agua@iadb.org</a> o <a href="#">argentina@socialab.com</a>.</p>
+        <h1 class="col-md-12 mb-4" style="font-weight: 700;letter-spacing:0.1em!important;" >Contáctenos</h1>  
+        <div class="contacto text-center">
+            <p style="">¿Tienes preguntas?<br>Si tienes alguna consulta, puedes contactarnos a <a href="#">agua@iadb.org</a> o <a href="#">argentina@socialab.com</a>.</p>
         </div>
     </div>
     <div class="col-md-6">

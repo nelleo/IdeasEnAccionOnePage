@@ -587,6 +587,7 @@ footer {
   background-image: url(/images/footer1.jpg?f90dc0dd04f5534cd3d3728e99cec45b);
   background-repeat: no-repeat;
   background-size: cover;
+  height: 22rem;
 }
 
 .abajo {
@@ -604,26 +605,25 @@ footer {
 }
 
 .cat {
-  position: relative;
-  top: 2.3em;
+  right: -13.2em;
+  top: -1.9em;
   color: #044363;
-  text-align: center;
+  /* display: block; */
+  font-weight: 650;
 }
 
 .part1 {
-  position: relative;
-  top: 2.7em;
   color: #ecfcf4;
   font-weight: 400;
   letter-spacing: 0.2em;
+  margin: unset;
 }
 
 .part2 {
-  position: relative;
-  top: 2.7em;
   color: #04b3bb;
   font-weight: 400;
   letter-spacing: 0.2em;
+  margin: unset;
 }
 
 .dqst {
@@ -631,7 +631,7 @@ footer {
   text-align: center;
   top: 3.4em;
   color: #044363;
-  display: inline-block;
+  font-weight: 650;
 }
 
 .bomba {
@@ -646,5 +646,39 @@ footer {
 .img14 {
   position: relative;
   top: -2.3em;
+}
+
+.contacto {
+  text-align: left;
+}
+
+@media (max-width: 1024px) {
+  footer {
+    height: 17rem;
+  }
+}
+
+@media (max-width: 768px) {
+  footer {
+    height: 14rem !important;
+  }
+}
+
+@media (max-width: 425px) {
+  footer {
+    height: 22rem !important;
+  }
+}
+
+@media (max-width: 375px) {
+  footer {
+    height: 21rem !important;
+  }
+}
+
+@media (max-width: 320px) {
+  footer {
+    height: 18rem !important;
+  }
 }
 

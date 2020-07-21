@@ -25,7 +25,7 @@
                 <div>
                     <img class="w1" src="images/img--02.jpg" alt="titulo pricipal">
                 </div>
-                <div class="ptc d-flex">
+                <div class="ptc d-flex pl-3">
                     <img class="fl" src="images/img--03.jpg" alt="titulo bajada">
                     <h2 class="ctc text-center align-self-center p-4 mt-3" style="   color: aliceblue;
                     font-weight: 600;
@@ -43,10 +43,10 @@
 
         @yield("main")
 
-        <footer class="text-center" style="margin:0%;">
+        <footer class="text-center " style="margin:0%;">
             
             <div >
-                <img class="" src="images/img--35.jpg" alt="img footer">
+                <img class="" src="images/logo-BID.jpg" alt="img footer">
                 <img class="" src="images/img--36.jpg" alt="img footer">
             </div>
            
