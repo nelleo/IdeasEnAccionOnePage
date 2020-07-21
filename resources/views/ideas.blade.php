@@ -21,7 +21,7 @@
             <div class="d-none d-sm-block oh col-md-3 col-lg-3 p-0">
                 <img class="fr w1" src="images/img--01.jpg" alt="misc titulo 1">
             </div>
-            <div class="w1 col-md-6 col-lg-6">
+            <div class="">
                 <div>
                     <img class="ml-5" src="images/img--02.jpg" alt="titulo pricipal">
                 </div>
@@ -57,7 +57,6 @@
             <div class="col-lg-6 w1 p-0">
                 <img class="fl w1" src="images/img--07.jpg" alt="misc titulo 1">
             </div>
-                
         </section>
         
      
@@ -238,7 +237,7 @@
     <div class="col-md-6 col-lg-6 text-center mt-3" style="color: aliceblue">
         <h2 class="col-md-12 mb-4" style="font-weight: 700;font-size:xx-large!important; letter-spacing:0.1em!important;" >Contáctenos</h2>  
         <div class="">
-            <p style="">¿TieneS preguntas?<br>Si tienes alguna consulta, puedes contactarnos a <a href="#">agua@iadb.org</a> o <a href="#">argentina@socialab.com</a>.</p>
+            <p style="">¿Tienes preguntas?<br>Si tienes alguna consulta, puedes contactarnos a <a href="#">agua@iadb.org</a> o <a href="#">argentina@socialab.com</a>.</p>
         </div>
     </div>
     <div class="col-md-6">

@@ -367,9 +367,22 @@ textarea {
 
 //PAGE
 
+body{
+    // max-width: 1280px;
+    // margin: auto;
+}
+
 .marino{
     background-color:#061939!important;
 }
+.amarinado{
+    background-color: #034360;
+}
+
+.amarinadot{
+    color: #034360;
+}
+
 
 img{
     max-height: 100%;
@@ -469,12 +482,11 @@ footer{
     position: absolute;
 }
 .cat{
-    position: relative;
-    right: -14.2em;
+    right: -13.2em;
     top: -1.9em;
-    color:#044363;
-    display:inline-block; 
-    font-weight: 650
+    color: #044363;
+    /* display: block; */
+    font-weight: 650;
 }
 .part1{ 
     color:#ecfcf4; 
@@ -490,10 +502,10 @@ footer{
 }
 .dqst{
     position: relative;
-    right: -12.8em;
+    text-align: center;
     top: 3.4em;
     color:#044363;
-    display:inline-block; 
+    // display:inline-block; 
     font-weight: 650
 }
 .bomba{

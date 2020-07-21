@@ -10,3 +10,10 @@ Homestead.json
 Homestead.yaml
 npm-debug.log
 yarn-error.log
+.DS_Store
+composer.phar
+public/.DS_Store
+resources/.DS_Store
+composer.lock
+ideas.blade copy.php
+appp copy.scss
