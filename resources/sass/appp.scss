@@ -480,23 +480,31 @@ footer{
     position: absolute;
 }
 .cat{
-    right: -13.2em;
-    top: -1.9em;
+    top: 2.3em;
     color: #044363;
-    /* display: block; */
     font-weight: 650;
+    position: relative;
+    text-align: center;
 }
 .part1{ 
     color:#ecfcf4; 
     font-weight: 400;
     letter-spacing: 0.2em;
     margin: unset;
+    position: relative;
+    text-align: center;
+    top: 2.5em;
+    left: 0.4em;
 }
 .part2{
     color:#04b3bb; 
     font-weight: 400;
     letter-spacing: 0.2em;
     margin: unset;
+    position: relative;
+    text-align: center;
+    top: 2.5em;
+    left: 0.4em;
 }
 .dqst{
     position: relative;
