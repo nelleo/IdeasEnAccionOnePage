@@ -5,7 +5,7 @@
             <div><img class="" src="images/img--21.jpg" alt="misc excel 2"></div>
         </div>
     </div>
-    <div class="text-center mx-auto" style="color: #ecfcf4;max-width: 743   px;">
+    <div class="text-center mx-auto" style="color: #ecfcf4;max-width: 743px;">
         <div class="">
             <h5 class="mt-4" style="font-weight: 400;letter-spacing: 0.2em;">CATEGORÍA</h5>
             <h1 class="mt-4" style="font-weight: 650!important;">Excelencia Innovadora Empresarial</h1>

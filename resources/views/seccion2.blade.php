@@ -4,7 +4,7 @@
 </div>
 <section class="d-flex mt-5 justify-content-around flex-wrap" style="justify-content: center">
 
-    <div class="text-center" >
+    <div class="text-center" style="margin-bottom: 6rem;">
         <img class="mw-100" src="images/img--09.jpg" alt="titulo excelencia innovadora empresarial">
         <p class="p-4" style="max-width: 500px;color:#ecfcf4;font-size:large; ">Para <strong>innovaciones implementadas</strong> por empresas prestadoras de servicios de agua y/o saneamiento en América Latina y el Caribe.</p>
         <button class="col-md-6 mt-5  btn " style="background-color:#04b3bb " ><h3 class="part1">PARTICIPA</h3></button>
