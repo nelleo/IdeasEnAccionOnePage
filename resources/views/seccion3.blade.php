@@ -6,7 +6,7 @@
     <div class=" text-center" style="color: #ecfcf4;">
         <div class="row">
             <h5 class="mt-4" style="font-weight: 400;letter-spacing: 0.2em;">CATEGORÍA</h5>
-            <h1 class="mt-4" style="font-weight: 500!important;">Excelencia Innovadora Empresarial</h1>
+            <h1 class="mt-4" style="font-weight: 650!important;">Excelencia Innovadora Empresarial</h1>
             <p class="mt-4" style=" font-size: large;font-weight: 400;">Busca iniciativas, prácticas y modelos innovadores creados y/o utilizados para <br>
                 afrontar retos que tienen las empresas prestadoras de servicios de agua y/o <br>
                 saneamiento en América Latina y el Caribe, que hayan sido probados e <br>

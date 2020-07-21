@@ -1,13 +1,13 @@
 <img src="images/img--33.jpg" alt="olas" class="w1">
 <div class="d-flex flex-wrap w-100 marino flex-lg-row oh mt-3">
     <div class="col-md-6 col-lg-6 text-center mt-3" style="color: aliceblue">
-        <h1 class="col-md-12 mb-4" style="font-weight: 700;letter-spacing:0.1em!important;" >Contáctenos</h1>  
-        <div class="contacto text-center">
+        <h1 class=" mb-4" style="font-weight: 700;letter-spacing:0.1em!important;" >Contáctenos</h1>  
+        <div class="contacto text-left ml-sm-4">
             <p style="">¿Tienes preguntas?<br>Si tienes alguna consulta, puedes contactarnos a <a href="#">agua@iadb.org</a> o <a href="#">argentina@socialab.com</a>.</p>
         </div>
     </div>
     <div class="col-md-6">
-        <form class="mr-5 mt-4 mb-5 text-right" method="POST" action="/envioMail" >
+        <form class="mr-md-5  mt-4 mb-5 text-right" method="POST" action="/envioMail" >
             @csrf
             <div class="row mb-1 mw-100">
               <div class=" col-md-4 " >
@@ -42,7 +42,7 @@
                   {{ Session::get('mensaje')}} 
                 </div>
               @endif
-              <button type="submit" class="btn ba mr-3" style="background-color:#eafaf5;color:#061939;border:none;font-weight: 500;">ENVIAR</button>
+              <button type="submit" class="btn ba mr-4" style="background-color:#eafaf5;color:#061939;border:none;font-weight: 500;">ENVIAR</button>
           </form>
     </div>
 </div>
