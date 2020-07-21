@@ -1,4 +1,4 @@
-<section class="row w1" style="background-color:#ecfcf4 ">
+<section class="row w1" style="background-color:#ecfcf4;margin:0%; ">
     <div class="col-md-2 footer">
         <img class="abajo" src="images/img--29.jpg" alt="misc titulo 1">
    </div>
@@ -52,8 +52,8 @@
             </div>
         </div>
    </div>
-   <div class="col-md-2">
-        <img class="" src="images/img--24.jpg" alt="misc titulo 24">
-        <img class="" src="images/img--30.jpg" alt="misc titulo 1">
+   <div class="col-md-2 p-0 d-none d-sm-block oh">
+        <img class="fl w1" src="images/img--24.jpg" alt="misc titulo 24">
+        <img class="fl w1" src="images/img--30.jpg" alt="misc titulo 1">
    </div>
 </section>

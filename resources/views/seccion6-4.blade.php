@@ -1,4 +1,4 @@
-<section class="text-center sp row-fluid d-flex w1" style="background-color:#24959e;justity-content:center ">
+<section class="text-center sp row-fluid d-flex w1" style="background-color:#24959e;justity-content:center;margin:0%; ">
     
     <div class="offset-3 col-md-6 mt-5">
         <h1 class="" style="text-decoration: underline;line-height: 1.2em;color: aliceblue;font-weight: 650;letter-spacing:0.01em">Podrás ganar:</h1>

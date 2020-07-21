@@ -18,12 +18,12 @@
       
         <header class="d-flex w-100 marino align-content-between justify-content-center row-fluid">
             
-            <div class="d-none d-sm-block oh col-md-3 col-lg-3">
-                <img class="fr" src="images/img--01.jpg" alt="misc titulo 1">
+            <div class="d-none d-sm-block oh col-md-3 col-lg-3 p-0">
+                <img class="fr w1" src="images/img--01.jpg" alt="misc titulo 1">
             </div>
             <div class="w1 col-md-6 col-lg-6">
                 <div>
-                    <img class="w1" src="images/img--02.jpg" alt="titulo pricipal">
+                    <img class="" src="images/img--02.jpg" alt="titulo pricipal">
                 </div>
                 <div class="ptc d-flex">
                     <img class="fl" src="images/img--03.jpg" alt="titulo bajada">
@@ -35,36 +35,21 @@
                 </div>
                 
             </div>
-            <div class="d-none d-sm-block oh col-md-3 col-lg-3">
-                <img class="fl" src="images/img--04.jpg" alt="misc titulo 1">
+            <div class="d-none d-sm-block oh col-md-3 col-lg-3 p-0">
+                <img class="fl w1" src="images/img--04.jpg" alt="misc titulo 1">
             </div>
 
         </header>
 
         @yield("main")
 
-        <footer class="row sp">
-
-            <div class="d-none d-sm-block col-md-4 ">
-                <img class="w1 mg-ft-lf" src="images/img--34.jpg" alt="img footer">
-            </div>
-            <div class="col-md-4 w1">
-                <div class="row w1 ml-0 abajof">
-                    <div class="col-md-6  ">
-                        <img class="w1" src="images/img--35.jpg" alt="img footer">
-                    </div>
-                    <div class="col-md-6 ">
-                        <img class="w1" src="images/img--36.jpg" alt="img footer">
-                    </div>
-                    <div class="col-md-12 foot-ctrl w1">
-                        <img class="w1 " src="images/img--37-r.jpg" alt="img footer" >
-                    </div>
-                </div>
-            </div>
-            <div class="d-none d-sm-block col-md-4 ">
-                <img class="w1 " src="images/img--38.jpg" alt="img footer">
-            </div>
+        <footer class="text-center" style="margin:0%;">
             
+            <div >
+                <img class="" src="images/img--35.jpg" alt="img footer">
+                <img class="" src="images/img--36.jpg" alt="img footer">
+            </div>
+           
         </footer>
     </body>
 </html>

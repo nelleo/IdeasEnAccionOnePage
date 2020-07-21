@@ -463,17 +463,14 @@ img{
     padding-right: 0!important;
 }
 footer{
-    position:relative;
+    background-image: url(../../public/images/footer1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 .abajo{
     position:absolute;
     bottom:0px;
     //right:10px;
-}
-.foot-ctrl{
-    background-image: url(../../public/images/img--37-r.jpg);
-    background-repeat: no-repeat;
-    height: auto;
 }
 .abajof{
     position: absolute;
@@ -508,6 +505,7 @@ footer{
     text-align: center;
     top: 3.4em;
     color:#044363;
+    display:inline-block; 
 }
 .bomba{
     position: relative;

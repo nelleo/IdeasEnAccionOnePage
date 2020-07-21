@@ -583,18 +583,14 @@ h2 {
 }
 
 footer {
-  position: relative;
+  background-image: url(/images/footer1.jpg?f90dc0dd04f5534cd3d3728e99cec45b);
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .abajo {
   position: absolute;
   bottom: 0px;
-}
-
-.foot-ctrl {
-  background-image: url(/images/img--37-r.jpg?9547f5ec68fc86b252b5825387f765bb);
-  background-repeat: no-repeat;
-  height: auto;
 }
 
 .abajof {
@@ -634,6 +630,7 @@ footer {
   text-align: center;
   top: 3.4em;
   color: #044363;
+  display: inline-block;
 }
 
 .bomba {
