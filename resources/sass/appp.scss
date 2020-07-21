@@ -367,6 +367,11 @@ textarea {
 
 //PAGE
 
+body{
+    max-width: 1280px;
+    margin: auto;
+}
+
 .marino{
     background-color:#061939!important;
 }
@@ -477,4 +482,41 @@ footer{
 }
 .img-ft-lf{
     position: absolute;
+}
+.cat{
+    position: relative;
+    top: 2.3em;
+    color: #044363;
+    text-align: center;
+}
+.part1{
+    position: relative;
+    top: 2.7em;
+    color:#ecfcf4; 
+    font-weight: 400;
+    letter-spacing: 0.2em;
+}
+.part2{
+    position: relative;
+    top: 2.7em;
+    color:#04b3bb; 
+    font-weight: 400;
+    letter-spacing: 0.2em;
+}
+.dqst{
+    position: relative;
+    text-align: center;
+    top: 3.4em;
+    color:#044363;
+}
+.bomba{
+    position: relative;
+    top: -2.3em;
+}
+.tm{
+    margin-left: -2.6rem;
+}
+.img14{
+    position: relative;
+    top: -2.3em;
 }
