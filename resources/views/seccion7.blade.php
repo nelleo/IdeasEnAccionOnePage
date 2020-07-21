@@ -1,4 +1,6 @@
-<img src="images/img--33.jpg" alt="olas" class="w1">
+<div class="d-flex justify-content-center flex-column">
+<img src="images/img--33.jpg" alt="olas" class="">
+</div>
 <div class="d-flex flex-wrap w-100 marino flex-lg-row oh mt-3">
     <div class="col-md-6 col-lg-6 text-center mt-3" style="color: aliceblue">
         <h1 class=" mb-4" style="font-weight: 700;letter-spacing:0.1em!important;" >Contáctenos</h1>  
