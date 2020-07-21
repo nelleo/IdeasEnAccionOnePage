@@ -14,6 +14,6 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', function () {
-    return view('ideas');
+    return view('home');
 });
 Route::post('/envioMail', "mailController@send");

@@ -16,10 +16,10 @@
     </head>
     <body class="marino">
       
-        <header id="top" class="d-flex w-100 marino align-content-between justify-content-center row-fluid">
+        <header class="d-flex w-100 marino align-content-between justify-content-center row-fluid">
             
             <div class="d-none d-sm-block oh col-md-3 col-lg-3">
-                <a href="#top"> <img class="fr" src="images/img--01.jpg" alt="misc titulo 1"></a>
+                <img class="fr" src="images/img--01.jpg" alt="misc titulo 1">
             </div>
             <div class="w1 col-md-6 col-lg-6">
                 <div>
@@ -27,10 +27,10 @@
                 </div>
                 <div class="ptc d-flex">
                     <img class="fl" src="images/img--03.jpg" alt="titulo bajada">
-                    <h2 class="ctc text-center align-self-center p-4 mt-3" style="    color: aliceblue;
+                    <h2 class="ctc text-center align-self-center p-4 mt-3" style="   color: aliceblue;
                     font-weight: 600;
                     font-size: xx-large!important;">
-                        <strong>TÚ INNOVACIÓN Y/O DESAFÍOS <br> CUENTAN</strong>
+                        <strong>TÚ INNOVACIÓN Y/O DESAFÍO <br> CUENTAN</strong>
                     </h2>
                 </div>
                 
@@ -38,14 +38,15 @@
             <div class="d-none d-sm-block oh col-md-3 col-lg-3">
                 <img class="fl" src="images/img--04.jpg" alt="misc titulo 1">
             </div>
+
         </header>
         
         <section class="d-flex flex-wrap w-100 marino flex-lg-row oh">
             <div class="col-lg-6 p-0">
                 <div class="d-flex flex-column flex-lg-row w-100 tlb w1">
                     <p class="p-5 ml-5 w1" style="color: aliceblue;font-size:large;">
-                        La convocatoria abierta del <strong> Premio Ideas en <br> Acción </strong>invita a presentar innovaciones <br> implementadas por <strong>empresas prestadoras de <br>servicio de agua y/o saneamiento en América<br> Latina y el Caribe.</strong> 
-                        <br><br>Este año, la convocatoria también invita a las<br> empresas a presentar desafíos o problemáticas<br> que puedan ser atendidas a través de soluciones<br> innovadoras en desalinización, tratamiento y<br> reúso, SWIT y/o gestión.
+                        La convocatoria abierta del <strong> Premio Ideas en <br> Acción </strong>invita a presentar  <strong>innovaciones <br> implementadas</strong>  porempresas prestadoras de <br>servicios de agua y/o saneamiento en América<br> Latina y el Caribe.
+                        <br><br>Este año, la convocatoria también invita a las<br> empresas a presentar<strong> desafíos </strong>que puedan ser<br>  atendidos a través de soluciones<br> innovadoras en tecnologías inteligentes,<br> desalinización, reúso y/o gestión.
                         <br><br>En el 2020 el <strong>Premio Ideas en Acción </strong>consta<br> de dos categorías.
                     </p>
                 </div>
@@ -67,8 +68,8 @@
 
         <div class="text-center mr-5" >
             <img class="" src="images/img--09.jpg" alt="">
-            <p style="color:#ecfcf4;font-size:large; ">Para innovaciones implementadas por empresas <br>
-                prestadoras de servicio de agua y/o saneamiento en <br>
+            <p style="color:#ecfcf4;font-size:large; ">Para <strong>innovaciones implementadas</strong> por empresas <br>
+                prestadoras de servicios de agua y/o saneamiento en <br>
                 América Latina y el Caribe.</p>
             <h3 class="part1">PARTICIPA</h3>
             <img src="images/img--10.jpg" alt="">
@@ -78,9 +79,9 @@
             <img src="images/img--12.jpg" alt="">
             <p style="color:#ecfcf4;font-size:large;">Para empresas prestadoras de servicios de agua y/o <br>
                 saneamiento en América Latina y el Caribe con <br>
-                desafíos que puedan ser solucionados a través de la <br>
+                <strong>desafíos</strong> que puedan ser solucionados a través de la <br>
                 implementación de pilotos innovadores en <br>
-                desalinización, tratamiento y reúso, SWIT y/o gestión.</p>
+                 tecnologías inteligentes, desalinización, reúso y/o gestión.</p>
             <h3 class="part2">PARTICIPA</h3>
             <img src="images/img--13.jpg" alt="">
         </div>
@@ -100,30 +101,34 @@
                 letter-spacing: 0.2em;">CATEGORÍA</h5>
                 <h1 class="col-md-10 offset-1 mt-4" style="font-weight: 500!important;">Excelencia Innovadora Empresarial</h1>
                 <p class="col-md-10 offset-1 mt-4 w1" style=" font-size: large;font-weight: 400;">Busca iniciativas, prácticas y modelos innovadores creados y/o utilizados para <br>
-                    afrontar retos que tienen las empresas prestadoras de servicio de agua y/o <br>
+                    afrontar retos que tienen las empresas prestadoras de servicios de agua y/o <br>
                     saneamiento en América Latina y el Caribe, que hayan sido probados e <br>
                     implementados; y que hayan generado un impacto positivo en alguna de las <br>
                     siguientes categorías:</p>
                 <div class="col-md-10 offset-1 mr-5 mt-4 d-flex" style="justify-content: center">
-                    <div><img class="" src="images/img--17.jpg" alt="misc titulo 1">
-                        <p style=" font-size: large;"> <strong> Innovación <br>
-                            en procesos </strong></p>
-                    </div>
+
                     <div><img class="" src="images/img--18.jpg" alt="misc titulo 1">
                         <p style=" font-size: large;"><strong>Innovación <br>
                             ambiental y social </strong></p>
                     </div>
+
                     <div><img class="" src="images/img--19.jpg" alt="misc titulo 1">
                         <p style=" font-size: large;"><strong> Innovación <br>
                             tecnológica</strong></p>
                     </div>
+                    
+                    <div><img class="" src="images/img--17.jpg" alt="misc titulo 1">
+                        <p style=" font-size: large;"> <strong> Innovación <br>
+                            en procesos </strong></p>
+                    </div>
+  
                 </div>
                 <p class="col-md-10 offset-1 mt-4" style=" font-size: large;font-weight: 400;">Si tu empresa ha implementado un programa, práctica, producto, o servicio <br>
                     innovador en el área ambiental, social, tecnológica o procedimental enfocado <br>
                     en AGUA y/o SANEAMIENTO <strong> ¡esta categoría es para ti!</strong> </p>
                 <div class="col-md-6 offset-3 text-center">
-                    <button class="col-md-10 mt-4 btn" style="background-color:#044363;color:#ecfcf4;font-size: small; ">VER BASES Y CONDICIONES DE ESTA CATEGORÍA</button>
-                <button class="col-md-10 mt-4 mb-5 btn" style="background-color:#ecfcf4;color:#044363;font-weight: 500; ">PARTICIPAR DE ESTA CATAGORÍA</button>
+                    <button class="col-md-10 mt-4  btn" style="background-color:#ecfcf4;color:#044363;font-weight: 500; ">ENVÍA TU PROPUESTA</button>
+                    <button class="col-md-10 mt-4 mb-5 btn" style="background-color:#044363;color:#ecfcf4;font-size: small; ">VER BASES Y CONDICIONES DE ESTA CATEGORÍA</button>
                 </div>
             </div>
        </div>
@@ -152,42 +157,50 @@
            </div>
            <div class="col-md-8 text-center" style="color: #24959e;">
                 <div class="row w1">
-                    <<h5 class="col-md-8 offset-2  mt-4" style="font-weight: 400;
+                    <h5 class="col-md-8 offset-2  mt-4" style="font-weight: 400;
                     letter-spacing: 0.2em;">CATEGORÍA</h5>
                     <h1 class="col-md-10 offset-1 mt-4" style="font-weight: 500!important;">Desafíos</h1>
                     <p class="col-md-10 offset-1 mt-4 w1" style=" font-size: large;font-weight: 400;">Busca identificar desafíos en empresas operadoras de agua y/o <br>
                         saneamiento de América Latina y el Caribe que puedan ser atendidos <br>
-                        mediante soluciones innovadoras en desalinización, tratamiento y reúso, <br>
-                        SWIT y/o gestión.</p>
+                        mediante soluciones innovadoras en tecnologías inteligentes, desalinización, <br> 
+                        reúso y/o gestión.</p>
                     <div class="col-md-10 offset-1 mr-5 mt-4 d-flex" style="justify-content: center">
-                        <div class="mr-4"><img class="" src="images/img--25.jpg" alt="misc titulo 1">
-                            <p style=" font-size: large;"><strong> Desalinización <br>
-                                y otros tratamientos <br>
-                                no convencionales.</strong> </p>
-                        </div>
-                        <div><img class="" src="images/img--26.jpg" alt="misc titulo 1">
-                            <p style=" font-size: large;"><strong> Innovaciones <br>
-                                en gestión de los <br>
-                                servicios de agua y <br>
-                                saneamiento.</strong> </p>
-                        </div>
-                        <div><img class="" src="images/img--27.jpg" alt="misc titulo 1">
-                            <p style=" font-size: large;"><strong> Tratamiento <br>
-                                y Reúso.</strong> </p>
-                        </div>
-                        <div><img class="" src="images/img--28.jpg" alt="misc titulo 1">
+                        <div>
+                            <img class="" src="images/img--28.jpg" alt="misc titulo 1">
                             <p style=" font-size: large;"><strong> Tecnologías <br>
                                 inteligentes <br>
                                 aplicadas al agua <br>
                                 (SWIT).</strong> </p>
                         </div>
+
+                        <div class="mr-4">
+                            <img class="" src="images/img--25.jpg" alt="misc titulo 1">
+                            <p style=" font-size: large;"><strong> Desalinización </strong> </p>
+                        </div>
+
+                        <div>
+                            <img class="" src="images/img--27.jpg" alt="misc titulo 1">
+                            <p style=" font-size: large;"><strong> Tratamiento de <br>
+                               aguas residuales <br>
+                                y Reúso.</strong> </p>
+                        </div>
+
+                        <div>
+                            <img class="" src="images/img--26.jpg" alt="misc titulo 1">
+                            <p style=" font-size: large;"><strong> Innovaciones <br>
+                                en gestión de los <br>
+                                servicios de agua y <br>
+                                saneamiento.</strong> </p>
+                        </div>
+                        
+                       
                     </div>
                     <p class="col-md-10 offset-1 mt-4" style=" font-size: large;font-weight: 400;">Si tu empresa presenta un desafío en AGUA y/o SANEAMIENTO que puede
                         ser atendido / solucionado con tecnologías innovadoras que correspondan a
                         una o varias de las áreas de innovación descritas <strong> ¡esta categoría es para ti! </strong></p>
                     <div class="col-md-6 offset-3 text-center">
-                        <button class="col-md-10 mt-4 btn" style="background-color:#54d9da;color:#24959e;font-size: small; ">VER BASES Y CONDICIONES DE ESTA CATEGORÍA</button>
-                    <button class="col-md-10 mt-4 mb-5 btn" style="background-color:#24959e;color:#ecfcf4;font-weight: 500; ">PARTICIPAR DE ESTA CATAGORÍA</button>
+                        <button class="col-md-10 mt-4 btn" style="background-color:#24959e;color:#ecfcf4;font-weight: 500; ">ENVÍA TU PROPUESTA</button>
+                        <button class="col-md-10 mt-4  mb-5 btn" style="background-color:#54d9da;color:#24959e;font-size: small; ">VER BASES Y CONDICIONES DE ESTA CATEGORÍA</button>
                     </div>
                 </div>
            </div>
@@ -218,7 +231,7 @@
             <div class="col-md-6 col-lg-6 text-center mt-3" style="color: aliceblue">
                 <h2 class="col-md-12 mb-4" style="font-weight: 700;font-size:xx-large!important; letter-spacing:0.1em!important;" >Contáctenos</h2>  
                 <div class="">
-                    <p style="">¿Tiene preguntas?<br>Contactanos.</p>
+                    <p style="">¿TieneS preguntas?<br>Si tienes alguna consulta, puedes contactarnos a <a href="#">agua@iadb.org</a> o <a href="#">argentina@socialab.com</a>.</p>
                 </div>
             </div>
             <div class="col-md-6">
@@ -275,7 +288,6 @@
                     </div>
                     <div class="col-md-12 foot-ctrl w1">
                         <img class="w1 " src="images/img--37-r.jpg" alt="img footer" >
-                        {{-- style="visibility: hidden;" --}}
                     </div>
                 </div>
             </div>
