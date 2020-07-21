@@ -467,7 +467,7 @@ textarea {
 }
 
 .marino {
-  background-color: #061939;
+  background-color: #061939 !important;
 }
 
 .amarinado {
@@ -512,7 +512,7 @@ h2 {
 }
 
 .w1 {
-  width: 100%;
+  width: 100% !important;
 }
 
 @media (min-width: 576px) {
@@ -532,5 +532,72 @@ h2 {
   .mobile {
     display: none;
   }
+}
+
+::-moz-placeholder {
+  color: aliceblue !important;
+}
+
+:-ms-input-placeholder {
+  color: aliceblue !important;
+}
+
+::-ms-input-placeholder {
+  color: aliceblue !important;
+}
+
+::placeholder {
+  color: aliceblue !important;
+}
+
+::-webkit-input-placeholder {
+  /* WebKit, Blink, Edge */
+  color: aliceblue;
+}
+
+:-moz-placeholder {
+  /* Mozilla Firefox 4 to 18 */
+  color: aliceblue;
+  opacity: 1;
+}
+
+::-moz-placeholder {
+  /* Mozilla Firefox 19+ */
+  color: aliceblue;
+  opacity: 1;
+}
+
+:-ms-input-placeholder {
+  /* Internet Explorer 10-11 */
+  color: aliceblue;
+}
+
+.sp [class*=col-] {
+  padding-left: 0 !important;
+  padding-right: 0 !important;
+}
+
+footer {
+  position: relative;
+}
+
+.abajo {
+  position: absolute;
+  bottom: 0px;
+}
+
+.foot-ctrl {
+  background-image: url(/images/img--37-r.jpg?9547f5ec68fc86b252b5825387f765bb);
+  background-repeat: no-repeat;
+  height: auto;
+}
+
+.abajof {
+  position: absolute;
+  bottom: -3.4%;
+}
+
+.img-ft-lf {
+  position: absolute;
 }
 
