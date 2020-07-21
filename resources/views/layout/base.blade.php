@@ -23,7 +23,7 @@
             </div>
             <div class="w1 col-md-6 col-lg-6">
                 <div>
-                    <img class="w1" src="images/img--02.jpg" alt="titulo pricipal">
+                    <img class="" src="images/img--02.jpg" alt="titulo pricipal">
                 </div>
                 <div class="ptc d-flex">
                     <img class="fl" src="images/img--03.jpg" alt="titulo bajada">
@@ -43,15 +43,13 @@
 
         @yield("main")
 
-        <footer class="row sp w1 text-center" style="margin:0%;">
+        <footer class="text-center" style="margin:0%;">
             
-            <img class="" src="images/img--35.jpg" alt="img footer">
-
-            <img class="" src="images/img--36.jpg" alt="img footer">
-
-            <div class="col-md-12 foot-ctrl w1">
-                <img class="w1 " src="images/footer1.jpg" alt="img footer" >
+            <div >
+                <img class="" src="images/img--35.jpg" alt="img footer">
+                <img class="" src="images/img--36.jpg" alt="img footer">
             </div>
+           
         </footer>
     </body>
 </html>
