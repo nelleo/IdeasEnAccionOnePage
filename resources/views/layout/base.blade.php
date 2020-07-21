@@ -46,8 +46,8 @@
         <footer class="text-center " style="margin:0%;">
             
             <div >
-                <img class="" src="images/logo-BID.jpg" alt="img footer">
-                <img class="" src="images/img--36.jpg" alt="img footer">
+                <img class="" src="images/logo-BID.png" alt="logo BID">
+                <img class="" src="images/img--36.png" alt="alianza socialab">
             </div>
            
         </footer>
