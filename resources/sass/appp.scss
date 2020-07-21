@@ -516,3 +516,35 @@ footer{
     position: relative;
     top: -2.3em;
 }
+.contacto{
+    text-align: left;
+}
+
+@media (max-width: 1024px){
+    footer{
+        height: 17rem;
+    }
+}
+@media (max-width: 768px){
+    footer{     
+        height: 14rem!important;
+    }
+}
+@media (max-width: 425px){
+    footer{   
+        height: 22rem!important;
+    }
+}
+@media (max-width: 375px){
+    footer{
+        height: 21rem!important;
+    }
+}
+
+@media (max-width: 320px){
+    footer{
+        height:18rem!important;
+    }
+}
+// margin-bottom: .5rem!important;
+// height: 18rem;

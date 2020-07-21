@@ -43,10 +43,10 @@
 
         @yield("main")
 
-        <footer class="text-center" style="margin:0%;">
+        <footer class="text-center " style="margin:0%;">
             
             <div >
-                <img class="" src="images/img--35.jpg" alt="img footer">
+                <img class="" src="images/logo-BID.jpg" alt="img footer">
                 <img class="" src="images/img--36.jpg" alt="img footer">
             </div>
            
