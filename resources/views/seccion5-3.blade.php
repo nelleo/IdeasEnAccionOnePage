@@ -15,10 +15,7 @@
             <div class="mx-3 mt-4 d-flex flex-wrap justify-content-around">
                 <div class="">
                     <img class="" src="images/img--28.jpg" alt="icono tecnologias">
-                    <p style=" font-size: large;"><strong> Tecnologías <br>
-                        inteligentes <br>
-                        aplicadas al agua <br>
-                        (SWIT).</strong> </p>
+                    <p style=" font-size: large;"><strong>-	Tecnologías <br> Inteligentes <br> (Smart Water<br> Infrastructure<br> Technologies -<br> (SWIT))</strong> </p>
                 </div>
 
                 <div class="">

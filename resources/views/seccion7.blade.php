@@ -2,13 +2,13 @@
 <img src="images/img--33.jpg" alt="olas" class="">
 </div>
 <div class="d-flex flex-wrap w-100 marino flex-lg-row oh mt-3">
-    <div class="col-md-6 col-lg-6 text-center mt-3" style="color: aliceblue">
-        <h1 class=" mb-4" style="font-weight: 700;letter-spacing:0.1em!important;" >Contáctenos</h1>  
-        <div class="contacto text-left ml-sm-4">
-            <p style="">¿Tienes preguntas?<br>Si tienes alguna consulta, puedes contactarnos a <a href="#">agua@iadb.org</a> o <a href="#">argentina@socialab.com</a>.</p>
+    <div class="col-md-6 col-lg-6  mt-3" style="color: aliceblue">
+        <h1 class=" mb-4 ml-md-5" style="font-weight: 700;letter-spacing:0.1em!important;" >Contáctenos</h1>  
+        <div class="contacto text-left ml-sm-4 ml-md-5">
+            <p style="font-size:large;">¿Tienes preguntas?<br>Si tienes alguna consulta, puedes contactarnos a <br> <a href="#" style="color: #04b3bb">agua@iadb.org</a> ó <a href="#" style="color: #04b3bb">argentina@socialab.com</a>.</p>
         </div>
     </div>
-    <div class="col-md-6">
+    <div class="col-md-6 col-lg-6">
         <form class="mr-md-5  mt-4 mb-5 text-right" method="POST" action="/envioMail" >
             @csrf
             <div class="row mb-1 mw-100">
