@@ -570,7 +570,8 @@ h2 {
 }
 
 footer {
-  position: relative;
+  background-image: url(/images/footer1.jpg?f90dc0dd04f5534cd3d3728e99cec45b);
+  background-repeat: no-repeat;
 }
 
 .abajo {

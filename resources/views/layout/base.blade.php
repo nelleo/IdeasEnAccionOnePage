@@ -43,28 +43,15 @@
 
         @yield("main")
 
-        <footer class="row sp">
+        <footer class="row sp w1 text-center" style="margin:0%;">
+            
+            <img class="" src="images/img--35.jpg" alt="img footer">
 
-            <div class="d-none d-sm-block col-md-4 ">
-                <img class="w1 mg-ft-lf" src="images/img--34.jpg" alt="img footer">
-            </div>
-            <div class="col-md-4 w1">
-                <div class="row w1 ml-0 abajof">
-                    <div class="col-md-6  ">
-                        <img class="w1" src="images/img--35.jpg" alt="img footer">
-                    </div>
-                    <div class="col-md-6 ">
-                        <img class="w1" src="images/img--36.jpg" alt="img footer">
-                    </div>
-                    <div class="col-md-12 foot-ctrl w1">
-                        <img class="w1 " src="images/img--37-r.jpg" alt="img footer" >
-                    </div>
-                </div>
-            </div>
-            <div class="d-none d-sm-block col-md-4 ">
-                <img class="w1 " src="images/img--38.jpg" alt="img footer">
-            </div>
+            <img class="" src="images/img--36.jpg" alt="img footer">
 
+            <div class="col-md-12 foot-ctrl w1">
+                <img class="w1 " src="images/footer1.jpg" alt="img footer" >
+            </div>
         </footer>
     </body>
 </html>
