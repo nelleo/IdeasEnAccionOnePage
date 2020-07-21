@@ -534,6 +534,22 @@ h2 {
   }
 }
 
+@media (min-width: 768px) {
+  .pg1 {
+    background-image: url(/images/img--23.jpg?083fb5cf385d96fcd41c643ff670bf83);
+    background-position: left;
+    background-repeat: no-repeat;
+    min-height: 312px;
+  }
+
+  .pg2 {
+    background-image: url(/images/img--32.jpg?66bfe5f98232c5bda3b5f238838fc551);
+    background-position: right;
+    background-repeat: no-repeat;
+    min-height: 312px;
+  }
+}
+
 @media (max-width: 720px) {
   .mobile {
     display: none;
