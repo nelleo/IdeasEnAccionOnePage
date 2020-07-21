@@ -1,7 +1,8 @@
-<h1 class="cat">Categorías</h1>
-<img src="images/img--08.jpg" alt="olas" style="width: 76%!important;">
 
-<section class="d-flex mt-5" style="justify-content: center">
+<img src="images/img--08.jpg" alt="olas" class="w1" >
+{{-- style="width: 76%!important;" --}}
+<h1 class="cat">Categorías</h1>
+<section class="d-flex " style="justify-content: center">
 
     <div class="text-center mr-5" >
         <img class="" src="images/img--09.jpg" alt="">

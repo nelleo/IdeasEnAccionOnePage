@@ -18,8 +18,8 @@
       
         <header class="d-flex w-100 marino align-content-between justify-content-center row-fluid">
             
-            <div class="d-none d-sm-block oh col-md-3 col-lg-3">
-                <img class="fr" src="images/img--01.jpg" alt="misc titulo 1">
+            <div class="d-none d-sm-block oh col-md-3 col-lg-3 p-0">
+                <img class="fr w1" src="images/img--01.jpg" alt="misc titulo 1">
             </div>
             <div class="w1 col-md-6 col-lg-6">
                 <div>
@@ -35,8 +35,8 @@
                 </div>
                 
             </div>
-            <div class="d-none d-sm-block oh col-md-3 col-lg-3">
-                <img class="fl" src="images/img--04.jpg" alt="misc titulo 1">
+            <div class="d-none d-sm-block oh col-md-3 col-lg-3 p-0">
+                <img class="fl w1" src="images/img--04.jpg" alt="misc titulo 1">
             </div>
 
         </header>
@@ -64,7 +64,7 @@
             <div class="d-none d-sm-block col-md-4 ">
                 <img class="w1 " src="images/img--38.jpg" alt="img footer">
             </div>
-            
+
         </footer>
     </body>
 </html>

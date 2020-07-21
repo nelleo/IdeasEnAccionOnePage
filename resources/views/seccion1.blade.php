@@ -7,12 +7,12 @@
                 <br><br>En el 2020 el <strong>Premio Ideas en Acción </strong>consta<br> de dos categorías.
             </p>
         </div>
-        <div>
+        <div class="col-md-9 col-lg-9 p-0">
             <img class="w1" src="images/img--06.jpg" alt="misc titulo 1">
         </div>
     </div>
-    <div class="col-lg-6 w1">
-        <img class="fl" src="images/img--07.jpg" alt="misc titulo 1">
+    <div class="col-lg-6 w1 p-0">
+        <img class="fl w1" src="images/img--07.jpg" alt="misc titulo 1">
     </div>
         
 </section>
