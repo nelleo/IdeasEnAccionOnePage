@@ -1,4 +1,4 @@
-<section class="text-center sp row d-flex w1" style="background-color:#044363;justity-content:center ">
+<section class="text-center sp row d-flex w1" style="background-color:#044363;justity-content:center;margin:0%; ">
     <div class=" offset-1 col-md-2 mt-4">
         <img class="w1" src="images/img--23.jpg" alt="">
     </div>
