@@ -16,3 +16,4 @@
         <div class="col-md-2 d-none d-md-flex flex-column justify-content-end" style="vertical-align: bottom;display: flex;justify-content: center;">
             <img class="" src="images/img--32.png" alt="chico" style="transform: translate(0px, 38px);">
         </div>
+</section>
