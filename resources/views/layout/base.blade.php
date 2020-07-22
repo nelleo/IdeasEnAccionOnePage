@@ -22,6 +22,10 @@
                 <img class="fr" src="images/img--01.jpg" alt="misc titulo 1">
             </div>
             <div class="">
+                <div class="pl-5 " style=" ">
+                    <a class="pl-5" onclick="cambiarImgEs()" href="{{ url('lang', ['es']) }}">ES</a>
+                    <a class="pl-2" onclick="cambiarImgEn()" href="{{ url('lang', ['en']) }}">EN</a>
+                </div>
                 <div>
                     <img id="img1" class="w1" src="@lang('menssages.img1')" alt="titulo pricipal">
                 </div>
@@ -38,11 +42,6 @@
                 
             </div>
             <div class="d-none d-sm-block oh">
-                <div class="pl-5">
-                    <a class="pl-5" onclick="cambiarImgEs()" href="{{ url('lang', ['es']) }}">ES</a>
-                    <a class="pl-2" onclick="cambiarImgEn()" href="{{ url('lang', ['en']) }}">EN</a>
-                </div>
-              
                 <img class="fl" src="images/img--04.jpg" alt="misc titulo 1">
             </div>
 

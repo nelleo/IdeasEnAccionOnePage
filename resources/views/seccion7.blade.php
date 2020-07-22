@@ -10,7 +10,7 @@
         </div>
     </div>
     <div class="col-md-6 col-lg-6">
-        <form class="mr-md-5  mt-4 mb-5 text-right" method="POST" action="/envioMail" >
+        <form class="ml-4 mr-md-5  mt-4 mb-5 text-right" method="POST" action="/envioMail" >
             @csrf
             <div class="row mb-1 mw-100">
               <div class=" col-md-4 " >
@@ -21,7 +21,7 @@
                 </span>
                 @enderror
               </div>
-              <div class="form-group col-md-8">
+              <div class="form-group col-md-8 mt-4">
                 <input type="email" class="form-control @error('email') is-invalid @enderror marino" name="email" value="{{ old('email') }}" required autocomplete="email"  placeholder="@lang('menssages.mail')" >
                 @error('email')
                 <span class="invalid-feedback" role="alert">
@@ -45,7 +45,7 @@
                   {{ Session::get('mensaje')}} 
                 </div>
               @endif
-              <button type="submit" class="btn ba mr-4" style="background-color:#eafaf5;color:#061939;border:none;font-weight: 500;">@lang('menssages.send')</button>
+              <button type="submit" class="btn ba mr-5" style="background-color:#eafaf5;color:#061939;border:none;font-weight: 500;">@lang('menssages.send')</button>
           </form>
     </div>
 </div>
