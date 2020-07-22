@@ -23,8 +23,8 @@
             </div>
             <div class="" style="display:block">
                 <div class="pl-5 " style="float:right;">
-                    <a class="pl-5" onclick="cambiarImgEs()" href="{{ url('lang', ['es']) }}" style="color: #04b3bb">ESPAÑOL</a>
-                    <a class="pl-2" onclick="cambiarImgEn()" href="{{ url('lang', ['en']) }}" style="color: #04b3bb">INGLES</a>
+                    <a id="clickEs" class="pl-5" onclick="cambiarImgEs()" href="{{ url('lang', ['es']) }}" style="color: #04b3bb;font-weight:600;">ESPAÑOL</a>
+                    <a id="clickEn" class="pl-2 mr-1" onclick="cambiarImgEn()" href="{{ url('lang', ['en']) }}" style="color: #04b3bb;font-weight: 600;">INGLES</a>
                 </div>
                 <div>
                     <img id="img1" class="w1" src="@lang('menssages.img1')" alt="titulo pricipal">
@@ -55,20 +55,40 @@
         </footer>
     </body>
     <script>
-        var IMG = document.getElementById("img1");
-        var CAT1 = document.getElementById("cat1");
-        var CAT2 = document.getElementById("cat2");
+        window.onload = function() {
+
+            var ln = x=window.navigator.language||navigator.browserLanguage;
+            if(ln == 'en'){
+               // window.location.href = 'index_en.html';si esta en inglés va a ingles
+               cambiarImgEn()
+               document.getElementById("clickEn").click();
+               break
+            }else if(ln == 'es'){
+                cambiarImgEs()//window.location.href = 'index_es.html'; // si es es va a español
+                document.getElementById("clickEs").click();
+                break
+            }else{
+                cambiarImgEn()//window.location.href = 'index_es.html'; // si no es ninguna de los dos va a español
+                document.getElementById("clickEn").click();
+                break
+            }
+        }
+        
         function cambiarImgEs() {
+            var IMG = document.getElementById("img1");
+            var CAT1 = document.getElementById("cat1");
+            var CAT2 = document.getElementById("cat2");
                 IMG.setAttribute("src", "images/img--02.jpg");
                 CAT1.setAttribute("src", "images/img--09.jpg");
                 CAT2.setAttribute("src", "images/img--12.jpg");
         }
         function cambiarImgEn() {
+            var IMG = document.getElementById("img1");
+            var CAT1 = document.getElementById("cat1");
+            var CAT2 = document.getElementById("cat2");
                 IMG.setAttribute("src", "images/titulo.jpg");
                 CAT1.setAttribute("src", "images/cat1.jpg");
                 CAT2.setAttribute("src", "images/cat2.jpg");
         }
-        
-        
     </script>
 </html>

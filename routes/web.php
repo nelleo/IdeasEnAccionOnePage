@@ -12,6 +12,11 @@ use Illuminate\Support\Facades\Route;
 | contains the "web" middleware group. Now create something great!
 |
 */
+
+Route::get('/', function () {
+    return view('ideas');
+});
+
 Route::get('lang/{lang}', function ($lang) {
     session(['lang' => $lang]);
     return Redirect::back();
@@ -29,7 +34,20 @@ Route::group(['middleware' => ['web']], function () {
 Route::get('/ideas', function () {
     return view('ideas');
 });
+
 Route::post('/envioMail', "mailController@send");
+
+
+Route::get('/download',function(){
+    $file= public_path(). "/downloads/Terminos y Condiciones IxA 2020 - Categoría Excelencia Innovadora Empresarial_ESP_ENG_PORT.pdf";
+
+    $headers = array(
+              'Content-Type: application/pdf',
+            );
+
+    return response()->download($file, 'Terminos-y-Condiciones-IxA-2020-Categoría-Excelencia-Innovadora-Empresarial_ESP_ENG_PORT.pdf', $headers);
+});
+
 
 // Route::get('lang/{lang}', 'LanguageController@swap')->name('lang.swap');
 

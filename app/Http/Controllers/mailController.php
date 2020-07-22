@@ -13,8 +13,13 @@ class mailController extends Controller
         $correo=["gustavolcs.271@gmail.com"];
 
         Mail::to($correo)->send(new NuevaConsulta($datos));
+
+        if(session()->has('locale')=="es"){
+            $mensaje="Mensaje enviado con exito";
+        }else{
+            $mensaje="Message sent succesfully";
+        }
         
-        $mensaje="Mensaje enviado con exito, nos comunicaremos contigo en breve";
         \Session::flash('mensaje', $mensaje);
         return redirect('/')->with(["mensaje",$mensaje]);
     }

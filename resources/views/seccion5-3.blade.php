@@ -37,8 +37,9 @@
                     @lang('menssages.p8')
                 </p>
             <div class="col-md-6 mx-auto text-center">
-                <button class="col-md-10 mt-4 btn" style="background-color:#24959e;color:#ecfcf4;font-weight: 500; ">
-                    <a href="https://comunidad.socialab.com//challenges/ideasenacciondesafios" target="_blank">
+                <button class="col-md-10 mt-4 btn" style="background-color:#24959e;font-weight: 500; ">
+                    <a href="https://comunidad.socialab.com//challenges/ideasenacciondesafios" target="_blank"
+                        style="color:#ecfcf4;">
                         @lang('menssages.etp')
                     </a>
                 </button>

@@ -31,14 +31,16 @@
               </p>
         </div>
         <div class="col-md-6 mx-auto text-center">
-            <button class="col-md-10 mt-4 btn" style="background-color:#ecfcf4;color:#044363;font-weight: 500; ">
-                <a href="https://comunidad.socialab.com//challenges/ideasenaccionexcelencia"  target="_blank">
+            <button class="col-md-10 mt-4 btn" style="background-color:#ecfcf4;font-weight: 500; ">
+                <a style="color:#044363;" href="https://comunidad.socialab.com//challenges/ideasenaccionexcelencia"  target="_blank">
                      @lang('menssages.etp') 
                 </a>
             </button>
             <br>
-            <button class="col-md-10 mt-4 mb-5 btn" style="background-color:#044363;color:#ecfcf4;font-size: small; ">
-                @lang('menssages.byc') 
+            <button class="col-md-10 mt-4 mb-5 btn" style="background-color:#044363;font-size: small; ">
+                <a style="color:#ecfcf4;" href="/download" >
+                    @lang('menssages.byc') 
+                </a>    
             </button>
         </div>
     </div>

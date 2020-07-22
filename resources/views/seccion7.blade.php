@@ -14,7 +14,7 @@
             @csrf
             <div class="row mb-1 mw-100">
               <div class=" col-md-4 pb-3" >
-                <input type="text" class="form-control marino" name="nombre" value="{{ old('nombre') }}" required autocomplete="nombre"   placeholder="@lang('menssages.name')">
+                <input type="text" class="form-control  @error('nombre') is-invalid @enderror  marino" name="nombre" value="{{ old('nombre') }}" required autocomplete="nombre"   placeholder="@lang('menssages.name')">
                 @error('nombre')
                 <span class="invalid-feedback" role="alert">
                     <strong>{{ $message }}</strong>
@@ -41,7 +41,7 @@
                 </div>
             </div>
               @if(Session::has('mensaje'))
-                <div class="alert alert-success mt-1 mb-1" role="alert">
+                <div class="alert alert-success mt-1 mb-1 text-center alerta" role="alert" >
                   {{ Session::get('mensaje')}} 
                 </div>
               @endif
