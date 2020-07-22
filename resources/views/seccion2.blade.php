@@ -20,11 +20,6 @@
 
 </section>
 <div class="d-flex justify-content-center flex-column">
-<<<<<<< HEAD
     <h1 class="dqst">@lang('menssages.dqst')</h1> 
-    <img src="images/img--14-f.jpg" alt="fondo ¿De qué trata?">
-=======
-    <h1 class="dqst">¿De qué se trata?</h1> 
     <img src="images/img--14-f.jpg" alt="fondo ¿De qué trata?" style="position: relative;z-index:-1;bottom:-2px;">
->>>>>>> 70e70ad3383985e81ae052e94d517b0ec1182689
 </div>

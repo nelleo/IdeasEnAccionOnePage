@@ -29,7 +29,7 @@
                     <img class="fl" src="images/img--03.jpg" alt="titulo bajada">
                     <h2 class="ctc text-center align-self-center p-4 mt-3" style="   color: aliceblue;
                     font-weight: 600;
-                    font-size: xx-large!important;">
+                    font-size: x-large!important;">
                         <strong>	
                             @lang('menssages.sub')
                         </strong>
