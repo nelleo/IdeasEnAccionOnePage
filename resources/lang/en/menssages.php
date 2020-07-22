@@ -64,7 +64,8 @@ return [
             targeted challenge.',
     'contac' => 'Contact us',
     'p10' => 'Do you have any questions?If you have any questions, you can contact us 
-            at agua@iadb.org  or  argentina@socialab.com',
+            at  <br> <a href="#" style="color: #04b3bb">
+            agua@iadb.org</a>  or  <a href="#" style="color: #04b3bb">argentina@socialab.com</a>',
     'name' => 'Name',
     'mail' => 'Email',
     'msj' => 'Message',
