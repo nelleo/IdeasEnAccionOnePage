@@ -52,7 +52,7 @@ return [
     'cat2' => 'Desafíos',
 
     'p7' => 'Busca identificar desafíos en empresas operadoras de agua y/o
-        saneamiento de América Latina y el Caribe que puedan ser atendidos
+        saneamientos de América Latina y el Caribe que puedan ser atendidos
         mediante soluciones innovadoras en tecnologías inteligentes, desalinización, 
         reúso y/o gestión.',
 
@@ -61,7 +61,7 @@ return [
     'i5' => '<strong> Desalinización </strong>',
     'i6' => '<strong> Tratamiento de <br>
         aguas residuales <br>
-        y Reúso.</strong>',
+        y reúso.</strong>',
     'i7' => '<strong> Innovaciones <br>
         en gestión de los <br>
         servicios de agua y <br>
@@ -78,7 +78,7 @@ return [
     'contac' => 'Contáctenos',
     'p10' => '¿Tienes preguntas?<br>Si tienes alguna consulta,
         puedes contactarnos a <br> <a href="#" style="color: #04b3bb">
-        agua@iadb.org</a> ó <a href="#" style="color: #04b3bb">argentina@socialab.com</a>.',
+        agua@iadb.org</a> ó <a href="#" style="color: #04b3bb">argentina@socialab.com</a>',
     'name' => 'Nombre',
     'mail' => 'Dirección de correro electrónico',
     'msj' => 'Mensaje',

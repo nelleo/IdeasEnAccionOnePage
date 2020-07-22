@@ -21,8 +21,8 @@
             <div class="d-none d-sm-block oh">
                 <img class="fr" src="images/img--01.jpg" alt="misc titulo 1">
             </div>
-            <div class="">
-                <div class="pl-5 " style=" ">
+            <div class="" style="display:block">
+                <div class="pl-5 " style="float:right;">
                     <a class="pl-5" onclick="cambiarImgEs()" href="{{ url('lang', ['es']) }}" style="color: #04b3bb">ESPAÑOL</a>
                     <a class="pl-2" onclick="cambiarImgEn()" href="{{ url('lang', ['en']) }}" style="color: #04b3bb">INGLES</a>
                 </div>
@@ -31,12 +31,9 @@
                 </div>
                 <div class="ptc d-flex pl-3">
                     <img class="fl" src="images/img--03.jpg" alt="titulo bajada">
-                    <h2 class="ctc text-center align-self-center p-4 mt-3" style="   color: aliceblue;
-                    font-weight: 600;
-                    font-size: x-large!important;">
-                        <strong>	
-                            @lang('menssages.sub')
-                        </strong>
+                    <h2 class="ctc text-center align-self-center px-5 py-3 mt-1" 
+                        style="color: aliceblue;font-weight: 600;font-size: x-large!important;">
+                        <strong> @lang('menssages.sub')</strong>
                     </h2>
                 </div>
                 
@@ -44,26 +41,11 @@
             <div class="d-none d-sm-block oh">
                 <img class="fl" src="images/img--04.jpg" alt="misc titulo 1">
             </div>
-
-            {{-- --------------------- --
-            Comprobamos si el status esta a true y existe más de un lenguaje
-            @if (config('locale.status') && count(config('locale.languages')) > 1)
-                <div class="" >
-                    @foreach (array_keys(config('locale.languages')) as $lang)
-                        @if ($lang != App::getLocale())
-                            <a href="{!! route('lang.swap', $lang) !!}">
-                                    {!! $lang !!} <button>{!! $lang !!}</button>
-                            </a>
-                        @endif
-                    @endforeach
-                </div>
-            @endif
-            {{-- --------------------- --}}
         </header>
 
         @yield("main")
 
-        <footer class="text-center " style="margin:0%;">
+        <footer class="text-center " style="margin:0%;min-height: 450px;">
             
             <div >
                 <img class="" src="images/logo-BID.png" alt="logo BID" style="position: relative;top: -10px;">

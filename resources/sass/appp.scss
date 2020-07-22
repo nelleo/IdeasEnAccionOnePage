@@ -431,6 +431,13 @@ img{
 }
 }
 
+@media (max-width: 991px) {
+    .ll{
+        transform: translate(-60px, 0px);
+    }
+}
+
+
 @media (min-width:768px){
     .pg1{
         background-image: url(../../public/images/img--23.jpg);
@@ -493,7 +500,8 @@ footer{
     position: absolute;
 }
 .cat{
-    top: 2.3em;
+    font-size: xx-large!important;
+    top: 2.7em;
     color: #044363;
     font-weight: 650;
     position: relative;
@@ -522,10 +530,10 @@ footer{
 .dqst{
     position: relative;
     text-align: center;
-    top: 3.4em;
+    top: 4.1em;
     color:#044363;
-    // display:inline-block; 
-    font-weight: 650
+    font-weight: 650;
+    font-size: xx-large!important;
 }
 .bomba{
     position: relative;
