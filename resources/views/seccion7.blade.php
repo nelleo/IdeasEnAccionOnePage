@@ -13,7 +13,7 @@
         <form class="ml-4 mr-md-5  mt-4 mb-5 text-right" method="POST" action="/envioMail" >
             @csrf
             <div class="row mb-1 mw-100">
-              <div class=" col-md-4 " >
+              <div class=" col-md-4 pb-3" >
                 <input type="text" class="form-control marino" name="nombre" value="{{ old('nombre') }}" required autocomplete="nombre"   placeholder="@lang('menssages.name')">
                 @error('nombre')
                 <span class="invalid-feedback" role="alert">

@@ -20,7 +20,7 @@ time, mark, audio, video {
 	padding: 0;
 	border: 0;
 	font-size: 100%;
-	font: inherit;
+	/*font: inherit;*/
 	vertical-align: baseline;
 }
 
@@ -367,6 +367,10 @@ textarea {
 
 //PAGE
 
+*{
+    font-family: 'Montserrat', sans-serif;;
+}
+
 body{
     max-width: 1280px;
 }
@@ -516,6 +520,7 @@ footer{
     text-align: center;
     top: 2.5em;
     left: 0.4em;
+    font-size: x-large;
 }
 .part2{
     color:#04b3bb; 
@@ -526,6 +531,7 @@ footer{
     text-align: center;
     top: 2.5em;
     left: 0.4em;
+    font-size: x-large;
 }
 .dqst{
     position: relative;
