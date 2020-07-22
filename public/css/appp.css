@@ -88,7 +88,7 @@ video {
   padding: 0;
   border: 0;
   font-size: 100%;
-  font: inherit;
+  /*font: inherit;*/
   vertical-align: baseline;
 }
 
@@ -466,6 +466,10 @@ textarea {
   padding: 0.2em 0;
 }
 
+* {
+  font-family: "Montserrat", sans-serif;
+}
+
 body {
   max-width: 1280px;
 }
@@ -536,7 +540,7 @@ h2 {
 
 @media (max-width: 991px) {
   .ll {
-    transform: translate(-50px, 0px);
+    transform: translate(-60px, 0px);
   }
 }
 
@@ -644,6 +648,7 @@ footer {
   text-align: center;
   top: 2.5em;
   left: 0.4em;
+  font-size: x-large;
 }
 
 .part2 {
@@ -654,6 +659,7 @@ footer {
   text-align: center;
   top: 2.5em;
   left: 0.4em;
+  font-size: x-large;
 }
 
 .dqst {

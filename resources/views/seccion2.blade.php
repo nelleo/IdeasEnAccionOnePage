@@ -14,7 +14,7 @@
     <div class="text-center">
         <img id="cat2" class="mw-100" src="@lang('menssages.imgcat2')" alt="titulo desafíos">
         <p class="p-4" style="max-width: 500px;color:#ecfcf4;font-size:large;">@lang('menssages.p3')</p>
-        <button class="col-md-6 btn mt-5 " style="background-color:#ecfcf4 "><h3 class="part2">@lang('menssages.part')</h3></button>
+        <button class="col-md-6 btn mt-5 " style="background-color:#ecfcf4;transform: translate(0px, 8px);"><h3 class="part2">@lang('menssages.part')</h3></button>
 
     </div>
 
