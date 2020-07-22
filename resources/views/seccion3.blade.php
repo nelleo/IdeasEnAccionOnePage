@@ -7,44 +7,36 @@
     </div>
     <div class="text-center mx-auto" style="color: #ecfcf4;max-width: 743px;">
         <div class="">
-            <h5 class="mt-4" style="font-weight: 400;letter-spacing: 0.2em;">CATEGORÍA</h5>
-            <h1 class="mt-4" style="font-weight: 650!important;">Excelencia Innovadora Empresarial</h1>
+            <h5 class="mt-4" style="font-weight: 400;letter-spacing: 0.2em;">@lang('menssages.cat')</h5>
+            <h1 class="mt-4" style="font-weight: 650!important;">@lang('menssages.cat1')</h1>
             <p class="mt-4 mx-3" style=" font-size: large;font-weight: 400;">
-                Busca iniciativas, prácticas y modelos innovadores creados y/o utilizados para 
-                afrontar retos que tienen las empresas prestadoras de servicios de agua y/o 
-                saneamiento en América Latina y el Caribe, que hayan sido probados e 
-                implementados; y que hayan generado un impacto positivo en alguna de las 
-                siguientes categorías:</p>
+                @lang('menssages.p4')    
+            </p>
             <div class="mx-3 mt-4 d-flex flex-wrap justify-content-around">
 
                 <div class="mx-2"><img class="" src="images/img--18.jpg" alt="icono ambiental social">
-                    <p style=" font-size: large;"><strong>Innovación <br>
-                        ambiental y social </strong></p>
+                    <p style=" font-size: large;">@lang('menssages.i1')</p>
                 </div>
 
                 <div class="mx-2"><img class="" src="images/img--19.jpg" alt="icono tecnológica">
-                    <p style=" font-size: large;"><strong> Innovación <br>
-                        tecnológica</strong></p>
+                    <p style=" font-size: large;">@lang('menssages.i2')</p>
                 </div>
                 
                 <div class="mx-2"><img class="" src="images/img--17.jpg" alt="icono procesos">
-                    <p style=" font-size: large;"> <strong> Innovación <br>
-                        en procesos </strong></p>
+                    <p style=" font-size: large;">@lang('menssages.i3') </p>
                 </div>
 
             </div>
-            <p class="mx-3 mt-4" style=" font-size: large;font-weight: 400;">
-                Si tu empresa ha implementado un programa, práctica, producto, o servicio 
-                innovador en el área ambiental, social, tecnológica o procedimental enfocado 
-                en AGUA y/o SANEAMIENTO <strong> ¡esta categoría es para ti!</strong> </p>
+            <p class="mx-3 mt-4" style=" font-size: large;font-weight: 400;">@lang('menssages.p5')
+              </p>
         </div>
         <div class="col-md-6 mx-auto text-center">
             <button class="col-md-10 mt-4 btn" style="background-color:#ecfcf4;color:#044363;font-weight: 500; ">
-                ENVÍA TU PROPUESTA
+                @lang('menssages.etp') 
             </button>
             <br>
             <button class="col-md-10 mt-4 mb-5 btn" style="background-color:#044363;color:#ecfcf4;font-size: small; ">
-                VER BASES Y CONDICIONES DE ESTA CATEGORÍA
+                @lang('menssages.byc') 
             </button>
         </div>
     </div>

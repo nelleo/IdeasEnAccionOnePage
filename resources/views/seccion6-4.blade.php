@@ -1,12 +1,9 @@
 <section class="text-center sp row d-flex w-100 flex-wrap oh" style="background-color:#24939d;justity-content:center;margin:0%; ">
     <div class="offset-md-1 col-md-6 mt-5">
-        <h1 class="" style="text-decoration: underline;line-height: 1.2em;color: aliceblue;font-weight: 650;letter-spacing:0.01em">Podrás ganar:</h1>
+        <h1 class="" style="text-decoration: underline;line-height: 1.2em;color: aliceblue;
+        font-weight: 650;letter-spacing:0.01em">@lang('menssages.pg')</h1>
         <p class="w1 mt-4 px-4" style="color: aliceblue;font-size: x-large;font-weight: 650;">
-            Asistencia técnica para asesorías,
-            estudios de prefactibilidad / factibilidad, 
-            planes de negocios, y capacitación, 
-            así como la implementación del proyecto piloto 
-            enfocado a resolver el desafío formulado.
+            @lang('menssages.p9')
         </p>
     </div>
     <div class="offset-md-1 col-md-2" style="vertical-align: bottom;display: flex;justify-content: center;">

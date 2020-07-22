@@ -12,11 +12,28 @@ use Illuminate\Support\Facades\Route;
 | contains the "web" middleware group. Now create something great!
 |
 */
+Route::get('lang/{lang}', function ($lang) {
+    session(['lang' => $lang]);
+    return Redirect::back();
+})->where([
+    'lang' => 'en|es'
+]);
 
-Route::get('/', function () {
-    return view('home');
+Route::group(['middleware' => ['web']], function () {
+ 
+    Route::get('/', function () {
+        return view('home');
+    });
 });
+
 Route::get('/ideas', function () {
     return view('ideas');
 });
 Route::post('/envioMail', "mailController@send");
+
+// Route::get('lang/{lang}', 'LanguageController@swap')->name('lang.swap');
+
+// Route::get('lang/{lang}', function($lang) {
+//   Session::put('lang', $lang);
+//   return Redirect::back();
+// })->middleware('web')->name('change_lang');

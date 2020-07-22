@@ -3,9 +3,10 @@
 </div>
 <div class="d-flex flex-wrap w-100 marino flex-lg-row oh mt-3">
     <div class="col-md-6 col-lg-6  mt-3" style="color: aliceblue">
-        <h1 class=" mb-4 ml-md-5" style="font-weight: 700;letter-spacing:0.1em!important;" >Contáctenos</h1>  
+        <h1 class=" mb-4 ml-md-5" style="font-weight: 700;letter-spacing:0.1em!important;" >@lang('menssages.contac')</h1>  
         <div class="contacto text-left ml-sm-4 ml-md-5">
-            <p style="font-size:large;">¿Tienes preguntas?<br>Si tienes alguna consulta, puedes contactarnos a <br> <a href="#" style="color: #04b3bb">agua@iadb.org</a> ó <a href="#" style="color: #04b3bb">argentina@socialab.com</a>.</p>
+            <p style="font-size:large;">
+              @lang('menssages.p10')</p>
         </div>
     </div>
     <div class="col-md-6 col-lg-6">
@@ -13,7 +14,7 @@
             @csrf
             <div class="row mb-1 mw-100">
               <div class=" col-md-4 " >
-                <input type="text" class="form-control marino" name="nombre" value="{{ old('nombre') }}" required autocomplete="nombre"   placeholder="Nombre">
+                <input type="text" class="form-control marino" name="nombre" value="{{ old('nombre') }}" required autocomplete="nombre"   placeholder="@lang('menssages.name')">
                 @error('nombre')
                 <span class="invalid-feedback" role="alert">
                     <strong>{{ $message }}</strong>
@@ -21,7 +22,7 @@
                 @enderror
               </div>
               <div class="form-group col-md-8">
-                <input type="email" class="form-control @error('email') is-invalid @enderror marino" name="email" value="{{ old('email') }}" required autocomplete="email"  placeholder="Dirección de correro electrónico" >
+                <input type="email" class="form-control @error('email') is-invalid @enderror marino" name="email" value="{{ old('email') }}" required autocomplete="email"  placeholder="@lang('menssages.mail')" >
                 @error('email')
                 <span class="invalid-feedback" role="alert">
                   <strong>{{ $message }}</strong>
@@ -31,7 +32,7 @@
             </div>
             <div class="row mb-3 mw-100">
                 <div class="form-group col-md-12 mt-2">
-                  <textarea class="form-control @error('mensaje') is-invalid @enderror radius marino" name="mensaje"  value="{{ old('mensaje') }}" id="" cols="30" rows="5" required autocomplete="mensaje"  placeholder="Mensaje" ></textarea>                              
+                  <textarea class="form-control @error('mensaje') is-invalid @enderror radius marino" name="mensaje"  value="{{ old('mensaje') }}" id="" cols="30" rows="5" required autocomplete="mensaje"  placeholder="@lang('menssages.msj')" ></textarea>                              
                   @error('mensaje')
                 <span class="invalid-feedback" role="alert">
                     <strong>{{ $message }}</strong>
@@ -44,7 +45,7 @@
                   {{ Session::get('mensaje')}} 
                 </div>
               @endif
-              <button type="submit" class="btn ba mr-4" style="background-color:#eafaf5;color:#061939;border:none;font-weight: 500;">ENVIAR</button>
+              <button type="submit" class="btn ba mr-4" style="background-color:#eafaf5;color:#061939;border:none;font-weight: 500;">@lang('menssages.send')</button>
           </form>
     </div>
 </div>
