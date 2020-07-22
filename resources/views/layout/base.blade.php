@@ -23,8 +23,8 @@
             </div>
             <div class="">
                 <div class="pl-5 " style=" ">
-                    <a class="pl-5" onclick="cambiarImgEs()" href="{{ url('lang', ['es']) }}">ES</a>
-                    <a class="pl-2" onclick="cambiarImgEn()" href="{{ url('lang', ['en']) }}">EN</a>
+                    <a class="pl-5" onclick="cambiarImgEs()" href="{{ url('lang', ['es']) }}" style="color: #04b3bb">ESPAÑOL</a>
+                    <a class="pl-2" onclick="cambiarImgEn()" href="{{ url('lang', ['en']) }}" style="color: #04b3bb">INGLES</a>
                 </div>
                 <div>
                     <img id="img1" class="w1" src="@lang('menssages.img1')" alt="titulo pricipal">
