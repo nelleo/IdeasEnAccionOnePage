@@ -20,35 +20,42 @@ return [
         de servicios de agua y/o saneamiento en América Latina y el Caribe con <strong>desafíos</strong>
         que puedan ser solucionados a través de la implementación de pilotos innovadores en tecnologías
         inteligentes, desalinización, reúso y/o gestión.',
+
     'part' => 'PARTICIPA',
     'dqst' => '¿De qué se trata?',
     'cat' => 'CATEGORÍA',
     'cat1' => 'Excelencia Innovadora Empresarial',
+
     'p4' => 'Busca iniciativas, prácticas y modelos innovadores creados y/o utilizados para 
         afrontar retos que tienen las empresas prestadoras de servicios de agua y/o 
         saneamiento en América Latina y el Caribe, que hayan sido probados e 
         implementados; y que hayan generado un impacto positivo en alguna de las 
         siguientes categorías:',
+
     'i1' => '<strong>Innovación <br>
         ambiental y social </strong>',
     'i2' => '<strong> Innovación <br>
         tecnológica</strong>',
     'i3' => '<strong> Innovación <br>
         en procesos </strong>',
+
     'p5' => '  Si tu empresa ha implementado un programa, práctica, producto, o servicio 
         innovador en el área ambiental, social, tecnológica o procedimental enfocado 
         en AGUA y/o SANEAMIENTO <strong> ¡esta categoría es para ti!</strong> ',
     'etp' => 'ENVÍA TU PROPUESTA',
     'byc' => 'VER BASES Y CONDICIONES DE ESTA CATEGORÍA',
     'pg' => 'Podrás ganar:',
+
     'p6' => '<strong> Implementación de AquaRating +
         y actividades de formación, promoción,<br>
         visibilidad y difusión.</strong>',
     'cat2' => 'Desafíos',
+
     'p7' => 'Busca identificar desafíos en empresas operadoras de agua y/o
         saneamiento de América Latina y el Caribe que puedan ser atendidos
         mediante soluciones innovadoras en tecnologías inteligentes, desalinización, 
         reúso y/o gestión.',
+
     'i4' => '<strong>-	Tecnologías <br> Inteligentes <br> (Smart Water<br> Infrastructure<br> 
             Technologies -<br> (SWIT))</strong>',
     'i5' => '<strong> Desalinización </strong>',
@@ -59,6 +66,7 @@ return [
         en gestión de los <br>
         servicios de agua y <br>
         aneamiento.</strong>',
+        
     'p8' => 'Si tu empresa presenta un desafío en AGUA y/o SANEAMIENTO que puede
         ser atendido / solucionado con tecnologías innovadoras que correspondan a
         una o varias de las áreas de innovación descritas <strong> ¡esta categoría es para ti! </strong>',
