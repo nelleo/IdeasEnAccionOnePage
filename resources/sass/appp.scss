@@ -431,6 +431,19 @@ img{
 }
 }
 
+@media (min-width:768px){
+    .pg1{
+        background-image: url(../../public/images/img--23.jpg);
+        background-position: left;
+        background-repeat: no-repeat;
+        min-height: 312px;    }
+    .pg2{
+        background-image: url(../../public/images/img--32.jpg);
+        background-position: right;
+        background-repeat: no-repeat;
+        min-height: 312px;    }
+}
+
 @media (max-width: 720px){
     .mobile{
         display: none;

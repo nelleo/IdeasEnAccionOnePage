@@ -1,5 +1,5 @@
 <div class="d-flex justify-content-center flex-column">
-<img src="images/img--33.jpg" alt="olas" class="">
+<img src="images/img--33.jpg" alt="olas" style="position: relative;z-index:-1;bottom:1px;">
 </div>
 <div class="d-flex flex-wrap w-100 marino flex-lg-row oh mt-3">
     <div class="col-md-6 col-lg-6  mt-3" style="color: aliceblue">
