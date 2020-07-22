@@ -4,7 +4,7 @@
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
 
-        <title>Ideas En Acción</title>
+        <title>@lang('menssages.title')</title>
 
         <!-- Fonts -->
         <link href="https://fonts.googleapis.com/css?family=Monserrat:200,600" rel="stylesheet">
@@ -23,20 +23,39 @@
             </div>
             <div class="">
                 <div>
-                    <img class="w1" src="images/img--02.jpg" alt="titulo pricipal">
+                    <img id="img1" class="w1" src="@lang('menssages.img1')" alt="titulo pricipal">
                 </div>
                 <div class="ptc d-flex pl-3">
                     <img class="fl" src="images/img--03.jpg" alt="titulo bajada">
                     <h2 class="ctc text-center align-self-center px-5 py-3 mt-1" style="color: aliceblue;font-weight: 600;font-size: x-large!important;">
-                        <strong>TÚ INNOVACIÓN Y/O DESAFÍO <br> CUENTAN</strong>
+                        <strong> @lang('menssages.sub')</strong>
                     </h2>
                 </div>
                 
             </div>
             <div class="d-none d-sm-block oh">
+                <div class="pl-5">
+                    <a class="pl-5" onclick="cambiarImgEs()" href="{{ url('lang', ['es']) }}">ES</a>
+                    <a class="pl-2" onclick="cambiarImgEn()" href="{{ url('lang', ['en']) }}">EN</a>
+                </div>
+              
                 <img class="fl" src="images/img--04.jpg" alt="misc titulo 1">
             </div>
 
+            {{-- --------------------- --
+            Comprobamos si el status esta a true y existe más de un lenguaje
+            @if (config('locale.status') && count(config('locale.languages')) > 1)
+                <div class="" >
+                    @foreach (array_keys(config('locale.languages')) as $lang)
+                        @if ($lang != App::getLocale())
+                            <a href="{!! route('lang.swap', $lang) !!}">
+                                    {!! $lang !!} <button>{!! $lang !!}</button>
+                            </a>
+                        @endif
+                    @endforeach
+                </div>
+            @endif
+            {{-- --------------------- --}}
         </header>
 
         @yield("main")
@@ -50,4 +69,21 @@
            
         </footer>
     </body>
+    <script>
+        var IMG = document.getElementById("img1");
+        var CAT1 = document.getElementById("cat1");
+        var CAT2 = document.getElementById("cat2");
+        function cambiarImgEs() {
+                IMG.setAttribute("src", "images/img--02.jpg");
+                CAT1.setAttribute("src", "images/img--09.jpg");
+                CAT2.setAttribute("src", "images/img--12.jpg");
+        }
+        function cambiarImgEn() {
+                IMG.setAttribute("src", "images/titulo.jpg");
+                CAT1.setAttribute("src", "images/cat1.jpg");
+                CAT2.setAttribute("src", "images/cat2.jpg");
+        }
+        
+        
+    </script>
 </html>
