@@ -3,7 +3,7 @@
 </div>
 <div class="d-flex flex-wrap w-100 marino flex-lg-row oh mt-3">
     <div class="col-md-6 col-lg-6  mt-3" style="color: aliceblue">
-        <h1 class=" mb-4 ml-md-5" style="font-weight: 700;letter-spacing:0.1em!important;" >@lang('menssages.contac')</h1>  
+        <h1 class=" mb-4 ml-md-5" style="font-weight: 700;" >@lang('menssages.contac')</h1>  
         <div class="contacto text-left ml-sm-4 ml-md-5">
             <p style="font-size:large;">
               @lang('menssages.p10')</p>

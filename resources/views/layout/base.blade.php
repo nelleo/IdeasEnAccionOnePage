@@ -38,14 +38,11 @@
                 
             </div>
             <div class="d-none d-sm-block oh">
-                {{-- <select style="background-color: red;">
-                            
-                    <option><a href="{{ url('lang', ['es']) }}">ES</a></option>              
-                    <option> <a href="{{ url('lang', ['en']) }}">EN</a></option>
-                             
-                </select>  --}}
-                <a onclick="cambiarImgEs()" href="{{ url('lang', ['es']) }}">ES</a>
-                <a onclick="cambiarImgEn()" href="{{ url('lang', ['en']) }}">EN</a>
+                <div class="pl-5">
+                    <a class="pl-5" onclick="cambiarImgEs()" href="{{ url('lang', ['es']) }}">ES</a>
+                    <a class="pl-2" onclick="cambiarImgEn()" href="{{ url('lang', ['en']) }}">EN</a>
+                </div>
+              
                 <img class="fl" src="images/img--04.jpg" alt="misc titulo 1">
             </div>
 
