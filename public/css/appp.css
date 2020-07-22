@@ -534,6 +534,12 @@ h2 {
   }
 }
 
+@media (max-width: 991px) {
+  .ll {
+    transform: translate(-50px, 0px);
+  }
+}
+
 @media (min-width: 768px) {
   .pg1 {
     background-image: url(/images/img--23.jpg?083fb5cf385d96fcd41c643ff670bf83);
@@ -622,7 +628,8 @@ footer {
 }
 
 .cat {
-  top: 2.3em;
+  font-size: xx-large !important;
+  top: 2.7em;
   color: #044363;
   font-weight: 650;
   position: relative;
@@ -654,9 +661,10 @@ footer {
 .dqst {
   position: relative;
   text-align: center;
-  top: 3.4em;
+  top: 4.1em;
   color: #044363;
   font-weight: 650;
+  font-size: xx-large !important;
 }
 
 .bomba {

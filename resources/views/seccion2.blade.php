@@ -1,5 +1,5 @@
 <div class="d-flex justify-content-center flex-column">
-    <h1 class="cat">Categorías</h1>
+    <h2 class="cat">Categorías</h2>
     <img src="images/img--08.jpg" alt="olas">
 </div>
 <section class="d-flex mt-5 justify-content-around flex-wrap" style="justify-content: center">

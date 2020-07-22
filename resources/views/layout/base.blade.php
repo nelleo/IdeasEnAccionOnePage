@@ -27,9 +27,7 @@
                 </div>
                 <div class="ptc d-flex pl-3">
                     <img class="fl" src="images/img--03.jpg" alt="titulo bajada">
-                    <h2 class="ctc text-center align-self-center p-4 mt-3" style="   color: aliceblue;
-                    font-weight: 600;
-                    font-size: xx-large!important;">
+                    <h2 class="ctc text-center align-self-center px-5 py-3 mt-1" style="color: aliceblue;font-weight: 600;font-size: x-large!important;">
                         <strong>TÚ INNOVACIÓN Y/O DESAFÍO <br> CUENTAN</strong>
                     </h2>
                 </div>
@@ -43,7 +41,7 @@
 
         @yield("main")
 
-        <footer class="text-center " style="margin:0%;">
+        <footer class="text-center " style="margin:0%;min-height: 450px;">
             
             <div >
                 <img class="" src="images/logo-BID.png" alt="logo BID" style="position: relative;top: -10px;">
