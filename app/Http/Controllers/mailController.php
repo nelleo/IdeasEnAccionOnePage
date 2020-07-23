@@ -10,9 +10,7 @@ class mailController extends Controller
 {
     public function send(Request $datos){
         
-        $correo=["gustavolcs.271@gmail.com"];
-
-        Mail::to($correo)->send(new NuevaConsulta($datos));
+        Mail::to("gustavolcs.271@gmail.com")->send(new NuevaConsulta($datos));
 
         if(session()->get('locale')=="es"){
             $mensaje="Mensaje enviado con exito";
