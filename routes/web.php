@@ -12,14 +12,16 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-
-Route::get('lang/{lang}', function ($lang) {
-    session(['lang' => $lang]);
-    return Redirect::back();
-})->where([
-    'lang' => 'en|es'
-]);
-
+Route::get('/lang/{lang}', 'LanguageController@setLanguage');
+// Route::get('lang/{lang}', '' function ($lang) {
+//     session(['locale' => $lang]);
+//     return Redirect::back();
+// })->where([
+//     'lang' => 'en|es'
+// ]);
+Route::get('/',function(){
+    return view('home');
+});
 
 Route::group(['middleware' => ['web']], function () {
     
