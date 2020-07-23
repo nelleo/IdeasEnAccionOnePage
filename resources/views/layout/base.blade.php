@@ -91,20 +91,5 @@
                 CAT2.setAttribute("src", "images/cat2.jpg");
         }
     </script>
-    <script>
-        var cont = 0;
-        var d =  document.getElementById("auto")
-            $("button[name='sub']").click(function(){
-                if(cont==0){
-                    d.focus();
-                }else{
-                    cont=0;
-                }
-            });
-        // var d =  document.getElementById("auto")
-        // function mantenerFoco() {
-        //     console.log("algo")
-        //     d.focus();
-        // }
-    </script>
+
 </html>

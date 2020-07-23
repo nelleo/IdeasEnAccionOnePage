@@ -28,10 +28,6 @@ Route::group(['middleware' => ['web']], function () {
     // });
 });
 
-Route::get('/ideas', function () {
-    return view('ideas');
-});
-
 Route::post('/envioMail', "mailController@send");
 
 
