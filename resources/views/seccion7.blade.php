@@ -14,7 +14,7 @@
             @csrf
             <div class="row mb-1 mw-100">
               <div class=" col-md-4 pb-3" >
-                <input type="text" class="form-control  @error('nombre') is-invalid @enderror  marino" name="nombre" value="{{ old('nombre') }}" required autocomplete="nombre"   placeholder="@lang('menssages.name')">
+                <input style="color: white;" type="text" class="form-control  @error('nombre') is-invalid @enderror  marino" name="nombre" value="{{ old('nombre') }}" required autocomplete="nombre"   placeholder="@lang('menssages.name')">
                 @error('nombre')
                 <span class="invalid-feedback" role="alert">
                     <strong>{{ $message }}</strong>
@@ -22,7 +22,7 @@
                 @enderror
               </div>
               <div class="form-group col-md-8 mt-4">
-                <input type="email" class="form-control @error('email') is-invalid @enderror marino" name="email" value="{{ old('email') }}" required autocomplete="email"  placeholder="@lang('menssages.mail')" >
+                <input style="color: white;" type="email" class="form-control @error('email') is-invalid @enderror marino" name="email" value="{{ old('email') }}" required autocomplete="email"  placeholder="@lang('menssages.mail')" >
                 @error('email')
                 <span class="invalid-feedback" role="alert">
                   <strong>{{ $message }}</strong>
@@ -32,7 +32,7 @@
             </div>
             <div class="row mb-3 mw-100">
                 <div class="form-group col-md-12 mt-2">
-                  <textarea class="form-control @error('mensaje') is-invalid @enderror radius marino" name="mensaje"  value="{{ old('mensaje') }}" id="" cols="30" rows="5" required autocomplete="mensaje"  placeholder="@lang('menssages.msj')" ></textarea>                              
+                  <textarea style="color: white;" class="form-control @error('mensaje') is-invalid @enderror radius marino" name="mensaje"  value="{{ old('mensaje') }}" id="" cols="30" rows="5" required autocomplete="mensaje"  placeholder="@lang('menssages.msj')" ></textarea>                              
                   @error('mensaje')
                 <span class="invalid-feedback" role="alert">
                     <strong>{{ $message }}</strong>
@@ -46,7 +46,7 @@
                   {{-- <input id="auto" type="text"  style="height: 0px;margin: 0!important;padding: 0;border: none;"> --}}
                 </div>
               @endif
-              <button id="submit" onclick="mantenerFoco()" type="submit" class="btn ba mr-5" style="background-color:#eafaf5;color:#061939;border:none;font-weight: 500;">@lang('menssages.send')</button>
+              <button name="sub" onclick="mantenerFoco()" type="submit" class="btn ba mr-5" style="background-color:#eafaf5;color:#061939;border:none;font-weight: 500;">@lang('menssages.send')</button>
           </form>
     </div>
 </div>

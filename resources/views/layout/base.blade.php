@@ -62,15 +62,15 @@
                // window.location.href = 'index_en.html';si esta en inglés va a ingles
                cambiarImgEn()
                document.getElementById("clickEn").click();
-               break
+               return break
             }else if(ln == 'es'){
                 cambiarImgEs()//window.location.href = 'index_es.html'; // si es es va a español
                 document.getElementById("clickEs").click();
-                break
+                return break
             }else{
                 cambiarImgEn()//window.location.href = 'index_es.html'; // si no es ninguna de los dos va a español
                 document.getElementById("clickEn").click();
-                break
+                return break
             }
         }
         
@@ -92,9 +92,19 @@
         }
     </script>
     <script>
-        function mantenerFoco() {
-            console.log("algo")
-            document.getElementById("auto").focus();
-        }
+        var cont = 0;
+        var d =  document.getElementById("auto")
+            $("button[name='sub']").click(function(){
+                if(cont==0){
+                    d.focus();
+                }else{
+                    cont=0;
+                }
+            });
+        // var d =  document.getElementById("auto")
+        // function mantenerFoco() {
+        //     console.log("algo")
+        //     d.focus();
+        // }
     </script>
 </html>
