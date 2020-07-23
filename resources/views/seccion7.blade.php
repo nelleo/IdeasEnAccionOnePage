@@ -1,7 +1,7 @@
 <div class="d-flex justify-content-center flex-column">
 <img src="images/img--33.jpg" alt="olas" style="position: relative;z-index:-1;bottom:1px;">
 </div>
-<div class="d-flex flex-wrap w-100 marino flex-lg-row oh mt-3">
+<div id="#" class="d-flex flex-wrap w-100 marino flex-lg-row oh mt-3">
     <div class="col-md-6 col-lg-6  mt-3" style="color: aliceblue">
         <h1 class=" mb-4 ml-md-5" style="font-weight: 700;" >@lang('menssages.contac')</h1>  
         <div class="contacto text-left ml-sm-4 ml-md-5">
@@ -43,9 +43,10 @@
               @if(Session::has('mensaje'))
                 <div class="alert alert-success mt-1 mb-1 text-center alerta" role="alert" >
                   {{ Session::get('mensaje')}} 
+                  <input id="auto" type="text"  style="height: 0px;margin: 0!important;padding: 0;border: none;">
                 </div>
               @endif
-              <button type="submit" class="btn ba mr-5" style="background-color:#eafaf5;color:#061939;border:none;font-weight: 500;">@lang('menssages.send')</button>
+              <button id="submit" onclick="mantenerFoco()" type="submit" class="btn ba mr-5" style="background-color:#eafaf5;color:#061939;border:none;font-weight: 500;">@lang('menssages.send')</button>
           </form>
     </div>
 </div>

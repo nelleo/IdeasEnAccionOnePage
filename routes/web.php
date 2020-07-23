@@ -1,8 +1,6 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
-use Illuminate\Http\Request;
-
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -14,10 +12,6 @@ use Illuminate\Http\Request;
 |
 */
 
-Route::get('/', function (Request $req) {
-
-    return view('ideas');
-});
 
 Route::get('lang/{lang}', function ($lang) {
     session(['lang' => $lang]);
@@ -25,12 +19,13 @@ Route::get('lang/{lang}', function ($lang) {
 })->where([
     'lang' => 'en|es'
 ]);
+Route::get('/',"LanguageController@idiomaInicial");
 
 Route::group(['middleware' => ['web']], function () {
- 
-    Route::get('/', function () {
-        return view('home');
-    });
+    
+    // Route::get('/{locale}', function () {
+    //     return view('home');
+    // });
 });
 
 Route::get('/ideas', function () {
@@ -49,11 +44,3 @@ Route::get('/download',function(){
 
     return response()->download($file, 'Terminos-y-Condiciones-IxA-2020-Categoría-Excelencia-Innovadora-Empresarial_ESP_ENG_PORT.pdf', $headers);
 });
-
-
-// Route::get('lang/{lang}', 'LanguageController@swap')->name('lang.swap');
-
-// Route::get('lang/{lang}', function($lang) {
-//   Session::put('lang', $lang);
-//   return Redirect::back();
-// })->middleware('web')->name('change_lang');
