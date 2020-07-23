@@ -46,9 +46,9 @@ return [
     'byc' => 'VER BASES Y CONDICIONES DE ESTA CATEGORÍA',
     'pg' => 'Podrás ganar:',
 
-    'p6' => '<strong> Implementación de AquaRating +
+    'p6' => 'Implementación de AquaRating +
         y actividades de formación, promoción,<br>
-        visibilidad y difusión.</strong>',
+        visibilidad y difusión.',
     'cat2' => 'Desafíos',
 
     'p7' => 'Busca identificar desafíos en empresas operadoras de agua y/o

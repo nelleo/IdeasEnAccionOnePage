@@ -42,8 +42,8 @@ return [
     'byc' => 'SEE TERMS AND CONDITIONS',
     'pg' => 'You could win:',
 
-    'p6' => '<strong>Implementation of AquaRating+ and training, promotion, visibility,
-             and dissemination activities.</strong> ',
+    'p6' => 'Implementation of AquaRating+ and training, promotion, visibility,
+             and dissemination activities.',
     'cat2' => 'Challenges',
 
     'p7' => 'We are looking for challenges in water and/or sanitation utilities in 

@@ -7,7 +7,7 @@
     <div class="text-center" style="margin-bottom: 6rem;">
         <img id="cat1" class="mw-100" src="@lang('menssages.imgcat1')" alt="titulo excelencia innovadora empresarial">
         <p class="p-4" style="max-width: 500px;color:#ecfcf4;font-size:large; ">@lang('menssages.p2')</p>
-        <button class="col-md-6  btn " style="background-color:#04b3bb;margin-top: 1.5rem!important;" >
+        <button class="btn btn-lg" style="background-color:#04b3bb;margin-top: 1.59rem!important;" >
             <a href="https://comunidad.socialab.com//challenges/ideasenaccionexcelencia"  target="_blank">
                 <h3 class="part1">
                      @lang('menssages.part')
@@ -19,12 +19,13 @@
     <div class="text-center">
         <img id="cat2" class="mw-100" src="@lang('menssages.imgcat2')" alt="titulo desafíos">
         <p class="p-4" style="max-width: 500px;color:#ecfcf4;font-size:large;">@lang('menssages.p3')</p>
-        <button class="col-md-6 btn mt-4 " style="background-color:#ecfcf4;transform: translate(0px, 8px); ">
+        <button class="btn mt-4 btn-lg" style="background-color:#ecfcf4;transform: translate(0px, 8px); ">
             <a href="https://comunidad.socialab.com//challenges/ideasenacciondesafios" target="_blank">
                 <h3 class="part2">@lang('menssages.part')</h3>
             </a>
         </button>
     </div>
+
 
 </section>
 <div class="d-flex justify-content-center flex-column">
