@@ -14,7 +14,7 @@ use Illuminate\Support\Facades\Route;
 
 
 Route::get('lang/{lang}', function ($lang) {
-    session(['lang' => $lang]);
+    session(['locale' => $lang]);
     return Redirect::back();
 })->where([
     'lang' => 'en|es'

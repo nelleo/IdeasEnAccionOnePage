@@ -14,12 +14,12 @@ class mailController extends Controller
 
         Mail::to($correo)->send(new NuevaConsulta($datos));
 
-        if(session()->has('locale')=="es"){
+        if(session()->get('locale')=="es"){
             $mensaje="Mensaje enviado con exito";
         }else{
-            $mensaje="Message sent succesfully";
+            $mensajeEn="Message sent succesfully";
         }
-        
+        $mensaje="Mensaje enviado con exito";
         \Session::flash('mensaje', $mensaje);
         return redirect('/')->with(["mensaje",$mensaje]);
     }

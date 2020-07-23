@@ -90,9 +90,11 @@
                 CAT1.setAttribute("src", "images/cat1.jpg");
                 CAT2.setAttribute("src", "images/cat2.jpg");
         }
+    </script>
+    <script>
         function mantenerFoco() {
-            var i = document.getElementById("auto");
-                i.setAttribute("autofocus");
+            console.log("algo")
+            document.getElementById("auto").focus();
         }
     </script>
 </html>

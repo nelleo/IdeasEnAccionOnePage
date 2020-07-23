@@ -41,9 +41,9 @@
                 </div>
             </div>
               @if(Session::has('mensaje'))
-                <div class="alert alert-success mt-1 mb-1 text-center alerta" role="alert" >
+                <div id="auto" class="alert alert-success mt-1 mb-1 text-center alerta" role="alert" >
                   {{ Session::get('mensaje')}} 
-                  <input id="auto" type="text"  style="height: 0px;margin: 0!important;padding: 0;border: none;">
+                  {{-- <input id="auto" type="text"  style="height: 0px;margin: 0!important;padding: 0;border: none;"> --}}
                 </div>
               @endif
               <button id="submit" onclick="mantenerFoco()" type="submit" class="btn ba mr-5" style="background-color:#eafaf5;color:#061939;border:none;font-weight: 500;">@lang('menssages.send')</button>
