@@ -19,6 +19,7 @@ Route::get('/lang/{lang}', 'LanguageController@setLanguage');
 // })->where([
 //     'lang' => 'en|es'
 // ]);
+
 Route::get('/',function(){
     return view('home');
 });

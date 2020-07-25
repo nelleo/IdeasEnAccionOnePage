@@ -3,6 +3,8 @@
 namespace App\Providers;
 
 use Illuminate\Support\ServiceProvider;
+use \Torann\GeoIP\GeoIPServiceProvider;
+
 
 class AppServiceProvider extends ServiceProvider
 {
@@ -23,28 +25,26 @@ class AppServiceProvider extends ServiceProvider
      */
     public function boot()
     {
-    //Check for 'lang' cookie
-    $session = session('lang');
+        //Check for 'lang' cookie
+        $session = session('lang');
 
-   
-    
+        $geo= geoip();
 
+        if($geo == null) {
+            //Probably a localhost server, set language to english
 
-    if($geo == null) {
-        //Probably a localhost server, set language to english
+            //set locale from cookie if exists
+            if (!isset($session) && !empty($session)) {
+                \App::setLocale($session);
+                return;
+            }
 
-        //set locale from cookie if exists
-        if (!isset($session) && !empty($session)) {
-            \App::setLocale($session);
-            return;
+            \App::setLocale('es');
         }
 
-        \App::setLocale('es');
+        // //Get visitors country name
+        $userCountry = $geo['country'];
+
+
     }
-
-    // //Get visitors country name
-    $userCountry = $geo['country'];
-
-
- }
 }

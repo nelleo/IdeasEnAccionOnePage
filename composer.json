@@ -16,7 +16,8 @@
         "laravel/tinker": "^2.0",
         "mailgun/mailgun-php": "^3.0",
         "php-http/guzzle6-adapter": "^2.0",
-        "php-http/message": "^1.8"
+        "php-http/message": "^1.8",
+        "torann/geoip": "^1.2"
     },
     "require-dev": {
         "facade/ignition": "^2.0",

@@ -11,14 +11,7 @@ class LanguageController extends Controller
     *
     *  @return \Illuminate\Http\RedirectResponse
     */
-    public function idiomaInicial(Request $request)
-    {
-        //dd($request);
-        // Almacenar el lenguaje en la session
-        session()->put('lang', $lang);
-        return view('home');
-        
-    }
+
     public function swap($lang)
     {
         // Almacenar el lenguaje en la session
