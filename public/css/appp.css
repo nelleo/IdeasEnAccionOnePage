@@ -719,19 +719,35 @@ footer {
   }
 }
 
-@media (min-width: 760px) {
+@media (max-width: 576px) {
+  .alerta {
+    left: -0.3rem;
+  }
+}
+
+@media (min-width: 768px) {
   .alerta {
     transform: translate(10px);
-    right: 13rem;
-    top: 2rem;
+    left: 24rem;
+    top: -1.5rem;
     max-width: 20em;
   }
 }
 
-@media (max-width: 759px) {
+@media (max-width: 1024px) {
   .alerta {
-    flex: 0 0 91.666667%;
-    max-width: 91.666667%;
+    transform: translate(10px);
+    left: 35rem;
+    top: -24rem;
+    max-width: 15em;
+  }
+}
+
+@media (min-width: 1025px) {
+  .alerta {
+    transform: translate(10px);
+    height: 3rem;
+    max-width: 20em;
   }
 }
 

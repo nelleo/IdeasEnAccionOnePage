@@ -40,11 +40,7 @@
                   @enderror
                   </div>
               </div>
-                @if(Session::has('mensaje'))
-                  <div class="alert alert-success mt-1 mb-1 alerta text-center" role="alert">
-                    {{ Session::get('mensaje')}} 
-                  </div>
-                @endif
+                
                 <button type="submit" class="btn ba mr-5" style="background-color:#eafaf5;color:#061939;border:none;font-weight: 500;">@lang('menssages.send')</button>
             </form>
       </div>

@@ -25,6 +25,11 @@
                 <div class="pl-5 " style="float:right;">
                     <a id="clickEs" class="pl-5" onclick="cambiarImgEs()" href="{{ url('/lang', 'es') }}" style="color: #04b3bb;font-weight:600;">ESPAÑOL</a>
                     <a id="clickEn" class="pl-2 mr-1" onclick="cambiarImgEn()" href="{{ url('/lang', 'en') }}" style="color: #04b3bb;font-weight: 600;">INGLES</a>
+                    @if(Session::has('mensaje'))
+                        <div class="alert alert-success mt-1 mb-1 alerta text-center" role="alert">
+                           <p>{{ Session::get('mensaje')}} </p> 
+                        </div>
+                    @endif
                 </div>
                 <div>
                     <img id="img1" class="w1" src="@lang('menssages.img1')" alt="titulo pricipal">
