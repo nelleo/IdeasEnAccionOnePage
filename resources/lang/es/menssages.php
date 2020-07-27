@@ -94,12 +94,13 @@ return [
     //PREGUNTAS FRECUENTES / FAQ
     'pf'=>'Preguntas Frecuentes',
     //PREGUNTAS GENERALES
-    'pg'=>'Preguntas generales',
+    'prge'=>'Preguntas<br>
+             generales',
     'pr1'=>'En el 2020, Ideas en Acción cuenta con dos categorías, ¿Puede mi empresa participar en las dos categorías?',
     'pr2'=>'¿En qué idioma puedo enviar mi(s) postulación(es)?',
 
     //Categoría: Excelencia Innovadora Empresarial
-    'cie'=>'Categoría Excelencia Innovadora Empresarial',
+    'cie'=>'Categoría Excelencia<br> Innovadora Empresarial',
     'pr3'=>'    La iniciativa de la empresa todavía no está implementándose o ejecutándose, pero el plan de negocios y 
            los socios ya están listos. ¿Puedo participar?',
     'pr4'=>'  Son varias preguntas las que hay que responder en el formulario. ¿Debo responderlas todas?',
@@ -126,7 +127,7 @@ return [
         categorías del Premio Ideas en Acción 2020. Asegúrate de revisar las bases y condiciones de cada una de las
          categorías y enviar tu propuesta de innovación y/o desafío en la categoría respectiva.<br><br>
 
-         <strong>CATEGORÍA: EXCELENCIA INNOVADORA EMPRESARIAL</strong>. Para <strong>innovaciones implementadas </strong>por empresas
+         <strong>CATEGORÍA: EXCELENCIA INNOVADORA EMPRESARIAL</strong>.Para<strong>innovaciones implementadas</strong>por empresas
           prestadoras de servicios de agua y/o saneamiento en América Latina y el Caribe. Hasta un máximo 
           de tres (3) innovaciones por empresa. <br><br>
 

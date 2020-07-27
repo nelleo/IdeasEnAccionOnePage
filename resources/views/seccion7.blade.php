@@ -1,19 +1,21 @@
 {{-- FAQ --}}
-<section class="row d-flex flex-wrap flex-lg-row oh "  style="background-color:#ecfcf4;margin:0%; ">
-    <div class="col-12 text-center">
+<section class="row d-flex flex-wrap flex-lg-row oh pt-4 pt-md-5"  style="background-color:#ecfcf4;margin:0%; ">
+    <div class="col-12 text-center mb-4 mb-md-5">
         <h2>
             @lang('menssages.pf')
         </h2>
     </div>
     {{-- PREGUNTAS GENERALES --}}
-    <div class="panel panel-default col-md-6">
-        <div class="panel-heading">
-          <h3 class="panel-title">@lang('menssages.pg')</h3>
+    <div class="panel panel-default col-md-6 pl-5 pr-2">
+        <div class="panel-heading mb-4">
+          <h3 class="panel-title">@lang('menssages.prge')</h3>
         </div>
         <ul class="list-group">
             <li class="list-group-item">
-                <a class="btn btn-primary" data-toggle="collapse" href="#collapseExample" role="button" aria-expanded="false" aria-controls="collapseExample">
-                    @lang('menssages.pr1')
+                
+                <a class="btn " data-toggle="collapse" href="#collapseExample" role="button" 
+                aria-expanded="false" aria-controls="collapseExample" style="text-align: left;">
+                    <span>+ </span> @lang('menssages.pr1')
                 </a>
             </li>
             <div class="collapse" id="collapseExample">
@@ -22,7 +24,7 @@
                 </div>
               </div>
             <li class="list-group-item">
-                <a class="btn btn-primary" data-toggle="collapse" href="#collapseExample1" role="button" aria-expanded="false" aria-controls="collapseExample">
+                <a class="btn " data-toggle="collapse" href="#collapseExample1" role="button" aria-expanded="false" aria-controls="collapseExample">
                     @lang('menssages.pr2')
                 </a>
             </li>
@@ -35,8 +37,8 @@
           
     </div>
     {{-- CATEGORIA 1 --}}
-    <div class="panel panel-default col-md-6">
-        <div class="panel-heading">
+    <div class="panel panel-default col-md-6 pr-5 pl-2">
+        <div class="panel-heading mb-4">
           <h3 class="panel-title">@lang('menssages.cie')</h3>
         </div>
         <ul class="list-group">
@@ -49,8 +51,8 @@
     </div>
 
       {{-- CATEGORIA 2 --}}
-    <div class="panel panel-default col-md-6">
-        <div class="panel-heading">
+    <div class="panel panel-default col-md-6 pl-5 pr-2">
+        <div class="panel-heading mb-4">
           <h3 class="panel-title">@lang('menssages.cc')</h3>
         </div>
         <ul class="list-group">
