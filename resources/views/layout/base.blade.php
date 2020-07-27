@@ -63,7 +63,7 @@
               </button>
               {{--     min-width: auto; --}}
             <div class="dropdown-menu text-center marino" aria-labelledby="dropdownMenuButton" style="min-width: auto;padding:0rem!important;">
-                <a id="clickEs" class="flag-icon flag-icon-es " onclick="cambiarImgEs()" href="{{ url('/lang', 'es') }}" >
+                <a id="clickEs" class="flag-icon flag-icon-es rounded-circle" onclick="cambiarImgEs()" href="{{ url('/lang', 'es') }}" >
                 </a>
                 <a id="clickEn"  class="flag-icon flag-icon-gb" onclick="cambiarImgEn()" href="{{ url('/lang', 'en') }}" >
                 </a>
