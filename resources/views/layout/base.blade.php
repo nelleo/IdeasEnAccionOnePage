@@ -26,15 +26,19 @@
     <body class="marino" style="margin: auto;">
 
     <!-- Barra de navegacion -->
-    <nav class="navbar sticky-top navbar-expand-lg barra " style="border-bottom:#04b3bb solid ">
-        <a class="navbar-brand" href="#" style="color:#04b3bb;"> IDEAS EN ACCIÓN</a>
-       <button class="hamburg navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-        <!-- <span class=" hamburg navbar-toggler-icon"></span>-->
+    <nav class="navbar sticky-top navbar-expand-lg barra " style="border-bottom:#04b3bb solid;font-we ">
+
+       <a class="navbar-brand" href="#" style="color:#04b3bb;font-size:small;font-weight:800;"><p style="display: inline;">IDEAS </p>EN ACCIÓN</a>
+
+       <button class="hamburg navbar-toggler " type="button" data-toggle="collapse" 
+        data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" 
+        aria-label="Toggle navigation" >
+            <!-- <span class=" hamburg navbar-toggler-icon"></span>-->
         <i class="fas fa-bars"></i>
       </button>
-      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <div class="collapse navbar-collapse" id="navbarSupportedContent" style="font-size:small;font-weight: 600;">
         <ul class="navbar-nav ml-auto">
-          <li class="nav-item">
+          <li class="nav-item active">
             <a class="nav-link itm-nav" href="/#Home" style="color: aliceblue;">Home</a>
           </li>
           <li class="nav-item">
@@ -53,23 +57,25 @@
             <a class="nav-link itm-nav" href="/#Contactanos" style="color: aliceblue;">Contactanos</a>
           </li>
           <div class="dropdown">
-            <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" 
-            data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            <button class="btn btn-secondary dropdown-toggle marino" type="button" id="dropdownMenuButton" 
+            data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" style="padding:0rem!important;border-color:#061939">
                     <span class="flag-icon flag-icon-es "> </span></a>
               </button>
-            <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-                <a id="clickEs"  onclick="cambiarImgEs()" href="{{ url('/lang', 'es') }}" >
-                    <span class="flag-icon flag-icon-es "> </span></a>
-                <a id="clickEn" class="flag-icon flag-icon-en" onclick="cambiarImgEn()" href="{{ url('/lang', 'en') }}" >
-                    <span class="flag-icon flag-icon-gb"> </span></a>
+              {{--     min-width: auto; --}}
+            <div class="dropdown-menu text-center marino" aria-labelledby="dropdownMenuButton" style="min-width: auto;padding:0rem!important;">
+                <a id="clickEs" class="flag-icon flag-icon-es " onclick="cambiarImgEs()" href="{{ url('/lang', 'es') }}" >
+                </a>
+                <a id="clickEn"  class="flag-icon flag-icon-gb" onclick="cambiarImgEn()" href="{{ url('/lang', 'en') }}" >
+                </a>
                 </a>
             </div>
           </div>
         </ul>
       </div>
     </nav>
+    
 
-        <header class="d-flex w-100 marino align-content-between justify-content-center">
+        <header id="Home" class="d-flex w-100 marino align-content-between justify-content-center">
             
             <div class="d-none d-sm-block oh">
                 <img class="fr" src="images/img--01.jpg" alt="misc titulo 1">
