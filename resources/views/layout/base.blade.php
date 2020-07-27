@@ -22,6 +22,9 @@
 
         <link href="https://cdnjs.cloudflare.com/ajax/libs/flag-icon-css/3.1.0/css/flag-icon.min.css" rel="stylesheet">
 
+        {{-- ICONO --}}
+        <link rel="icon" type="image/ico" href="img/favicon.ico">
+
     </head>
     <body class="marino" style="margin: auto;">
 
@@ -31,12 +34,16 @@
        <a id="accion" class="navbar-brand ml-md-5 enaccion0" href="#" >
             <p  id="ideas" class="ml-md-5 ideas0" >IDEAS </p>EN ACCIÓN
         </a>
-
        <button class="hamburg navbar-toggler " type="button" data-toggle="collapse" 
         data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" 
         aria-label="Toggle navigation" >
             <!-- <span class=" hamburg navbar-toggler-icon"></span>-->
-        <i class="fas fa-bars"></i>
+        {{-- <i class="fas fa-bars"></i> --}}
+        <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-chevron-double-down" 
+        fill="currentColor" xmlns="http://www.w3.org/2000/svg" style="color:#04b3bb!important;">
+          <path fill-rule="evenodd" d="M1.646 6.646a.5.5 0 0 1 .708 0L8 12.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/>
+          <path fill-rule="evenodd" d="M1.646 2.646a.5.5 0 0 1 .708 0L8 8.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/>
+        </svg>
       </button>
 
       <div class="collapse navbar-collapse" id="navbarSupportedContent" style="font-size:smaller;font-weight: 600;">
@@ -65,7 +72,7 @@
                     <span class="flag-icon @lang('menssages.bandera') rounded-circle "> </span></a>
               </button>
               {{--     min-width: auto; --}}
-            <div id="dropbandera" class="dropdown-menu text-center marino" aria-labelledby="dropdownMenuButton" style="min-width: auto;padding: 0rem 1rem!important;">
+            <div id="dropbandera" class="dropdown-menu marino droppadding" aria-labelledby="dropdownMenuButton" >
                 <a id="click" class="flag-icon @lang('menssages.banderaoff') rounded-circle" onclick="@lang('menssages.onClick')" href="@lang('menssages.linkbanderaoff')" >
                 </a>
                

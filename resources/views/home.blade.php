@@ -7,6 +7,7 @@
     @include('seccion5-3')
     @include('seccion6-4')
     @include('seccion7')
+    @include('seccion8')
 @endsection
 
 

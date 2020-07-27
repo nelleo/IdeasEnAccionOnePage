@@ -79,31 +79,86 @@ return [
     'onClick'=>'cambiarImgEs()',
 
     //PREGUNTAS FRECUENTES / FAQ
+    'pf'=>'Frequently Asked Questions',
+    //GENERALES
+    'pg'=>'General questions',
+    'pr1'=>'In 2020, Ideas into Action has two categories, Can my utility participate in both categories?',
+    'pr2'=>'In which language can I send my application(s)?',
+    
+    //Category: Innovative Excellence
+    'cie'=>'Category innovative excellence',
+    'pr3'=>" The utility's initiative is not yet being implemented or executed, but the business plan and partners are ready.
+        Can I participate?",
+    'pr4'=>' There are several questions that must be answered. Do I have to answer them all?',
+    'pr5'=>' Do I need the authorization letter from the utility or can I only have an approval email?',
+    'pr6'=>" Will the video be published in the IDB's communication channels?",
+    'pr7'=>' Will the video be used only within the time and frame of this call?',
+    'pr8'=>' Can other utilities see my video?',
+    'pr9'=>' In the proposal and video, should I include how does my innovative initiative address the issue of 
+        Coronavirus (COVID-19)?',
+    'pr10'=>'In the proposal and video, should I include how does the innovative initiative address solutions 
+        aimed at minimizing the impact of Coronavirus (COVID-19) on the continuity of the operations of 
+        the water and / or sanitation utility?',
+    'pr11'=>'In the proposal and video, should I include how has the initiative, practice, or model successfully 
+        implemented a green infrastructure system for flood control in an urban context?',
 
-    ''=>'',
-    ''=>'',
-    ''=>'',
-    ''=>'',
-    ''=>'',
-    ''=>'',
-    ''=>'',
-    ''=>'',
-    ''=>'',
-    ''=>'',
-    ''=>'',
-    ''=>'',
-    ''=>'',
-    ''=>'',
-    ''=>'',
-    ''=>'',
-    ''=>'',
-    ''=>'',
-    ''=>'',
-    ''=>'',
-    ''=>'',
-    ''=>'',
-    ''=>'',
-    ''=>'',
-    ''=>'',
-    ''=>'',
+        //Category: Challenges
+    'cc'=>'Category challenges',
+    'pr12'=>'My challenge can be solved through one or more innovative solutions in the described areas. 
+        Can I select one or more areas in the application form?',
+    'pr13'=>'My challenge can be solved through another technological area. Can I participate in this category?',
+    'pr14'=>'Do I need the utility’s cover letter for the challenge?',
+
+    //RESPUESTAS
+      //GENERALES
+    'r1'=>'Yes. Water and/or sanitation utilities can apply to one or both categories of the 2020 Ideas into Action Award.
+        Make sure to review the terms and conditions of each of these categories and submit your innovation and/or
+        challenge proposal in the respective category.<br><br>
+
+        <strong>CATEGORY: INNOVATIVE EXCELLENCE</strong>. For <strong>innovations implemented</strong> by water and/or sanitation utilities in Latin
+         America and the Caribbean. Up to a maximum of three (3) innovations per utility.<br><br>
+
+         <strong>CATEGORY: CHALLENGES.</strong> For water and/or sanitation utilities in Latin America and the Caribbean
+          facing <strong>challenges</strong>
+         that can be solved through innovative solutions in smart technologies, desalination, reuse and/or management. 
+         Up to a maximum of two (2) challenges per utility.',
+    'r2'=>"The application(s) to the two categories may be submitted in any of the IDB's four official languages:
+                 Spanish, French, English, or Portuguese.",
+     //Category: Innovative Excellence
+    'r3'=>'In this call, only innovative initiatives that have been implemented in the last 5 years and that can demonstrate
+         results will be considered.',
+    'r4'=>'Yes, all questions must be answered respecting the word limit for each field. It is important to mention concrete 
+        results, figures, indicators, and impact.',
+    'r5'=>'Yes, it is necessary to present the authorization letter in the conditions described in the guidelines of the call.',
+    'r6'=>'The videos can be used in different communication channels or scenarios of the IDB within the framework of
+        the call or in general in the framework of innovation management of the IDB. By submitting the application, 
+        the participants agree to assign to the IDB the right to use said videos for promotional purposes and to
+        disseminate the prizes.',
+    'r7'=>'The material may be used for different purposes within and outside the framework of this call for instructional,
+         educational, purposes.',
+    'r8'=>'Yes, the videos will be published on communication channels with open access.',
+    'r9'=>'This question is optional. If the innovative initiative in water and/or sanitation addresses the issue of 
+        Coronavirus, let us know in the application and video how your initiative, practice or model contributes to
+         respond to this challenge.',
+    'r10'=>'This question is optional. If the innovative initiative in water and/or sanitation addresses solutions aimed
+        at minimizing the impact of Coronavirus (COVID-19) on the continuity of the operations of the water and / or 
+        sanitation utilities, let us know in the application and video how your initiative, practice or model contributes
+        to respond to this challenge',
+    'r11'=>'This question is optional. If the initiative, practice, or model has successfully implemented a green 
+        infrastructure system for flood control in an urban context, let us know in the application and video how it 
+        has been done and what the results have been. ',
+
+        //Category: Challenges
+    'r12'=>'Yes. At least one (1) or up to a maximum of four (4) areas can be selected. This category seeks to identify
+        challenges that can be solved through innovations in one, or a combination of the following technological and/or
+        management areas:<br><br>
+        <ul>
+            <li>Smart Technologies (Smart Water Infrastructure Technologies - (SWIT))</li>
+            <li>Desalination</li>
+            <li>Wastewater treatment and reuse</li>
+            <li>Innovations in management of water and sanitation services.</li>
+        </ul>',
+    'r13'=>'In this call, Category Challenges, only challenges that can be solved through the implementation of innovative 
+        pilots in smart technologies, desalination, reuse and/or management will be evaluated and selected.',
+    'r14'=>'Yes, it is necessary to present the challenge’s cover letter in the conditions described in the guidelines of the call.',
  ];

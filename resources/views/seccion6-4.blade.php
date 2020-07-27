@@ -17,3 +17,7 @@
             <img class="" src="images/img--32.png" alt="chico" style="transform: translate(0px, 38px);">
         </div>
 </section>
+<div id="Contactanos" class="d-flex justify-content-center flex-column">
+    <img src="images/olas.jpg" alt="olas" style="position: relative;z-index:-1;">
+    {{-- bottom:1px; --}}
+  </div>

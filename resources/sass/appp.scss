@@ -376,6 +376,7 @@ body{
 }
 
 .marino{
+    transition: all 1s ease;
     background-color:#061939!important;
 }
 .amarinado{
@@ -648,4 +649,15 @@ footer{
     transition: ease 1s all ;
     background-color:#04b3bb!important;
     border-color: #04b3bb!important;
+}
+
+.droppadding{
+    min-width: auto!important;
+    padding: 0rem 0rem!important;
+}
+@media (min-width: 990px){
+    .droppadding{
+        min-width: auto!important;
+        padding: 0rem 0.4rem!important;
+    }
 }
