@@ -26,9 +26,11 @@
     <body class="marino" style="margin: auto;">
 
     <!-- Barra de navegacion -->
-    <nav class="navbar sticky-top navbar-expand-lg barra " style="border-bottom:#04b3bb solid;font-we ">
+    <nav id="nav"class="navbar sticky-top navbar-expand-lg barra0">
 
-       <a class="navbar-brand" href="#" style="color:#04b3bb;font-size:small;font-weight:800;"><p style="display: inline;">IDEAS </p>EN ACCIÓN</a>
+       <a id="accion" class="navbar-brand ml-md-5 enaccion0" href="#" >
+            <p  id="ideas" class="ml-md-5 ideas0" >IDEAS </p>EN ACCIÓN
+        </a>
 
        <button class="hamburg navbar-toggler " type="button" data-toggle="collapse" 
         data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" 
@@ -36,10 +38,11 @@
             <!-- <span class=" hamburg navbar-toggler-icon"></span>-->
         <i class="fas fa-bars"></i>
       </button>
-      <div class="collapse navbar-collapse" id="navbarSupportedContent" style="font-size:small;font-weight: 600;">
+
+      <div class="collapse navbar-collapse" id="navbarSupportedContent" style="font-size:smaller;font-weight: 600;">
         <ul class="navbar-nav ml-auto">
           <li class="nav-item active">
-            <a class="nav-link itm-nav" href="/#Home" style="color: aliceblue;">Home</a>
+            <a class="nav-link itm-nav" href="/#Home" style="color: aliceblue;"><strong> Home</strong></a>
           </li>
           <li class="nav-item">
             <a class="nav-link itm-nav" href="/#Categorías" style="color: aliceblue;">Categorías</a>
@@ -53,21 +56,20 @@
           <li class="nav-item">
             <a class="nav-link itm-nav" href="/#FAQ" style="color: aliceblue;">FAQ</a>
           </li>
-          <li class="nav-item">
+          <li class="nav-item mr-md-3">
             <a class="nav-link itm-nav" href="/#Contactanos" style="color: aliceblue;">Contactanos</a>
           </li>
           <div class="dropdown">
-            <button class="btn btn-secondary dropdown-toggle marino" type="button" id="dropdownMenuButton" 
+            <button id="btnbandera" class="btn btn-secondary dropdown-toggle marino ml-md-1 mt-md-1" type="button" id="dropdownMenuButton" 
             data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" style="padding:0rem!important;border-color:#061939">
-                    <span class="flag-icon flag-icon-es "> </span></a>
+                    <span class="flag-icon @lang('menssages.bandera') rounded-circle "> </span></a>
               </button>
               {{--     min-width: auto; --}}
-            <div class="dropdown-menu text-center marino" aria-labelledby="dropdownMenuButton" style="min-width: auto;padding:0rem!important;">
-                <a id="clickEs" class="flag-icon flag-icon-es rounded-circle" onclick="cambiarImgEs()" href="{{ url('/lang', 'es') }}" >
+            <div id="dropbandera" class="dropdown-menu text-center marino" aria-labelledby="dropdownMenuButton" style="min-width: auto;padding: 0rem 1rem!important;">
+                <a id="click" class="flag-icon @lang('menssages.banderaoff') rounded-circle" onclick="@lang('menssages.onClick')" href="@lang('menssages.linkbanderaoff')" >
                 </a>
-                <a id="clickEn"  class="flag-icon flag-icon-gb" onclick="cambiarImgEn()" href="{{ url('/lang', 'en') }}" >
-                </a>
-                </a>
+               
+            
             </div>
           </div>
         </ul>
@@ -124,15 +126,15 @@
             if(ln == 'en'){
                // window.location.href = 'index_en.html';si esta en inglés va a ingles
                cambiarImgEn()
-               document.getElementById("clickEn").click();
+               document.getElementById("click").click();
                return break
             }else if(ln == 'es'){
                 cambiarImgEs()//window.location.href = 'index_es.html'; // si es es va a español
-                document.getElementById("clickEs").click();
+                document.getElementById("click").click();
                 return break
             }else{
                 cambiarImgEn()//window.location.href = 'index_es.html'; // si no es ninguna de los dos va a español
-                document.getElementById("clickEn").click();
+                document.getElementById("click").click();
                 return break
             }
         }
@@ -154,5 +156,39 @@
                 CAT2.setAttribute("src", "images/cat2.jpg");
         }
     </script>
+    <script>
+        $(window).scroll(function() {
+          if ($("#nav").offset().top > 56) {
+                $("#nav").removeClass("barra0");
+              $("#nav").addClass("barra1");
 
+              $("#accion").removeClass("enaccion0");
+              $("#accion").addClass("enaccion1");
+
+              $("#ideas").removeClass("ideas0");
+              $("#ideas").addClass("ideas1");
+
+              $("#btnbandera").removeClass("marino");
+              $("#btnbandera").addClass("celeste");
+
+              $("#dropbandera").removeClass("marino");
+              $("#dropbandera").addClass("celeste");
+          } else {
+              $("#nav").removeClass("barra1");
+              $("#nav").addClass("barra0");
+
+              $("#accion").removeClass("enaccion1");
+              $("#accion").addClass("enaccion0");
+
+              $("#ideas").removeClass("ideas1");
+              $("#ideas").addClass("ideas0");
+
+              $("#btnbandera").removeClass("celeste");
+              $("#btnbandera").addClass("marino");
+
+              $("#dropbandera").removeClass("celeste");
+              $("#dropbandera").addClass("marino");
+          }
+        });
+  </script>
 </html>

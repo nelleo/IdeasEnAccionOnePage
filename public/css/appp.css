@@ -751,3 +751,44 @@ footer {
   }
 }
 
+.barra0 {
+  transition: all 1s ease;
+  border-bottom: #04b3bb solid;
+}
+
+.enaccion0 {
+  transition: all 1s ease;
+  color: #04b3bb;
+  font-size: small !important;
+  font-weight: 900;
+}
+
+.ideas0 {
+  transition: all 1s ease;
+  display: inline;
+}
+
+.barra1 {
+  transition: ease 1s all;
+  background-color: #04b3bb;
+}
+
+.enaccion1 {
+  transition: ease 1s all;
+  color: #061939;
+  font-size: small !important;
+  font-weight: 900;
+}
+
+.ideas1 {
+  transition: ease 1s all;
+  display: inline;
+  color: aliceblue;
+}
+
+.celeste {
+  transition: ease 1s all;
+  background-color: #04b3bb !important;
+  border-color: #04b3bb !important;
+}
+
