@@ -622,6 +622,7 @@ footer{
     color:#04b3bb;
     font-size: small!important;
     font-weight: 900;
+    
 }
 .ideas0{
     transition: all 1s ease;
@@ -714,3 +715,10 @@ footer{
 .verdeagua{
     background-color:#ecfcf4!important;
 }
+#accion:hover{
+        
+}
+.noHover{
+    pointer-events: none;
+}
+

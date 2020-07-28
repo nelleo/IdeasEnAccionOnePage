@@ -862,3 +862,7 @@ footer {
   background-color: #ecfcf4 !important;
 }
 
+.noHover {
+  pointer-events: none;
+}
+
