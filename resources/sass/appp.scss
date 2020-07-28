@@ -713,12 +713,15 @@ footer{
 .verdeagua{
     background-color:#ecfcf4!important;
 }
-.fa {
-    font-size: 0.75rem;
-}
 // #accion:hover{
 //         color:;
 // }
 .noHover{
     pointer-events: none;
 }
+.fa {
+    font-size: 0.75rem;
+}
+html {
+    scroll-behavior: smooth;
+  }

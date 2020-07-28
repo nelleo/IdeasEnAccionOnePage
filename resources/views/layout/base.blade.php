@@ -173,6 +173,7 @@
     <script>
         $(window).scroll(function() {
           if ($("#nav").offset().top > 56) {
+            
                 $("#nav").removeClass("barra0");
               $("#nav").addClass("barra1");
 
@@ -214,7 +215,7 @@
   <script>
   $(document).ready(function(){
 
-// Toggle plus minus icon on show hide of collapse element
+        // Toggle plus minus icon on show hide of collapse element
         $(".collapse").on('show.bs.collapse', function(){
             $(this).prev(".list-group-item").find(".fa").removeClass("fa-plus").addClass("fa-minus");
         }).on('hide.bs.collapse', function(){

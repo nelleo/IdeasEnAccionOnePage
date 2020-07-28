@@ -860,11 +860,15 @@ footer {
   background-color: #ecfcf4 !important;
 }
 
+.noHover {
+  pointer-events: none;
+}
+
 .fa {
   font-size: 0.75rem;
 }
 
-.noHover {
-  pointer-events: none;
+html {
+  scroll-behavior: smooth;
 }
 
