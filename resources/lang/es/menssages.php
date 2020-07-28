@@ -51,7 +51,7 @@ return [
     'cat2' => 'Desafíos',
 
     'p7' => 'Busca identificar desafíos en empresas operadoras de agua y/o
-        saneamientos de América Latina y el Caribe que puedan ser atendidos
+        saneamiento de América Latina y el Caribe que puedan ser atendidos
         mediante soluciones innovadoras en tecnologías inteligentes, desalinización, 
         reúso y/o gestión.',
 

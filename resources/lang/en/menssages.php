@@ -8,17 +8,22 @@ return [
     'p1' => 'The open call for the <strong>Ideas into Action Award</strong>
             invites water and/or sanitation utilities in Latin America
             and the Caribbean to present their <strong>implemented innovations</strong>.
-            <br><br>This year, the call is also inviting utilities to present on
-            <strong>challenges </strong>that could be solved through innovative solutions
-            in smart technologies, desalination, reuse and/or management.<br><br>
-            In 2020, the  <strong>Ideas into Action Award </strong> categories are. ',
+            <br><br>
+
+            This year, the call is also inviting utilities  to submit <strong>challenges</strong> that can be
+             tackled through innovative solutions on smart technologies, desalination, water 
+             reuse and/or management.<br><br>
+
+            In 2020, the two <strong>Ideas into Action Award </strong> categories are. ',
 
     'cats' => 'Categories',
-    'p2' => 'For successful and <strong>fully implemented innovations</strong> developed by water and/or sanitation utilities
+    'p2' => 'For successful and <strong>fully implemented innovations</strong> developed by water and/or 
+            sanitation utilities
              in Latin America and the Caribbean.',
 
     'p3' => 'For water and/or sanitation utilities in Latin America and the Caribbean facing
-    <strong>challenges</strong> that can be tackled through innovative pilots in the smart technologies, desalination, water reuse and/or management areas.',
+        <strong>challenges</strong> that can be tackled through innovative pilots in the smart technologies,
+        desalination, water reuse and/or management areas.',
 
     'part' => 'APPLY',
     'dqst' => 'What is it about?',
