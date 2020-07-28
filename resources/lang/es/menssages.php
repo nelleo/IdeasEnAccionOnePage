@@ -129,11 +129,13 @@ return [
         categorías del Premio Ideas en Acción 2020. Asegúrate de revisar las bases y condiciones de cada una de las
          categorías y enviar tu propuesta de innovación y/o desafío en la categoría respectiva.<br><br>
 
-         <strong>CATEGORÍA: EXCELENCIA INNOVADORA EMPRESARIAL</strong>.<br>Para <strong>innovaciones implementadas</strong> por empresas
+         <strong>CATEGORÍA: EXCELENCIA INNOVADORA EMPRESARIAL</strong>.
+         <br>Para <strong>innovaciones implementadas</strong> por empresas
            prestadoras de servicios de agua y/o saneamiento en América Latina y el Caribe.Hasta un máximo 
           de tres (3) innovaciones por empresa. <br><br>
 
-          <strong> CATEGORÍA: DESAFÍOS</strong>.<br> Para empresas prestadoras de servicios de agua y/o saneamiento en América Latina 
+          <strong> CATEGORÍA: DESAFÍOS</strong>.
+          <br> Para empresas prestadoras de servicios de agua y/o saneamiento en América Latina 
           y el Caribe con <strong>desafíos</strong> que puedan ser solucionados a través de la implementación de pilotos innovadores
            en tecnologías inteligentes, desalinización, reúso y/o gestión. Hasta un máximo de dos (2) desafíos
             por empresa. ',

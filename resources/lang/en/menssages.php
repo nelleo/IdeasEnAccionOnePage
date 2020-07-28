@@ -22,8 +22,8 @@ return [
              in Latin America and the Caribbean.',
 
     'p3' => 'For water and/or sanitation utilities in Latin America and the Caribbean facing
-        <strong>challenges</strong> that can be tackled through innovative pilots in the smart technologies,
-        desalination, water reuse and/or management areas.',
+        <strong>challenges</strong> that can be solved through the implementation of innovative smart technologies,
+         desalinization, water reuse and/or management pilots.',
 
     'part' => 'APPLY',
     'dqst' => 'What is it about?',
@@ -31,7 +31,8 @@ return [
 
     'cat1' => 'Innovative Excellence',
 
-    'p4' => 'We are looking for  successful and <strong>fully implemented innovations</strong> developed water and/or sanitation utilities, which have been tested and implemented;
+    'p4' => 'We are looking for  successful and <strong>fully implemented innovations</strong> developed 
+        water and/or sanitation utilities, which have been tested and implemented;
             and have had a positive impact in one of the following categories:',
             
     'i1' => '<strong>Environmental and <br>social innovation</strong>',
@@ -51,7 +52,8 @@ return [
     'cat2' => 'Challenges',
 
     'p7' => 'We are looking for challenges in water and/or sanitation utilities in 
-            Latin America and the Caribbean that can be tackled through innovative pilots in the smart technologies, desalination, water reuse and/or management areas.',
+            Latin America and the Caribbean that can be tackled through innovative
+             pilots in the smart technologies, desalination, water reuse and/or management areas.',
 
     'i4' => '<strong>Smart <br>Technologies<br> (Smart Water<br> Infrastructure <br>Technologies -<br> (SWIT))</strong>',
     'i5' => '<strong>Desalination</strong>',
@@ -119,10 +121,12 @@ return [
         Make sure to review the terms and conditions of each of these categories and submit your innovation and/or
         challenge proposal in the respective category.<br><br>
 
-        <strong>CATEGORY: INNOVATIVE EXCELLENCE</strong>. For <strong>innovations implemented</strong> by water and/or sanitation utilities in Latin
+        <strong>CATEGORY: INNOVATIVE EXCELLENCE</strong>.<br>
+         For <strong>innovations implemented</strong> by water and/or sanitation utilities in Latin
          America and the Caribbean. Up to a maximum of three (3) innovations per utility.<br><br>
 
-         <strong>CATEGORY: CHALLENGES.</strong> For water and/or sanitation utilities in Latin America and the Caribbean
+         <strong>CATEGORY: CHALLENGES.</strong><br>
+          For water and/or sanitation utilities in Latin America and the Caribbean
           facing <strong>challenges</strong>
          that can be solved through innovative solutions in smart technologies, desalination, reuse and/or management. 
          Up to a maximum of two (2) challenges per utility.',

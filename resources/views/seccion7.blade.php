@@ -13,25 +13,25 @@
                 <h3 class="panel-title subtitulo" style="color: #54d9da;">@lang('menssages.prge')</h3>
             </div>
             <ul class="list-group celesteclaro" >
-                <li class="list-group-item">
+                <li class="list-group-item verdeagua"  >
                     
                     <a class="btn txtleft celesteclaro fontancor" data-toggle="collapse" href="#pr1" role="button" 
-                    aria-expanded="false" aria-controls="collapseExample" >
+                    aria-expanded="false" aria-controls="collapseExample"  >
                         <span class="txtmarino">+ </span> @lang('menssages.pr1')
                     </a>
                 </li>
-                <div class="collapse" id="pr1">
-                    <div class="card card-body">
+                <div class="collapse " id="pr1">
+                    <div class="card card-body verdeagua">
                         <p>@lang('menssages.r1')</p>
                     </div>
                 </div>
-                <li class="list-group-item celesteclaro fontancor">
+                <li class="list-group-item verdeagua celesteclaro fontancor">
                     <a class="btn txtleft celesteclaro fontancor" data-toggle="collapse" href="#pr2" role="button" aria-expanded="false" aria-controls="collapseExample">
                         <span class="txtmarino">+ </span>@lang('menssages.pr2')
                     </a>
                 </li>
-                <div class="collapse" id="pr2">
-                    <div class="card card-body">
+                <div class="collapse " id="pr2">
+                    <div class="card card-body verdeagua">
                         @lang('menssages.r2')
                     </div>
                 </div>
@@ -44,36 +44,36 @@
                 <h3 class="panel-title subtitulo" style="color: #54d9da;">@lang('menssages.cc')</h3>
             </div>
             <ul class="list-group celesteclaro">
-                <li class="list-group-item">
+                <li class="list-group-item verdeagua">
                     <a class="btn txtleft celesteclaro fontancor" data-toggle="collapse" href="#pr11" role="button" 
                         aria-expanded="false" aria-controls="collapseExample" >
                         <span class="txtmarino">+ </span>@lang('menssages.pr11')
                     </a>
                 </li>
-                <div class="collapse" id="pr11">
-                    <div class="card card-body">
+                <div class="collapse " id="pr11">
+                    <div class="card card-body verdeagua">
                         @lang('menssages.r11')
                     </div>
                 </div>
-                <li class="list-group-item">
+                <li class="list-group-item verdeagua">
                     <a class="btn txtleft celesteclaro fontancor" data-toggle="collapse" href="#pr12" role="button" 
                         aria-expanded="false" aria-controls="collapseExample" >
                         <span class="txtmarino">+ </span> @lang('menssages.pr12')
                     </a>
                 </li>
-                <div class="collapse" id="pr12">
-                    <div class="card card-body">
+                <div class="collapse " id="pr12">
+                    <div class="card card-body verdeagua">
                         @lang('menssages.r12')
                     </div>
                 </div>
-                <li class="list-group-item">
+                <li class="list-group-item verdeagua">
                     <a class="btn txtleft celesteclaro fontancor" data-toggle="collapse" href="#pr13" role="button" 
                         aria-expanded="false" aria-controls="collapseExample" >
                         <span class="txtmarino">+ </span> @lang('menssages.pr13')
                     </a>
                 </li>
-                <div class="collapse" id="pr13">
-                    <div class="card card-body">
+                <div class="collapse " id="pr13">
+                    <div class="card card-body verdeagua">
                         @lang('menssages.r13')
                     </div>
                 </div>
@@ -87,91 +87,91 @@
                 <h3 class="panel-title subtitulo" style="color: #54d9da;">@lang('menssages.cie')</h3>
             </div>
             <ul class="list-group celesteclaro">
-                <li class="list-group-item">
+                <li class="list-group-item verdeagua">
                     <a class="btn txtleft celesteclaro fontancor" data-toggle="collapse" href="#pr3" role="button" 
                         aria-expanded="false" aria-controls="collapseExample" >
                         <span class="txtmarino">+ </span> @lang('menssages.pr3')
                     </a>
                 </li>
-                <div class="collapse" id="pr3">
-                    <div class="card card-body">
+                <div class="collapse " id="pr3">
+                    <div class="card card-body verdeagua">
                         @lang('menssages.r3')
                     </div>
                 </div>
-                <li class="list-group-item">
+                <li class="list-group-item verdeagua">
                     <a class="btn txtleft celesteclaro fontancor" data-toggle="collapse" href="#pr4" role="button" 
                         aria-expanded="false" aria-controls="collapseExample" >
                         <span class="txtmarino">+ </span> @lang('menssages.pr4')
                     </a>
                 </li>
-                <div class="collapse" id="pr4">
-                    <div class="card card-body">
+                <div class="collapse " id="pr4">
+                    <div class="card card-body verdeagua">
                         @lang('menssages.r4')
                     </div>
                 </div>
-                <li class="list-group-item">
+                <li class="list-group-item verdeagua">
                     <a class="btn txtleft celesteclaro fontancor" data-toggle="collapse" href="#pr5" role="button" 
                         aria-expanded="false" aria-controls="collapseExample" >
                         <span class="txtmarino">+ </span> @lang('menssages.pr5')
                     </a>
                 </li>
-                <div class="collapse" id="pr5">
-                    <div class="card card-body">
+                <div class="collapse " id="pr5">
+                    <div class="card card-body verdeagua">
                         @lang('menssages.r5')
                     </div>
                 </div>
-                <li class="list-group-item">
+                <li class="list-group-item verdeagua">
                     <a class="btn txtleft celesteclaro fontancor" data-toggle="collapse" href="#pr6" role="button" 
                         aria-expanded="false" aria-controls="collapseExample" >
                         <span class="txtmarino">+ </span> @lang('menssages.pr6')
                     </a>
                 </li>
-                <div class="collapse" id="pr6">
-                    <div class="card card-body">
+                <div class="collapse " id="pr6">
+                    <div class="card card-body verdeagua">
                         @lang('menssages.r6')
                     </div>
                 </div>
-                <li class="list-group-item">
+                <li class="list-group-item verdeagua">
                     <a class="btn txtleft celesteclaro fontancor" data-toggle="collapse" href="#pr7" role="button" 
                         aria-expanded="false" aria-controls="collapseExample" >
                         <span class="txtmarino">+ </span> @lang('menssages.pr7')
                     </a>
                 </li>
-                <div class="collapse" id="pr7">
-                    <div class="card card-body">
+                <div class="collapse " id="pr7">
+                    <div class="card card-body verdeagua">
                         @lang('menssages.r7')
                     </div>
                 </div>
-                <li class="list-group-item">
+                <li class="list-group-item verdeagua">
                     <a class="btn txtleft celesteclaro fontancor" data-toggle="collapse" href="#pr8" role="button" 
                         aria-expanded="false" aria-controls="collapseExample" >
                         <span class="txtmarino">+ </span> @lang('menssages.pr8')
                     </a>
                 </li>
-                <div class="collapse" id="pr8">
-                    <div class="card card-body">
+                <div class="collapse " id="pr8">
+                    <div class="card card-body verdeagua">
                         @lang('menssages.r8')
                     </div>
                 </div>
-                <li class="list-group-item">
+                <li class="list-group-item verdeagua">
                     <a class="btn txtleft celesteclaro fontancor" data-toggle="collapse" href="#pr9" role="button" 
                         aria-expanded="false" aria-controls="collapseExample" >
                         <span class="txtmarino">+ </span> @lang('menssages.pr9')
                     </a>
                 </li>
-                <div class="collapse" id="pr9">
-                    <div class="card card-body">
+                <div class="collapse " id="pr9">
+                    <div class="card card-body verdeagua">
                         @lang('menssages.r9')
                     </div>
                 </div>
-                <li class="list-group-item">
+                <li class="list-group-item verdeagua">
                     <a class="btn txtleft celesteclaro fontancor" data-toggle="collapse" href="#pr10" role="button" 
                         aria-expanded="false" aria-controls="collapseExample" >
                         <span class="txtmarino">+ </span> @lang('menssages.pr10')
                     </a>
                 </li>
-                <div class="collapse" id="pr10">
-                    <div class="card card-body">
+                <div class="collapse " id="pr10">
+                    <div class="card card-body verdeagua">
                         @lang('menssages.r10')
                     </div>
                 </div>
