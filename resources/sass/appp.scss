@@ -39,9 +39,6 @@ body {
 	line-height: 1;
 }
 
-ol, ul {
-	list-style: none;
-}
 
 blockquote, q {
 	quotes: none;
@@ -376,6 +373,7 @@ body{
 }
 
 .marino{
+    transition: all 1s ease;
     background-color:#061939!important;
 }
 .amarinado{
@@ -460,7 +458,7 @@ img{
         display: none;
     }
 }
-//NELSON 
+
     //FORM
 ::placeholder { color: aliceblue!important; }
 ::-webkit-input-placeholder { /* WebKit, Blink, Edge */
@@ -582,19 +580,134 @@ footer{
         height:18rem!important;
     }
 }
-@media (min-width: 760px){
+
+@media (max-width: 576px){
+    .alerta{
+        left:-0.3rem;
+    }
+}
+@media (min-width: 768px){
     .alerta{
         transform: translate(10px);
-        right: 13rem;
-        top: 2rem;
+        left: 24rem;
+        top: -1.5rem;
+        max-width: 20em;
+        
+    }
+}
+@media (max-width: 1024px){
+    .alerta{
+        transform: translate(10px);
+        left: 35rem;
+        top: -24rem;
+        max-width: 15em;
+    }
+}
+@media (min-width: 1025px){
+    .alerta{
+        transform: translate(10px);
+        // right: 13rem;
+        // top: 2rem;
+        height: 3rem;
         max-width: 20em;
     }
 }
-@media (max-width: 759px){
-    .alerta{
-        flex: 0 0 91.666667%;
-        max-width: 91.666667%;
+
+.barra0{
+    transition: all 1s ease;
+    border-bottom:#04b3bb solid;
+}
+.enaccion0{
+    transition: all 1s ease;
+    color:#04b3bb;
+    font-size: small!important;
+    font-weight: 900;
+}
+.ideas0{
+    transition: all 1s ease;
+    display: inline;
+}
+.barra1{
+    transition: ease 1s all ;
+    background-color:#04b3bb;
+}
+.enaccion1{
+    transition: ease 1s all ;
+    color:#061939;
+    font-size: small!important;
+    font-weight: 900;
+}
+.ideas1{
+    transition: ease 1s all ;
+    display: inline;
+    color: aliceblue;
+}
+.celeste{
+    transition: ease 1s all ;
+    background-color:#04b3bb!important;
+    border-color: #04b3bb!important;
+}
+
+.droppadding{
+    min-width: auto!important;
+    padding: 0rem 0rem!important;
+}
+@media (min-width: 990px){
+    .droppadding{
+        min-width: auto!important;
+        padding: 0rem 0.4rem!important;
     }
 }
-// margin-bottom: .5rem!important;
-// height: 18rem;
+@media (max-width: 767px){
+    .txtmob{
+        text-align: center;
+    }
+}
+
+.txtleft{
+    text-align: left!important;   
+}
+// ol, ul {
+// 	list-style: none;
+// }
+@media (min-width: 1100px){
+    .srr{
+        width: 40%!important;
+    }
+}
+
+@media (min-width: 1150px){
+    .srr{
+        width: 37%!important;
+    }
+}
+
+@media (min-width: 1250px){
+    .srr{
+        width: 35%!important;
+    }
+}
+.subtitulo{
+    line-height: 1.2em;
+    font-weight: 650;
+    letter-spacing:0.01em;
+}
+.celesteclaro{
+    color: #24959e!important;
+}
+.txtmarino{
+    color:#061939!important;
+    font-size: larger;
+    font-weight: 800;
+}
+.fontancor{
+    font-weight: 600!important;
+}
+.iconceleste{
+    transition: all 1s ease;
+    color:#04b3bb!important;
+}
+.iconblanco{
+    transition: ease 1s all ;
+    color:aliceblue!important;
+}

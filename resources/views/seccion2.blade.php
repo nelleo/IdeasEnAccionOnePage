@@ -1,4 +1,4 @@
-<div class="d-flex justify-content-center flex-column">
+<div id="Categorías" class="d-flex justify-content-center flex-column">
     <h1 class="cat">@lang('menssages.cats')</h1>
     <img src="images/img--08.jpg" alt="olas">
 </div>
@@ -7,7 +7,7 @@
     <div class="text-center" style="margin-bottom: 6rem;">
         <img id="cat1" class="mw-100" src="@lang('menssages.imgcat1')" alt="titulo excelencia innovadora empresarial">
         <p class="p-4" style="max-width: 500px;color:#ecfcf4;font-size:large; ">@lang('menssages.p2')</p>
-        <button class="btn btn-lg" style="background-color:#04b3bb;margin-top: 1.59rem!important;" >
+        <button class="btn btn-lg" style="background-color:#04b3bb;" >
             <a href="https://comunidad.socialab.com//challenges/ideasenaccionexcelencia"  target="_blank">
                 <h3 class="part1">
                      @lang('menssages.part')

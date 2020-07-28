@@ -1,51 +1,182 @@
-<div class="d-flex justify-content-center flex-column">
-  <img src="images/img--33.jpg" alt="olas" style="position: relative;z-index:-1;bottom:1px;">
-  </div>
-  <div class="d-flex flex-wrap w-100 marino flex-lg-row oh mt-3">
-      <div class="col-md-6 col-lg-6  mt-3 text-center text-md-left" style="color: aliceblue">
-          <h1 class=" mb-4 ml-md-5" style="font-weight: 700;" >@lang('menssages.contac')</h1>  
-          <div class="contacto text-center text-md-left ml-sm-4 ml-md-5">
-              <p style="font-size:large;">
-                @lang('menssages.p10')</p>
-          </div>
-      </div>
-      <div class="col-md-6 col-lg-6">
-          <form class="ml-4 mr-md-5  mt-4 mb-5 text-right" method="POST" action="/envioMail" >
-              @csrf
-              <div class="row mb-1 mw-100">
-                <div class=" col-md-4 pb-3" >
-                  <input type="text" class="form-control marino mt-md-1" name="nombre" value="{{ old('nombre') }}" required autocomplete="nombre"   placeholder="@lang('menssages.name')">
-                  @error('nombre')
-                  <span class="invalid-feedback" role="alert">
-                      <strong>{{ $message }}</strong>
-                  </span>
-                  @enderror
+{{-- FAQ --}}
+<section id="FAQ" class=" d-flex flex-wrap flex-lg-row oh pt-4 pt-md-5"  style="background-color:#ecfcf4;margin:0%; ">
+    <div class="col-12 text-center mb-4 mb-md-5">
+        <h1  class="subtitulo" style="color: #24939d;">
+            @lang('menssages.pf')
+        </h1>
+        <div class="col-8 col-md-7 col-lg-5 srr" style="height:4px;background-color:#24939d;display:inline-block;border-radius: 3px;position: relative;top: -5px;"></div>
+    </div>
+    <div class="col-md-6"> 
+            {{-- PREGUNTAS GENERALES --}}
+        <div class="panel panel-default  pl-md-5 pr-md-2">
+            <div class="panel-heading mb-4  txtmob">
+                <h3 class="panel-title subtitulo" style="color: #54d9da;">@lang('menssages.prge')</h3>
+            </div>
+            <ul class="list-group celesteclaro" >
+                <li class="list-group-item">
+                    
+                    <a class="btn txtleft celesteclaro fontancor" data-toggle="collapse" href="#pr1" role="button" 
+                    aria-expanded="false" aria-controls="collapseExample" >
+                        <span class="txtmarino">+ </span> @lang('menssages.pr1')
+                    </a>
+                </li>
+                <div class="collapse" id="pr1">
+                    <div class="card card-body">
+                        <p>@lang('menssages.r1')</p>
+                    </div>
                 </div>
-                <div class="form-group col-md-8 mt-3 mt-md-1">
-                  <input type="email" class="form-control @error('email') is-invalid @enderror marino" name="email" value="{{ old('email') }}" required autocomplete="email"  placeholder="@lang('menssages.mail')" >
-                  @error('email')
-                  <span class="invalid-feedback" role="alert">
-                    <strong>{{ $message }}</strong>
-                  </span>
-                  @enderror
+                <li class="list-group-item celesteclaro fontancor">
+                    <a class="btn txtleft celesteclaro fontancor" data-toggle="collapse" href="#pr2" role="button" aria-expanded="false" aria-controls="collapseExample">
+                        <span class="txtmarino">+ </span>@lang('menssages.pr2')
+                    </a>
+                </li>
+                <div class="collapse" id="pr2">
+                    <div class="card card-body">
+                        @lang('menssages.r2')
+                    </div>
                 </div>
-              </div>
-              <div class="row mb-3 mw-100">
-                  <div class="form-group col-md-12 mt-2">
-                    <textarea class="form-control @error('mensaje') is-invalid @enderror radius marino" name="mensaje"  value="{{ old('mensaje') }}" id="" cols="30" rows="5" required autocomplete="mensaje"  placeholder="@lang('menssages.msj')" ></textarea>                              
-                    @error('mensaje')
-                  <span class="invalid-feedback" role="alert">
-                      <strong>{{ $message }}</strong>
-                  </span>
-                  @enderror
-                  </div>
-              </div>
-                @if(Session::has('mensaje'))
-                  <div class="alert alert-success mt-1 mb-1 alerta text-center" role="alert">
-                    {{ Session::get('mensaje')}} 
-                  </div>
-                @endif
-                <button type="submit" class="btn ba mr-5" style="background-color:#eafaf5;color:#061939;border:none;font-weight: 500;">@lang('menssages.send')</button>
-            </form>
-      </div>
-  </div>
+            </ul>
+            
+        </div>
+           {{-- CATEGORIA 2 --}}
+        <div class="panel panel-default  pl-md-5 pr-md-2  mt-4 mt-md-5">
+            <div class="panel-heading mb-4 txtmob">
+                <h3 class="panel-title subtitulo" style="color: #54d9da;">@lang('menssages.cc')</h3>
+            </div>
+            <ul class="list-group celesteclaro">
+                <li class="list-group-item">
+                    <a class="btn txtleft celesteclaro fontancor" data-toggle="collapse" href="#pr11" role="button" 
+                        aria-expanded="false" aria-controls="collapseExample" >
+                        <span class="txtmarino">+ </span>@lang('menssages.pr11')
+                    </a>
+                </li>
+                <div class="collapse" id="pr11">
+                    <div class="card card-body">
+                        @lang('menssages.r11')
+                    </div>
+                </div>
+                <li class="list-group-item">
+                    <a class="btn txtleft celesteclaro fontancor" data-toggle="collapse" href="#pr12" role="button" 
+                        aria-expanded="false" aria-controls="collapseExample" >
+                        <span class="txtmarino">+ </span> @lang('menssages.pr12')
+                    </a>
+                </li>
+                <div class="collapse" id="pr12">
+                    <div class="card card-body">
+                        @lang('menssages.r12')
+                    </div>
+                </div>
+                <li class="list-group-item">
+                    <a class="btn txtleft celesteclaro fontancor" data-toggle="collapse" href="#pr13" role="button" 
+                        aria-expanded="false" aria-controls="collapseExample" >
+                        <span class="txtmarino">+ </span> @lang('menssages.pr13')
+                    </a>
+                </li>
+                <div class="collapse" id="pr13">
+                    <div class="card card-body">
+                        @lang('menssages.r13')
+                    </div>
+                </div>
+            </ul>
+        </div>
+    </div>
+    <div class="col-md-6">
+            {{-- CATEGORIA 1 --}}
+        <div class="panel panel-default  pr-md-5 pl-md-2  mt-4 mt-md-0 mb-5">
+            <div class="panel-heading mb-4  txtmob">
+                <h3 class="panel-title subtitulo" style="color: #54d9da;">@lang('menssages.cie')</h3>
+            </div>
+            <ul class="list-group celesteclaro">
+                <li class="list-group-item">
+                    <a class="btn txtleft celesteclaro fontancor" data-toggle="collapse" href="#pr3" role="button" 
+                        aria-expanded="false" aria-controls="collapseExample" >
+                        <span class="txtmarino">+ </span> @lang('menssages.pr3')
+                    </a>
+                </li>
+                <div class="collapse" id="pr3">
+                    <div class="card card-body">
+                        @lang('menssages.r3')
+                    </div>
+                </div>
+                <li class="list-group-item">
+                    <a class="btn txtleft celesteclaro fontancor" data-toggle="collapse" href="#pr4" role="button" 
+                        aria-expanded="false" aria-controls="collapseExample" >
+                        <span class="txtmarino">+ </span> @lang('menssages.pr4')
+                    </a>
+                </li>
+                <div class="collapse" id="pr4">
+                    <div class="card card-body">
+                        @lang('menssages.r4')
+                    </div>
+                </div>
+                <li class="list-group-item">
+                    <a class="btn txtleft celesteclaro fontancor" data-toggle="collapse" href="#pr5" role="button" 
+                        aria-expanded="false" aria-controls="collapseExample" >
+                        <span class="txtmarino">+ </span> @lang('menssages.pr5')
+                    </a>
+                </li>
+                <div class="collapse" id="pr5">
+                    <div class="card card-body">
+                        @lang('menssages.r5')
+                    </div>
+                </div>
+                <li class="list-group-item">
+                    <a class="btn txtleft celesteclaro fontancor" data-toggle="collapse" href="#pr6" role="button" 
+                        aria-expanded="false" aria-controls="collapseExample" >
+                        <span class="txtmarino">+ </span> @lang('menssages.pr6')
+                    </a>
+                </li>
+                <div class="collapse" id="pr6">
+                    <div class="card card-body">
+                        @lang('menssages.r6')
+                    </div>
+                </div>
+                <li class="list-group-item">
+                    <a class="btn txtleft celesteclaro fontancor" data-toggle="collapse" href="#pr7" role="button" 
+                        aria-expanded="false" aria-controls="collapseExample" >
+                        <span class="txtmarino">+ </span> @lang('menssages.pr7')
+                    </a>
+                </li>
+                <div class="collapse" id="pr7">
+                    <div class="card card-body">
+                        @lang('menssages.r7')
+                    </div>
+                </div>
+                <li class="list-group-item">
+                    <a class="btn txtleft celesteclaro fontancor" data-toggle="collapse" href="#pr8" role="button" 
+                        aria-expanded="false" aria-controls="collapseExample" >
+                        <span class="txtmarino">+ </span> @lang('menssages.pr8')
+                    </a>
+                </li>
+                <div class="collapse" id="pr8">
+                    <div class="card card-body">
+                        @lang('menssages.r8')
+                    </div>
+                </div>
+                <li class="list-group-item">
+                    <a class="btn txtleft celesteclaro fontancor" data-toggle="collapse" href="#pr9" role="button" 
+                        aria-expanded="false" aria-controls="collapseExample" >
+                        <span class="txtmarino">+ </span> @lang('menssages.pr9')
+                    </a>
+                </li>
+                <div class="collapse" id="pr9">
+                    <div class="card card-body">
+                        @lang('menssages.r9')
+                    </div>
+                </div>
+                <li class="list-group-item">
+                    <a class="btn txtleft celesteclaro fontancor" data-toggle="collapse" href="#pr10" role="button" 
+                        aria-expanded="false" aria-controls="collapseExample" >
+                        <span class="txtmarino">+ </span> @lang('menssages.pr10')
+                    </a>
+                </li>
+                <div class="collapse" id="pr10">
+                    <div class="card card-body">
+                        @lang('menssages.r10')
+                    </div>
+                </div>
+            </ul>
+        </div>
+
+    </div>
+</section>
