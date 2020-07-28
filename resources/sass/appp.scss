@@ -39,9 +39,6 @@ body {
 	line-height: 1;
 }
 
-ol, ul {
-	list-style: none;
-}
 
 blockquote, q {
 	quotes: none;
@@ -660,4 +657,57 @@ footer{
         min-width: auto!important;
         padding: 0rem 0.4rem!important;
     }
+}
+@media (max-width: 767px){
+    .txtmob{
+        text-align: center;
+    }
+}
+
+.txtleft{
+    text-align: left!important;   
+}
+// ol, ul {
+// 	list-style: none;
+// }
+@media (min-width: 1100px){
+    .srr{
+        width: 40%!important;
+    }
+}
+
+@media (min-width: 1150px){
+    .srr{
+        width: 37%!important;
+    }
+}
+
+@media (min-width: 1250px){
+    .srr{
+        width: 35%!important;
+    }
+}
+.subtitulo{
+    line-height: 1.2em;
+    font-weight: 650;
+    letter-spacing:0.01em;
+}
+.celesteclaro{
+    color: #24959e!important;
+}
+.txtmarino{
+    color:#061939!important;
+    font-size: larger;
+    font-weight: 800;
+}
+.fontancor{
+    font-weight: 600!important;
+}
+.iconceleste{
+    transition: all 1s ease;
+    color:#04b3bb!important;
+}
+.iconblanco{
+    transition: ease 1s all ;
+    color:aliceblue!important;
 }

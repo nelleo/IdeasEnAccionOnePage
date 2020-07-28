@@ -14,22 +14,21 @@ return [
             In 2020, the  <strong>Ideas into Action Award </strong> categories are. ',
 
     'cats' => 'Categories',
-    'p2' => 'For <strong>innovations implemented</strong> by water and/or sanitation utilities
+    'p2' => 'For successful and <strong>fully implemented innovations</strong> developed by water and/or sanitation utilities
              in Latin America and the Caribbean.',
 
     'p3' => 'For water and/or sanitation utilities in Latin America and the Caribbean facing
-    <strong>challenges</strong> that can be solved through innovative solutions in smart technologies, desalination, 
-            reuse and/or management.',
+    <strong>challenges</strong> that can be tackled through innovative pilots in the smart technologies, desalination, water reuse and/or management areas.',
 
-    'part' => 'PARTICIPATE',
+    'part' => 'APPLY',
     'dqst' => 'What is it about?',
     'cat' => 'Category',
 
     'cat1' => 'Innovative Excellence',
 
-    'p4' => 'We are looking for innovative initiatives, practices and models created and/or used
-            to face challenges in water and/or sanitation utilities, which have been tested and implemented;
+    'p4' => 'We are looking for  successful and <strong>fully implemented innovations</strong> developed water and/or sanitation utilities, which have been tested and implemented;
             and have had a positive impact in one of the following categories:',
+            
     'i1' => '<strong>Environmental and <br>social innovation</strong>',
     'i2' => '<strong>Technological <br>innovation</strong>',
     'i3' => '<strong>Process<br> innovation</strong>',
@@ -40,15 +39,14 @@ return [
 
     'etp' => 'SUBMIT YOUR PROPOSAL',
     'byc' => 'SEE TERMS AND CONDITIONS',
-    'pg' => 'You could win:',
+    'poga' => 'You could win:',
 
     'p6' => 'Implementation of AquaRating+ and training, promotion, visibility,
              and dissemination activities.',
     'cat2' => 'Challenges',
 
     'p7' => 'We are looking for challenges in water and/or sanitation utilities in 
-            Latin America and the Caribbean that can be solved through innovative solutions in
-            smart technologies, desalination, reuse and/or management.',
+            Latin America and the Caribbean that can be tackled through innovative pilots in the smart technologies, desalination, water reuse and/or management areas.',
 
     'i4' => '<strong>Smart <br>Technologies<br> (Smart Water<br> Infrastructure <br>Technologies -<br> (SWIT))</strong>',
     'i5' => '<strong>Desalination</strong>',
@@ -64,8 +62,8 @@ return [
             targeted challenge.',
     'contac' => 'Contact us',
     'p10' => 'Do you have any questions?If you have any questions, you can <br>contact us 
-            at   <a href="#" style="color: #04b3bb">
-            agua@iadb.org</a>  or  <a href="#" style="color: #04b3bb">argentina@socialab.com</a>',
+            at   <a href="#form" style="color: #04b3bb">
+            agua@iadb.org</a>  or  <a href="#form" style="color: #04b3bb">argentina@socialab.com</a>',
     'name' => 'Name',
     'mail' => 'Email',
     'msj' => 'Message',
@@ -73,6 +71,9 @@ return [
     'img1' => 'images/titulo.jpg',
     'imgcat1' => 'images/cat1.jpg',
     'imgcat2' => 'images/cat2.jpg',
+    "logo1"=>"images/logo-socialab-ingles.jpg",
+    "logo2"=>"images/logo-bid-ingles.jpg",
+
     'bandera' => 'flag-icon-gb',
     'banderaoff' => 'flag-icon-es',
     'linkbanderaoff'=>'/lang/es',
@@ -147,7 +148,7 @@ return [
     'r11'=>'Yes. At least one (1) or up to a maximum of four (4) areas can be selected. This category seeks to identify
         challenges that can be solved through innovations in one, or a combination of the following technological and/or
         management areas:<br><br>
-        <ul>
+        <ul style="margin-left: 2rem;">
             <li>Smart Technologies (Smart Water Infrastructure Technologies - (SWIT))</li>
             <li>Desalination</li>
             <li>Wastewater treatment and reuse</li>
@@ -156,4 +157,8 @@ return [
     'r12'=>'In this call, Category Challenges, only challenges that can be solved through the implementation of innovative 
         pilots in smart technologies, desalination, reuse and/or management will be evaluated and selected.',
     'r13'=>'Yes, it is necessary to present the challenge’s cover letter in the conditions described in the guidelines of the call.',
- ];
+    
+    //NAV
+    "ideas"=>"IDEAS",
+    "enaccion"=>"INTO ACTION",
+];

@@ -6,7 +6,7 @@
         </div>
         <div class="col-md-6 mt-5 mx-2">
             <h1 class="" style="line-height: 1.2em;color: aliceblue;font-weight: 650;letter-spacing:0.01em">
-                @lang('menssages.pg')
+                @lang('menssages.poga')
             </h1>
             <div style="height: 4px;width: 270px;background-color:#fff;display:inline-block;border-radius: 3px;position: relative;top: -5px;"></div>
             <p class="w1 mt-4 px-4 pb-5" style="color: aliceblue;font-size: x-large;font-weight: 650;">

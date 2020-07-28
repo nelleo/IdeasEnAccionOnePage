@@ -1,5 +1,5 @@
 
-  <div class="d-flex flex-wrap w-100 marino flex-lg-row oh mt-3">
+  <div id="form" class="d-flex flex-wrap w-100 marino flex-lg-row oh mt-3">
       <div class="col-md-6 col-lg-6  mt-3 text-center text-md-left" style="color: aliceblue">
           <h1 class=" mb-4 ml-md-5" style="font-weight: 700;" >@lang('menssages.contac')</h1>  
           <div class="contacto text-center text-md-left ml-sm-4 ml-md-5">
@@ -8,7 +8,7 @@
           </div>
       </div>
       <div class="col-md-6 col-lg-6">
-          <form class="ml-4 mr-md-5  mt-4 mb-5 text-right" method="POST" action="/envioMail" >
+          <form  class="ml-4 mr-md-5  mt-4 mb-5 text-right" method="POST" action="/envioMail" >
               @csrf
               <div class="row mb-1 mw-100">
                 <div class=" col-md-4 pb-3" >

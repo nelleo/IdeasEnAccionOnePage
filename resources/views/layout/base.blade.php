@@ -32,15 +32,15 @@
     <nav id="nav"class="navbar sticky-top navbar-expand-lg barra0">
 
        <a id="accion" class="navbar-brand ml-md-5 enaccion0" href="#" >
-            <p  id="ideas" class="ml-md-5 ideas0" >IDEAS </p>EN ACCIÓN
+            <p  id="ideas" class="ml-md-5 ideas0" >@lang('menssages.ideas') </p>@lang('menssages.enaccion')
         </a>
        <button class="hamburg navbar-toggler " type="button" data-toggle="collapse" 
         data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" 
         aria-label="Toggle navigation" >
             <!-- <span class=" hamburg navbar-toggler-icon"></span>-->
         {{-- <i class="fas fa-bars"></i> --}}
-        <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-chevron-double-down" 
-        fill="currentColor" xmlns="http://www.w3.org/2000/svg" style="color:#04b3bb!important;">
+        <svg id="icono" width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-chevron-double-down iconceleste" 
+        fill="currentColor" xmlns="http://www.w3.org/2000/svg" >
           <path fill-rule="evenodd" d="M1.646 6.646a.5.5 0 0 1 .708 0L8 12.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/>
           <path fill-rule="evenodd" d="M1.646 2.646a.5.5 0 0 1 .708 0L8 8.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/>
         </svg>
@@ -52,19 +52,19 @@
             <a class="nav-link itm-nav" href="/#Home" style="color: aliceblue;"><strong> Home</strong></a>
           </li>
           <li class="nav-item">
-            <a class="nav-link itm-nav" href="/#Categorías" style="color: aliceblue;">Categorías</a>
+            <a class="nav-link itm-nav" href="/#Categorías" style="color: aliceblue;">@lang('menssages.cats')</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link itm-nav" href="/#ExelenciaInnovadoraempresarial" style="color: aliceblue;">Exelencia Innovadora empresarial</a>
+            <a class="nav-link itm-nav" href="/#ExelenciaInnovadoraempresarial" style="color: aliceblue;">@lang('menssages.cat1')</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link itm-nav" href="/#Desafíos" style="color: aliceblue;">Desafíos</a>
+            <a class="nav-link itm-nav" href="/#Desafíos" style="color: aliceblue;">@lang('menssages.cat2')</a>
           </li>
           <li class="nav-item">
             <a class="nav-link itm-nav" href="/#FAQ" style="color: aliceblue;">FAQ</a>
           </li>
           <li class="nav-item mr-md-3">
-            <a class="nav-link itm-nav" href="/#Contactanos" style="color: aliceblue;">Contactanos</a>
+            <a class="nav-link itm-nav" href="/#form" style="color: aliceblue;">@lang('menssages.contac')</a>
           </li>
           <div class="dropdown">
             <button id="btnbandera" class="btn btn-secondary dropdown-toggle marino ml-md-1 mt-md-1" type="button" id="dropdownMenuButton" 
@@ -120,8 +120,8 @@
         <footer class="text-center " style="margin:0%;min-height: 450px;">
             
             <div >
-                <img class="" src="images/logo-BID.png" alt="logo BID" style="position: relative;top: -10px;">
-                <img class="" src="images/img--36.png" alt="alianza socialab"  style="position: relative;top: -10px;">
+              <img class="" src="@lang('menssages.logo2')" alt="logo BID" style="position: relative;top: -10px;">
+              <img class="" src="@lang('menssages.logo1')" alt="alianza socialab"  style="position: relative;top: -10px;">
             </div>
            
         </footer>
@@ -180,6 +180,9 @@
 
               $("#dropbandera").removeClass("marino");
               $("#dropbandera").addClass("celeste");
+
+              $("#icono").removeClass("iconceleste");
+              $("#icono").addClass("iconblanco");
           } else {
               $("#nav").removeClass("barra1");
               $("#nav").addClass("barra0");
@@ -195,6 +198,9 @@
 
               $("#dropbandera").removeClass("celeste");
               $("#dropbandera").addClass("marino");
+
+              $("#icono").removeClass("iconblanco");
+              $("#icono").addClass("iconceleste");
           }
         });
   </script>

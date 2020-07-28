@@ -13,8 +13,7 @@ return [
         tecnologías inteligentes, desalinización, reúso y/o gestión.
         <br><br>En el 2020 el <strong>Premio Ideas en Acción </strong>consta de dos categorías.',
     'cats' => 'Categorías',
-    'p2' => 'Para <strong>innovaciones
-        implementadas</strong> por empresas prestadoras de servicios de agua y/o saneamiento en
+    'p2' => 'Para <strong> innovaciones exitosas y totalmente implementadas </strong> desarrolladas por empresas prestadoras de servicios de agua y/o saneamiento en
         América Latina y el Caribe.',
     'p3' => 'Para empresas prestadoras
         de servicios de agua y/o saneamiento en América Latina y el Caribe con <strong>desafíos</strong>
@@ -27,7 +26,7 @@ return [
     'cat1' => 'Excelencia Innovadora Empresarial',
 
     'p4' => 'Busca iniciativas, prácticas y modelos innovadores creados y/o utilizados para 
-        afrontar retos que tienen las empresas prestadoras de servicios de agua y/o 
+        <strong>innovaciones exitosas y totalmente implementadas</strong> desarrolladas por empresas prestadoras de servicios de agua y/o 
         saneamiento en América Latina y el Caribe, que hayan sido probados e 
         implementados; y que hayan generado un impacto positivo en alguna de las 
         siguientes categorías:',
@@ -44,7 +43,7 @@ return [
         en AGUA y/o SANEAMIENTO <strong> ¡esta categoría es para ti!</strong> ',
     'etp' => 'ENVÍA TU PROPUESTA',
     'byc' => 'VER BASES Y CONDICIONES DE ESTA CATEGORÍA',
-    'pg' => 'Podrás ganar:',
+    'poga' => 'Podrás ganar:',
 
     'p6' => 'Implementación de AquaRating +
         y actividades de formación, promoción,<br>
@@ -77,8 +76,8 @@ return [
         enfocado a resolver el desafío formulado.',
     'contac' => 'Contáctenos',
     'p10' => '¿Tienes preguntas?<br>Si tienes alguna consulta,
-        puedes contactarnos a <br> <a href="#" style="color: #04b3bb">
-        agua@iadb.org</a> ó <a href="#" style="color: #04b3bb">argentina@socialab.com</a>',
+        puedes contactarnos a <br> <a href="#form" style="color: #04b3bb">
+        agua@iadb.org</a> ó <a href="#form" style="color: #04b3bb">argentina@socialab.com</a>',
     'name' => 'Nombre',
     'mail' => 'Dirección de correro electrónico',
     'msj' => 'Mensaje',
@@ -86,6 +85,9 @@ return [
     'img1' => 'images/img--02.jpg',
     'imgcat1' => 'images/img--09.jpg',
     'imgcat2' => 'images/img--12.jpg',
+    "logo1"=>"images/img--36.png",
+    "logo2"=>"images/logo-BID.png",
+
     'bandera' => 'flag-icon-es',
     'banderaoff' => 'flag-icon-gb',
     'linkbanderaoff'=>'/lang/en',
@@ -127,11 +129,11 @@ return [
         categorías del Premio Ideas en Acción 2020. Asegúrate de revisar las bases y condiciones de cada una de las
          categorías y enviar tu propuesta de innovación y/o desafío en la categoría respectiva.<br><br>
 
-         <strong>CATEGORÍA: EXCELENCIA INNOVADORA EMPRESARIAL</strong>.Para<strong>innovaciones implementadas</strong>por empresas
-          prestadoras de servicios de agua y/o saneamiento en América Latina y el Caribe. Hasta un máximo 
+         <strong>CATEGORÍA: EXCELENCIA INNOVADORA EMPRESARIAL</strong>.<br>Para <strong>innovaciones implementadas</strong> por empresas
+           prestadoras de servicios de agua y/o saneamiento en América Latina y el Caribe.Hasta un máximo 
           de tres (3) innovaciones por empresa. <br><br>
 
-          <strong> CATEGORÍA: DESAFÍOS</strong>. Para empresas prestadoras de servicios de agua y/o saneamiento en América Latina 
+          <strong> CATEGORÍA: DESAFÍOS</strong>.<br> Para empresas prestadoras de servicios de agua y/o saneamiento en América Latina 
           y el Caribe con <strong>desafíos</strong> que puedan ser solucionados a través de la implementación de pilotos innovadores
            en tecnologías inteligentes, desalinización, reúso y/o gestión. Hasta un máximo de dos (2) desafíos
             por empresa. ',
@@ -164,7 +166,7 @@ return [
         que puedan ser atendidos mediante innovaciones en una, o una combinación de las siguientes áreas tecnológicas
         y/o de gestión:<br><br>
 
-        <ul>
+        <ul style="margin-left: 2rem;">
             <li>Tecnologías Inteligentes (Smart Water Infrastructure Technologies (SWIT))</li>
             <li>Desalinización</li>
             <li>Tratamiento de aguas residuales y reúso</li>
@@ -175,4 +177,8 @@ return [
             desalinización, reúso y/o gestión.',
     'r13'=>'Sí, es necesario enviar a través de la plataforma la carta de presentación del desafío en las condiciones
              descritas en los términos y condiciones. ',
+
+    //NAV
+    "ideas"=>"IDEAS",
+    "enaccion"=>"EN ACCIÓN",
 ];
