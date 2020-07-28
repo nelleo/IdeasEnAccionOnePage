@@ -15,6 +15,7 @@
         <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
 
         <link href="https://cdnjs.cloudflare.com/ajax/libs/flag-icon-css/3.1.0/css/flag-icon.min.css" rel="stylesheet">
+        
         <link rel="stylesheet" href="{{ mix('css/appp.css')}}">
 
         <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
@@ -173,7 +174,7 @@
     <script>
         $(window).scroll(function() {
           if ($("#nav").offset().top > 56) {
-            
+
                 $("#nav").removeClass("barra0");
               $("#nav").addClass("barra1");
 
