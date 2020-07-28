@@ -210,13 +210,5 @@
           }
         });
   </script>
-  <script>
-    function cambiarSigno() {
-            //obtengo el id del elemt que llamo a la func y en cadena su 
-            //equiqueta hija (span) a la cual le cambio el html
-            //depues del click tiene que volver al html inicial
-            
-
-        }
-  </script>
+ 
 </html>
