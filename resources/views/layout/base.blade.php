@@ -32,12 +32,13 @@
     <!-- Barra de navegacion -->
     <nav id="nav"class="navbar sticky-top navbar-expand-lg barra0">
 
-       <a id="accion" class="navbar-brand ml-md-5 enaccion0" href="#" >
+       <a id="accion" class="navbar-brand ml-md-5 enaccion0 noHover" href="#" >
             <p  id="ideas" class="ml-md-5 ideas0" >@lang('menssages.ideas') </p>@lang('menssages.enaccion')
         </a>
        <button class="hamburg navbar-toggler " type="button" data-toggle="collapse" 
         data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" 
         aria-label="Toggle navigation" >
+
             <!-- <span class="navbar-toggler-icon"></span>-->
         {{-- <i class="fas fa-bars"></i> --}}
         {{-- <svg id="icono" width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-chevron-double-down iconceleste" 
@@ -45,9 +46,11 @@
           <path fill-rule="evenodd" d="M1.646 6.646a.5.5 0 0 1 .708 0L8 12.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/>
           <path fill-rule="evenodd" d="M1.646 2.646a.5.5 0 0 1 .708 0L8 8.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/>
         </svg> --}}
+        
         <svg id="icono" width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-border-width iconceleste" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
           <path d="M0 3.5A.5.5 0 0 1 .5 3h15a.5.5 0 0 1 .5.5v2a.5.5 0 0 1-.5.5H.5a.5.5 0 0 1-.5-.5v-2zm0 5A.5.5 0 0 1 .5 8h15a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-.5.5H.5a.5.5 0 0 1-.5-.5v-1zm0 4a.5.5 0 0 1 .5-.5h15a.5.5 0 0 1 0 1H.5a.5.5 0 0 1-.5-.5z"/>
         </svg>
+
       </button>
 
       <div class="collapse navbar-collapse" id="navbarSupportedContent" style="font-size:smaller;font-weight: 600;">

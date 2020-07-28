@@ -862,3 +862,11 @@ footer {
   background-color: #ecfcf4 !important;
 }
 
+#accion:hover {
+  color: initial;
+}
+
+.noHover {
+  pointer-events: none;
+}
+
