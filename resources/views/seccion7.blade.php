@@ -21,7 +21,7 @@
                     </a>
                 </li>
                 <div class="collapse " id="pr1">
-                    <div class="card card-body verdeagua">
+                    <div class="card card-body verdeagua" style="font-size: 90%;">
                         <p>@lang('menssages.r1')</p>
                     </div>
                 </div>
@@ -31,7 +31,7 @@
                     </a>
                 </li>
                 <div class="collapse " id="pr2">
-                    <div class="card card-body verdeagua">
+                    <div class="card card-body verdeagua" style="font-size: 90%;">
                         @lang('menssages.r2')
                     </div>
                 </div>
@@ -51,7 +51,7 @@
                     </a>
                 </li>
                 <div class="collapse " id="pr11">
-                    <div class="card card-body verdeagua">
+                    <div class="card card-body verdeagua" style="font-size: 90%;">
                         @lang('menssages.r11')
                     </div>
                 </div>
@@ -62,7 +62,7 @@
                     </a>
                 </li>
                 <div class="collapse " id="pr12">
-                    <div class="card card-body verdeagua">
+                    <div class="card card-body verdeagua" style="font-size: 90%;">
                         @lang('menssages.r12')
                     </div>
                 </div>
@@ -73,7 +73,7 @@
                     </a>
                 </li>
                 <div class="collapse " id="pr13">
-                    <div class="card card-body verdeagua">
+                    <div class="card card-body verdeagua" style="font-size: 90%;">
                         @lang('menssages.r13')
                     </div>
                 </div>
@@ -94,7 +94,7 @@
                     </a>
                 </li>
                 <div class="collapse " id="pr3">
-                    <div class="card card-body verdeagua">
+                    <div class="card card-body verdeagua" style="font-size: 90%;">
                         @lang('menssages.r3')
                     </div>
                 </div>
@@ -105,7 +105,7 @@
                     </a>
                 </li>
                 <div class="collapse " id="pr4">
-                    <div class="card card-body verdeagua">
+                    <div class="card card-body verdeagua" style="font-size: 90%;">
                         @lang('menssages.r4')
                     </div>
                 </div>
@@ -116,7 +116,7 @@
                     </a>
                 </li>
                 <div class="collapse " id="pr5">
-                    <div class="card card-body verdeagua">
+                    <div class="card card-body verdeagua" style="font-size: 90%;">
                         @lang('menssages.r5')
                     </div>
                 </div>
@@ -127,7 +127,7 @@
                     </a>
                 </li>
                 <div class="collapse " id="pr6">
-                    <div class="card card-body verdeagua">
+                    <div class="card card-body verdeagua" style="font-size: 90%;">
                         @lang('menssages.r6')
                     </div>
                 </div>
@@ -138,7 +138,7 @@
                     </a>
                 </li>
                 <div class="collapse " id="pr7">
-                    <div class="card card-body verdeagua">
+                    <div class="card card-body verdeagua" style="font-size: 90%;">
                         @lang('menssages.r7')
                     </div>
                 </div>
@@ -149,7 +149,7 @@
                     </a>
                 </li>
                 <div class="collapse " id="pr8">
-                    <div class="card card-body verdeagua">
+                    <div class="card card-body verdeagua" style="font-size: 90%;">
                         @lang('menssages.r8')
                     </div>
                 </div>
@@ -160,7 +160,7 @@
                     </a>
                 </li>
                 <div class="collapse " id="pr9">
-                    <div class="card card-body verdeagua">
+                    <div class="card card-body verdeagua" style="font-size: 90%;">
                         @lang('menssages.r9')
                     </div>
                 </div>
@@ -171,7 +171,7 @@
                     </a>
                 </li>
                 <div class="collapse " id="pr10">
-                    <div class="card card-body verdeagua">
+                    <div class="card card-body verdeagua" style="font-size: 90%;">
                         @lang('menssages.r10')
                     </div>
                 </div>
