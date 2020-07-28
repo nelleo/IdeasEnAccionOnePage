@@ -840,8 +840,6 @@ footer {
 
 .txtmarino {
   color: #061939 !important;
-  font-size: larger;
-  font-weight: 800;
 }
 
 .fontancor {
@@ -862,8 +860,8 @@ footer {
   background-color: #ecfcf4 !important;
 }
 
-#accion:hover {
-  color: initial;
+.fa {
+  font-size: 0.75rem;
 }
 
 .noHover {

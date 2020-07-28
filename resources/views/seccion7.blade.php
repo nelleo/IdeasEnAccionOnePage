@@ -15,17 +15,9 @@
             <ul class="list-group celesteclaro" >
                 <li class="list-group-item verdeagua"  >
                     
-
-                    <a class="btn txtleft celesteclaro fontancor" data-toggle="collapse" href="#pr1" role="button" 
-
-                    aria-expanded="false" aria-controls="collapseExample"  >
-                        <span class="txtmarino"><i class= "fa fa-plus fa-xs"></i></span> @lang('menssages.pr1')
-
                     <a id="a1" class="btn txtleft celesteclaro fontancor" data-toggle="collapse" href="#pr1" role="button" 
                     aria-expanded="false" aria-controls="collapseExample"  >
-
-                        <span class="txtmarino"><i class= "fa fa-plus fa-xs"></i> </span> @lang('menssages.pr1')
-
+                        <span class="txtmarino span"><i class= "fa fa-plus fa-xs"></i> </span> @lang('menssages.pr1')
                     </a>
                 </li>
                 <div class="collapse " id="pr1">
@@ -33,16 +25,9 @@
                         <p>@lang('menssages.r1')</p>
                     </div>
                 </div>
-
-                <li class="list-group-item verdeagua celesteclaro fontancor">
-                    <a class="btn txtleft celesteclaro fontancor" data-toggle="collapse" href="#pr2" role="button" aria-expanded="false" aria-controls="collapseExample">
-                        <span class="txtmarino"><i class= "fa fa-plus fa-xs"></i></span>@lang('menssages.pr2')
-
                 <li class="list-group-item verdeagua celesteclaro" >
                     <a id="a2" class="btn txtleft celesteclaro fontancor"  data-toggle="collapse" href="#pr2" role="button" aria-expanded="false" aria-controls="collapseExample">
-
-
-                        <span class="txtmarino "><i class= "fa fa-plus fa-xs"></i></span>@lang('menssages.pr2')
+                        <span class="txtmarino span"><i class= "fa fa-plus fa-xs"></i> </span>@lang('menssages.pr2')
                     </a>
                 </li>
                 <div class="collapse " id="pr2">
@@ -62,9 +47,7 @@
                 <li class="list-group-item verdeagua">
                     <a id="a3" class="btn txtleft celesteclaro fontancor"  data-toggle="collapse" href="#pr11" role="button" 
                         aria-expanded="false" aria-controls="collapseExample" >
-
-                        <span class="txtmarino"><i class= "fa fa-plus fa-xs"></i></span>@lang('menssages.pr11')
-
+                        <span class="txtmarino span"><i class= "fa fa-plus fa-xs"></i> </span>@lang('menssages.pr11')
                     </a>
                 </li>
                 <div class="collapse " id="pr11">
@@ -75,9 +58,7 @@
                 <li class="list-group-item verdeagua">
                     <a id="a4" class="btn txtleft celesteclaro fontancor"  data-toggle="collapse" href="#pr12" role="button" 
                         aria-expanded="false" aria-controls="collapseExample" >
-
-                        <span class="txtmarino"><i class= "fa fa-plus fa-xs"></i></span> @lang('menssages.pr12')
-
+                        <span class="txtmarino span"><i class= "fa fa-plus fa-xs"></i> </span> @lang('menssages.pr12')
                     </a>
                 </li>
                 <div class="collapse " id="pr12">
@@ -88,9 +69,7 @@
                 <li class="list-group-item verdeagua">
                     <a id="a5" class="btn txtleft celesteclaro fontancor"  data-toggle="collapse" href="#pr13" role="button" 
                         aria-expanded="false" aria-controls="collapseExample" >
-
-                        <span class="txtmarino"><i class= "fa fa-plus fa-xs"></i></span> @lang('menssages.pr13')
-
+                        <span class="txtmarino span"><i class= "fa fa-plus fa-xs"></i> </span> @lang('menssages.pr13')
                     </a>
                 </li>
                 <div class="collapse " id="pr13">
@@ -111,9 +90,7 @@
                 <li class="list-group-item verdeagua">
                     <a id="a6" class="btn txtleft celesteclaro fontancor"  data-toggle="collapse" href="#pr3" role="button" 
                         aria-expanded="false" aria-controls="collapseExample" >
-
-                        <span class="txtmarino"><i class= "fa fa-plus fa-xs"></i></span> @lang('menssages.pr3')
-
+                        <span class="txtmarino span"><i class= "fa fa-plus fa-xs"></i> </span> @lang('menssages.pr3')
                     </a>
                 </li>
                 <div class="collapse " id="pr3">
@@ -124,8 +101,7 @@
                 <li class="list-group-item verdeagua">
                     <a id="a7" class="btn txtleft celesteclaro fontancor"  data-toggle="collapse" href="#pr4" role="button" 
                         aria-expanded="false" aria-controls="collapseExample" >
-
-                        <span class="txtmarino"><i class= "fa fa-plus fa-xs"></i></span> @lang('menssages.pr4')
+                        <span class="txtmarino span"><i class= "fa fa-plus fa-xs"></i> </span> @lang('menssages.pr4')
                     </a>
                 </li>
                 <div class="collapse " id="pr4">
@@ -136,8 +112,7 @@
                 <li class="list-group-item verdeagua">
                     <a id="a8" class="btn txtleft celesteclaro fontancor"  data-toggle="collapse" href="#pr5" role="button" 
                         aria-expanded="false" aria-controls="collapseExample" >
-
-                        <span class="txtmarino"><i class= "fa fa-plus fa-xs"></i></span> @lang('menssages.pr5')
+                        <span class="txtmarino span"><i class= "fa fa-plus fa-xs"></i> </span> @lang('menssages.pr5')
                     </a>
                 </li>
                 <div class="collapse " id="pr5">
@@ -148,8 +123,7 @@
                 <li class="list-group-item verdeagua">
                     <a id="a9" class="btn txtleft celesteclaro fontancor"  data-toggle="collapse" href="#pr6" role="button" 
                         aria-expanded="false" aria-controls="collapseExample" >
-
-                        <span class="txtmarino"><i class= "fa fa-plus fa-xs"></i></span> @lang('menssages.pr6')
+                        <span class="txtmarino span"><i class= "fa fa-plus fa-xs"></i> </span> @lang('menssages.pr6')
                     </a>
                 </li>
                 <div class="collapse " id="pr6">
@@ -160,8 +134,7 @@
                 <li class="list-group-item verdeagua">
                     <a id="a10" class="btn txtleft celesteclaro fontancor"  data-toggle="collapse" href="#pr7" role="button" 
                         aria-expanded="false" aria-controls="collapseExample" >
-
-                        <span class="txtmarino"><i class= "fa fa-plus fa-xs"></i></span> @lang('menssages.pr7')
+                        <span class="txtmarino span"><i class= "fa fa-plus fa-xs"></i> </span> @lang('menssages.pr7')
                     </a>
                 </li>
                 <div class="collapse " id="pr7">
@@ -172,8 +145,7 @@
                 <li class="list-group-item verdeagua">
                     <a id="a11" class="btn txtleft celesteclaro fontancor"  data-toggle="collapse" href="#pr8" role="button" 
                         aria-expanded="false" aria-controls="collapseExample" >
-
-                        <span class="txtmarino"><i class= "fa fa-plus fa-xs"></i></span> @lang('menssages.pr8')
+                        <span class="txtmarino span"><i class= "fa fa-plus fa-xs"></i> </span> @lang('menssages.pr8')
                     </a>
                 </li>
                 <div class="collapse " id="pr8">
@@ -184,9 +156,7 @@
                 <li class="list-group-item verdeagua">
                     <a id="a12" class="btn txtleft celesteclaro fontancor"  data-toggle="collapse" href="#pr9" role="button" 
                         aria-expanded="false" aria-controls="collapseExample" >
-
-                        <span class="txtmarino"><i class= "fa fa-plus fa-xs"></i></span> @lang('menssages.pr9')
-
+                        <span class="txtmarino span"><i class= "fa fa-plus fa-xs"></i> </span> @lang('menssages.pr9')
                     </a>
                 </li>
                 <div class="collapse " id="pr9">
@@ -197,8 +167,7 @@
                 <li class="list-group-item verdeagua">
                     <a id="a13" class="btn txtleft celesteclaro fontancor"  data-toggle="collapse" href="#pr10" role="button" 
                         aria-expanded="false" aria-controls="collapseExample" >
-
-                        <span class="txtmarino"><i class= "fa fa-plus fa-xs"></i></span> @lang('menssages.pr10')
+                        <span class="txtmarino span"><i class= "fa fa-plus fa-xs"></i> </span> @lang('menssages.pr10')
                     </a>
                 </li>
                 <div class="collapse " id="pr10">
