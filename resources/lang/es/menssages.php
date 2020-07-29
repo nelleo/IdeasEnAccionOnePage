@@ -21,6 +21,13 @@ return [
         inteligentes, desalinización, reúso y/o gestión.',
 
     'part' => 'PARTICIPA',
+    'part1'=>'<button class="btn btn-lg" style="background-color:#04b3bb;" >
+                <a href="https://comunidad.socialab.com//challenges/ideasenaccionexcelencia"  target="_blank">
+                    <h3 class="part1">
+                        PARTICIPA
+                    </h3>
+                </a>
+            </button>',
     'dqst' => '¿De qué se trata?',
     'cat' => 'CATEGORÍA',
     'cat1' => 'Excelencia Innovadora Empresarial',

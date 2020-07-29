@@ -175,41 +175,31 @@
         $(window).scroll(function() {
           if ($("#nav").offset().top > 56) {
 
-                $("#nav").removeClass("barra0");
-              $("#nav").addClass("barra1");
+              $("#nav").removeClass("barra0").addClass("barra1");
 
-              $("#accion").removeClass("enaccion0");
-              $("#accion").addClass("enaccion1");
+              $("#accion").removeClass("enaccion0").addClass("enaccion1");
 
-              $("#ideas").removeClass("ideas0");
-              $("#ideas").addClass("ideas1");
+              $("#ideas").removeClass("ideas0").addClass("ideas1");
 
-              $("#btnbandera").removeClass("marino");
-              $("#btnbandera").addClass("celeste");
+              $("#btnbandera").removeClass("marino").addClass("celeste");
 
-              $("#dropbandera").removeClass("marino");
-              $("#dropbandera").addClass("celeste");
+              $("#dropbandera").removeClass("marino").addClass("celeste");
 
-              $("#icono").removeClass("iconceleste");
-              $("#icono").addClass("iconblanco");
+              $("#icono").removeClass("iconceleste").addClass("iconblanco");
+
           } else {
-              $("#nav").removeClass("barra1");
-              $("#nav").addClass("barra0");
 
-              $("#accion").removeClass("enaccion1");
-              $("#accion").addClass("enaccion0");
+              $("#nav").removeClass("barra1").addClass("barra0");
 
-              $("#ideas").removeClass("ideas1");
-              $("#ideas").addClass("ideas0");
+              $("#accion").removeClass("enaccion1").addClass("enaccion0");
 
-              $("#btnbandera").removeClass("celeste");
-              $("#btnbandera").addClass("marino");
+              $("#ideas").removeClass("ideas1").addClass("ideas0");
 
-              $("#dropbandera").removeClass("celeste");
-              $("#dropbandera").addClass("marino");
+              $("#btnbandera").removeClass("celeste").addClass("marino");
 
-              $("#icono").removeClass("iconblanco");
-              $("#icono").addClass("iconceleste");
+              $("#dropbandera").removeClass("celeste").addClass("marino");
+
+              $("#icono").removeClass("iconblanco").addClass("iconceleste");
           }
         });
   </script>

@@ -26,6 +26,13 @@ return [
          desalinization, water reuse and/or management pilots.',
 
     'part' => 'APPLY',
+    'part1'=>'<button class="btn btn-lg mt-4" style="background-color:#04b3bb;" >
+                <a href="https://comunidad.socialab.com//challenges/ideasenaccionexcelencia"  target="_blank">
+                    <h3 class="part1">
+                        APPLY
+                    </h3>
+                </a>
+            </button>',
     'dqst' => 'What is it about?',
     'cat' => 'Category',
 
