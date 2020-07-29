@@ -12,7 +12,7 @@
             <div class="panel-heading mb-4  txtmob">
                 <h3 class="panel-title subtitulo" style="color: #54d9da;">@lang('menssages.prge')</h3>
             </div>
-            <ul class="list-group celesteclaro" >
+            <ul class="list-group celesteclaro move-right" >
                 <li class="list-group-item verdeagua"  >
                     
                     <a id="a1" class="btn txtleft celesteclaro fontancor" data-toggle="collapse" href="#pr1" role="button" 
@@ -43,7 +43,7 @@
             <div class="panel-heading mb-4 txtmob">
                 <h3 class="panel-title subtitulo" style="color: #54d9da;">@lang('menssages.cc')</h3>
             </div>
-            <ul class="list-group celesteclaro">
+            <ul class="list-group celesteclaro move-right">
                 <li class="list-group-item verdeagua">
                     <a id="a3" class="btn txtleft celesteclaro fontancor"  data-toggle="collapse" href="#pr11" role="button" 
                         aria-expanded="false" aria-controls="collapseExample" >
@@ -86,7 +86,7 @@
             <div class="panel-heading mb-4  txtmob">
                 <h3 class="panel-title subtitulo" style="color: #54d9da;">@lang('menssages.cie')</h3>
             </div>
-            <ul class="list-group celesteclaro">
+            <ul class="list-group celesteclaro move-left">
                 <li class="list-group-item verdeagua">
                     <a id="a6" class="btn txtleft celesteclaro fontancor"  data-toggle="collapse" href="#pr3" role="button" 
                         aria-expanded="false" aria-controls="collapseExample" >

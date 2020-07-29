@@ -22,7 +22,7 @@
         <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
         <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
        
-        
+        <script src="{{ mix('js/app.js')}}"></script>
 
         {{-- ICONO --}}
         <link rel="icon" type="image/ico" href="img/favicon.ico">
@@ -212,17 +212,47 @@
               $("#icono").addClass("iconceleste");
           }
         });
+    </script>
+    <script>
+      $(document).ready(function(){
+            $(".collapse").on('show.bs.collapse', function(){
+                $(this).prev(".list-group-item").find(".fa").removeClass("fa-plus").addClass("fa-minus");
+            }).on('hide.bs.collapse', function(){
+                $(this).prev(".list-group-item").find(".fa").removeClass("fa-minus").addClass("fa-plus");
+            });
+        });
+      </script>
+    <script>
+      $(window).scroll(function(event) {
+        var moveRight = $(".move-right").each(function(i, el) {
+          var el = $(el);
+          if (el.visible(true)) {
+            el.addClass("come-right"); 
+          } 
+        });
+        $(".move-left").each(function(i, el) {
+          var el = $(el);
+          if (el.visible(true)) {
+            el.addClass("come-left"); 
+          } 
+        });
+      });
   </script>
   <script>
-  $(document).ready(function(){
+    $(document).ready(function(){
+      
+      $("a").on('click', function(event) {
+        
+        if (this.hash !== "") {
+        
+          event.preventDefault();
+          var hash = this.hash;
 
-        // Toggle plus minus icon on show hide of collapse element
-        $(".collapse").on('show.bs.collapse', function(){
-            $(this).prev(".list-group-item").find(".fa").removeClass("fa-plus").addClass("fa-minus");
-        }).on('hide.bs.collapse', function(){
-            $(this).prev(".list-group-item").find(".fa").removeClass("fa-minus").addClass("fa-plus");
-        });
+          $('html, body').animate({scrollTop: $(hash).offset().top}, 800, function(){
+            window.location.hash = hash;
+          });
+        } 
+      });
     });
-
   </script>
 </html>

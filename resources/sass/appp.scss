@@ -725,3 +725,29 @@ footer{
 html {
     scroll-behavior: smooth;
   }
+  .come-right{
+    // transform: translateX(-50px);
+    animation: come-right 0.5s ease forwards;
+  }
+  
+  .come-left{
+    // transform: translateX(50px);
+    animation: come-left 0.5s ease forwards;
+  }
+  @keyframes come-right{
+      from{
+        transform: translateX(-50px);
+      }
+      to{
+        transform: translateX(0);
+      }
+  }
+
+  @keyframes come-left{
+    from{
+      transform: translateX(50px);
+    }
+    to{
+      transform: translateX(0);
+    }
+}
