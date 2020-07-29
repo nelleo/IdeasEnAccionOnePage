@@ -4,7 +4,7 @@
 </div>
 <section class="d-flex mt-5 justify-content-around flex-wrap" style="justify-content: center">
 
-    <div class="text-center" style="margin-bottom: 6rem;">
+    <div class="text-center move-right" style="margin-bottom: 6rem;">
         <img id="cat1" class="mw-100" src="@lang('menssages.imgcat1')" alt="titulo excelencia innovadora empresarial">
         <p class="p-4" style="max-width: 500px;color:#ecfcf4;font-size:large; ">@lang('menssages.p2')</p>
         <button class="btn btn-lg" style="background-color:#04b3bb;" >
@@ -16,7 +16,7 @@
         </button>
 
     </div>
-    <div class="text-center">
+    <div class="text-center move-left">
         <img id="cat2" class="mw-100" src="@lang('menssages.imgcat2')" alt="titulo desafíos">
         <p class="p-4" style="max-width: 500px;color:#ecfcf4;font-size:large;">@lang('menssages.p3')</p>
         <button class="btn mt-4 btn-lg" style="background-color:#ecfcf4;transform: translate(0px, 8px); ">

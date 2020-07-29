@@ -864,11 +864,107 @@ footer {
   pointer-events: none;
 }
 
-.fa {
-  font-size: 0.75rem;
-}
-
 html {
   scroll-behavior: smooth;
+}
+
+.come-right {
+  -webkit-animation: come-right 0.5s ease forwards;
+          animation: come-right 0.5s ease forwards;
+}
+
+.come-left {
+  -webkit-animation: come-left 0.5s ease forwards;
+          animation: come-left 0.5s ease forwards;
+}
+
+.come-top {
+  -webkit-animation: come-top 0.5s ease forwards;
+          animation: come-top 0.5s ease forwards;
+}
+
+.come-bottom {
+  -webkit-animation: come-bottom 0.5s ease forwards;
+          animation: come-bottom 0.5s ease forwards;
+}
+
+@-webkit-keyframes come-right {
+  from {
+    transform: translateX(-150px);
+  }
+
+  to {
+    transform: translateX(0);
+  }
+}
+
+@keyframes come-right {
+  from {
+    transform: translateX(-150px);
+  }
+
+  to {
+    transform: translateX(0);
+  }
+}
+
+@-webkit-keyframes come-left {
+  from {
+    transform: translateX(150px);
+  }
+
+  to {
+    transform: translateX(0);
+  }
+}
+
+@keyframes come-left {
+  from {
+    transform: translateX(150px);
+  }
+
+  to {
+    transform: translateX(0);
+  }
+}
+
+@-webkit-keyframes come-top {
+  from {
+    transform: translateY(-90px);
+  }
+
+  to {
+    transform: translateY(0);
+  }
+}
+
+@keyframes come-top {
+  from {
+    transform: translateY(-90px);
+  }
+
+  to {
+    transform: translateY(0);
+  }
+}
+
+@-webkit-keyframes come-bottom {
+  from {
+    transform: translateY(90px);
+  }
+
+  to {
+    transform: translateY(0);
+  }
+}
+
+@keyframes come-bottom {
+  from {
+    transform: translateY(90px);
+  }
+
+  to {
+    transform: translateY(0);
+  }
 }
 

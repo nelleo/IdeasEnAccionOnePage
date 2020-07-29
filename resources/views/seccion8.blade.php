@@ -38,8 +38,15 @@
                   @enderror
                   </div>
               </div>
-                
+                <div class="pr-4 mb-4"> 
+                  @if(Session::has('mensaje'))
+                      <div class="alert alert-success mt-1 mb-1  text-center" role="alert">
+                        <p>{{ Session::get('mensaje')}} </p> 
+                      </div>
+                  @endif
+              </div>
                 <button type="submit" class="btn ba mr-5" style="background-color:#eafaf5;color:#061939;border:none;font-weight: 500;">@lang('menssages.send')</button>
-            </form>
+                
+              </form>
       </div>
   </div>

@@ -60,13 +60,13 @@
             <a class="nav-link itm-nav" href="/#Home" style="color: aliceblue;"><strong> Home</strong></a>
           </li>
           <li class="nav-item">
-            <a class="nav-link itm-nav" href="/#Categorías" style="color: aliceblue;">@lang('menssages.cats')</a>
+            <a class="nav-link itm-nav" href="/#Categorias" style="color: aliceblue;">@lang('menssages.cats')</a>
           </li>
           <li class="nav-item">
             <a class="nav-link itm-nav" href="/#ExelenciaInnovadoraempresarial" style="color: aliceblue;">@lang('menssages.cat1')</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link itm-nav" href="/#Desafíos" style="color: aliceblue;">@lang('menssages.cat2')</a>
+            <a class="nav-link itm-nav" href="/#Desafios" style="color: aliceblue;">@lang('menssages.cat2')</a>
           </li>
           <li class="nav-item">
             <a class="nav-link itm-nav" href="/#FAQ" style="color: aliceblue;">FAQ</a>
@@ -92,23 +92,17 @@
     </nav>
     
 
-        <header id="Home" class="d-flex w-100 marino align-content-between justify-content-center">
+    <header id="Home" class="d-flex w-100 marino align-content-between justify-content-center">
             
             <div class="d-none d-sm-block oh">
                 <img class="fr" src="images/img--01.jpg" alt="misc titulo 1">
             </div>
             <div class="" style="display:block">
-                <div class="pl-5 " style="float:right;"> 
-                    @if(Session::has('mensaje'))
-                        <div class="alert alert-success mt-1 mb-1 alerta text-center" role="alert">
-                           <p>{{ Session::get('mensaje')}} </p> 
-                        </div>
-                    @endif
-                </div>
-                <div>
+                
+                <div class="move-top">
                     <img id="img1" class="w1" src="@lang('menssages.img1')" alt="titulo pricipal">
                 </div>
-                <div class="ptc d-flex pl-3">
+                <div class="ptc d-flex pl-3 move-bottom">
                     <img class="fl" src="images/img--03.jpg" alt="titulo bajada">
                     <h2 class="ctc text-center align-self-center px-5 py-3 mt-1" 
                         style="color: aliceblue;font-weight: 600;font-size: x-large!important;">
@@ -220,6 +214,7 @@
             }).on('hide.bs.collapse', function(){
                 $(this).prev(".list-group-item").find(".fa").removeClass("fa-minus").addClass("fa-plus");
             });
+            
         });
       </script>
     <script>
@@ -236,6 +231,18 @@
             el.addClass("come-left"); 
           } 
         });
+        // $(".move-top").each(function(i, el) {
+        //   var el = $(el);
+        //   if (el.visible(true)) {
+        //     el.addClass("come-top"); 
+        //   } 
+        // });
+        // $(".move-bottom").each(function(i, el) {
+        //   var el = $(el);
+        //   if (el.visible(true)) {
+        //     el.addClass("come-bottom"); 
+        //   } 
+        // });        
       });
   </script>
   <script>

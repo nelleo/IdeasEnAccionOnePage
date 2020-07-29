@@ -719,9 +719,9 @@ footer{
 .noHover{
     pointer-events: none;
 }
-.fa {
-    font-size: 0.75rem;
-}
+// .fa {
+//     font-size: 0.75rem;
+// }
 html {
     scroll-behavior: smooth;
   }
@@ -734,9 +734,18 @@ html {
     // transform: translateX(50px);
     animation: come-left 0.5s ease forwards;
   }
+  .come-top{
+    // transform: translateX(-50px);
+    animation: come-top 0.5s ease forwards;
+  }
+  
+  .come-bottom{
+    // transform: translateX(50px);
+    animation: come-bottom 0.5s ease forwards;
+  }
   @keyframes come-right{
       from{
-        transform: translateX(-50px);
+        transform: translateX(-150px);
       }
       to{
         transform: translateX(0);
@@ -745,9 +754,26 @@ html {
 
   @keyframes come-left{
     from{
-      transform: translateX(50px);
+      transform: translateX(150px);
     }
     to{
       transform: translateX(0);
+    }
+}
+
+@keyframes come-top{
+    from{
+      transform: translateY(-90px);
+    }
+    to{
+      transform: translateY(0);
+    }
+}
+@keyframes come-bottom{
+    from{
+      transform: translateY(90px);
+    }
+    to{
+      transform: translateY(0);
     }
 }
