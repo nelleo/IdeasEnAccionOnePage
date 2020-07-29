@@ -1,4 +1,4 @@
-<section  id="ExelenciaInnovadoraempresarial" class="d-flex" style="background-color:#00b1b8;margin:0%;">
+<section  id="excelenciainnovadoraempresarial" class="d-flex" style="background-color:#00b1b8;margin:0%;">
     <div class="d-none d-sm-block oh">
         <div class="d-flex flex-column justify-content-around h-100 fr">
             <div><img class="" src="images/img--15.jpg" alt="misc excel 1"></div>

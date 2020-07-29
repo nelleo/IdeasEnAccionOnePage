@@ -1,5 +1,5 @@
 {{-- FAQ --}}
-<section id="FAQ" class=" d-flex flex-wrap flex-lg-row oh pt-4 pt-md-5"  style="background-color:#ecfcf4;margin:0%; ">
+<section id="faq" class=" d-flex flex-wrap flex-lg-row oh pt-4 pt-md-5"  style="background-color:#ecfcf4;margin:0%; ">
     <div class="col-12 text-center mb-4 mb-md-5">
         <h1  class="subtitulo" style="color: #24939d;">
             @lang('menssages.pf')

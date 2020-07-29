@@ -872,3 +872,53 @@ html {
   scroll-behavior: smooth;
 }
 
+.come-right {
+  -webkit-animation: come-right 0.5s ease forwards;
+          animation: come-right 0.5s ease forwards;
+}
+
+.come-left {
+  -webkit-animation: come-left 0.5s ease forwards;
+          animation: come-left 0.5s ease forwards;
+}
+
+@-webkit-keyframes come-right {
+  from {
+    transform: translateX(-50px);
+  }
+
+  to {
+    transform: translateX(0);
+  }
+}
+
+@keyframes come-right {
+  from {
+    transform: translateX(-50px);
+  }
+
+  to {
+    transform: translateX(0);
+  }
+}
+
+@-webkit-keyframes come-left {
+  from {
+    transform: translateX(50px);
+  }
+
+  to {
+    transform: translateX(0);
+  }
+}
+
+@keyframes come-left {
+  from {
+    transform: translateX(50px);
+  }
+
+  to {
+    transform: translateX(0);
+  }
+}
+

@@ -1,4 +1,4 @@
-<div id="Categorías" class="d-flex justify-content-center flex-column">
+<div id="categorias" class="d-flex justify-content-center flex-column">
     <h1 class="cat">@lang('menssages.cats')</h1>
     <img src="images/img--08.jpg" alt="olas">
 </div>
