@@ -27,7 +27,7 @@ return [
 
     'part' => 'APPLY',
     'part1'=>'
-        <button id="" class="boton1 focus participa col-6 col-md-6 col-lg-5 mt-5 btn btn-lg" 
+        <button id="" class="boton1 participa col-6 col-md-6 col-lg-5 mt-5 btn btn-lg" 
             style="background-color:#04b3bb; ">
             <a style="color:#ecfcf4;" href="https://comunidad.socialab.com//challenges/ideasenaccionexcelencia" target="_blank" >
                 <h3 class="part1">

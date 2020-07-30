@@ -21,7 +21,7 @@ return [
         inteligentes, desalinización, reúso y/o gestión.',
 
     'part' => 'PARTICIPA',
-    'part1'=>'<button id="" class="boton1 focus participa col-6 col-md-6 col-lg-5 mt-4 btn btn-lg" 
+    'part1'=>'<button id="" class="boton1 participa col-6 col-md-6 col-lg-5 mt-4 btn btn-lg" 
     style="background-color:#04b3bb; ">
     <a style="color:#ecfcf4;" href="https://comunidad.socialab.com//challenges/ideasenaccionexcelencia" target="_blank" >
         <h3 class="part1">
