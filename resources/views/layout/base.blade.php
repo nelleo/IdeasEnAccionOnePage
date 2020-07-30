@@ -75,17 +75,17 @@
           <li class="nav-item mr-md-3">
             <a class="nav-link itm-nav" href="/#form" style="color: aliceblue;">@lang('menssages.contac')</a>
           </li>
-          <div class="dropdown">
-            <button id="btnbandera" class="btn btn-secondary dropdown-toggle marino ml-md-1 mt-md-1" type="button" id="dropdownMenuButton" 
-            data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" style="padding:0rem!important;border-color:#061939">
-                    <span class="flag-icon @lang('menssages.bandera') rounded-circle "> </span></a>
-              </button>
+          <div class="dropdown" >
+            <button id="btnbandera" class="idioma btn btn-secondary dropdown-toggle marino ml-md-1 " type="button" id="dropdownMenuButton" 
+            data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" style="margin-top: .4rem!important;">
+                @lang('menssages.idioma'){{-- <span class="flag-icon @lang('menssages.bandera') rounded-circle "> </span> --}}
+            </button>
               {{--     min-width: auto; --}}
-            <div id="dropbandera" class="dropdown-menu marino droppadding" aria-labelledby="dropdownMenuButton" >
-                <a id="click" class="flag-icon @lang('menssages.banderaoff') rounded-circle" onclick="@lang('menssages.onClick')" href="@lang('menssages.linkbanderaoff')" >
-                </a>
-               
-            
+            <div id="dropbandera" class="idioma dropdown-menu marino droppadding ml-md-1" aria-labelledby="dropdownMenuButton" >
+                {{-- <a id="click" class="flag-icon @lang('menssages.banderaoff') rounded-circle" onclick="@lang('menssages.onClick')" href="@lang('menssages.linkbanderaoff')" >
+                </a> --}}
+                <a id="idiomaoff" class="idioma" style="font-size:100%" href="@lang('menssages.linkidiomaoff')" onclick="@lang('menssages.onClick')">@lang('menssages.idiomaoff')</a>
+  
             </div>
           </div>
         </ul>
@@ -94,14 +94,14 @@
     
 
         <header id="home" class="d-flex w-100 marino align-content-between justify-content-center">
-            
-            <div class="d-none d-sm-block oh">
-                <img class="fr" src="images/img--01.jpg" alt="misc titulo 1">
+            {{-- move-right2 --}}
+            <div class="d-none d-sm-block oh ">
+                <img class="fr " src="images/img--01.jpg" alt="misc titulo 1">
             </div>
             <div class="" style="display:block">
                 
-                <div class="move-top">
-                    <img id="img1" class="w1" src="@lang('menssages.img1')" alt="titulo pricipal">
+                <div class="">
+                    <img id="img1" class="w1 move-top" src="@lang('menssages.img1')" alt="titulo pricipal">
                 </div>
                 <div class="ptc d-flex pl-3 move-bottom">
                     <img class="fl" src="images/img--03.jpg" alt="titulo bajada">
@@ -112,9 +112,9 @@
                 </div>
                 
             </div>
-            
-            <div class="d-none d-sm-block oh">
-                <img class="fl" src="images/img--04.jpg" alt="misc titulo 1">
+            {{-- move-left2 --}}
+            <div class="d-none d-sm-block oh ">
+                <img class="fl " src="images/img--04.jpg" alt="misc titulo 1">
             </div>
         </header>
 
@@ -123,13 +123,169 @@
         <footer class="text-center " style="margin:0%;min-height: 450px;">
             
             <div >
-              <img class="" src="@lang('menssages.logo2')" alt="logo BID" style="position: relative;top: -10px;">
-              <img class="" src="@lang('menssages.logo1')" alt="alianza socialab"  style="position: relative;top: -10px;">
+              <img class="move-left" src="@lang('menssages.logo2')" alt="logo BID" style="position: relative;top: -10px;">
+              <img class="move-right" src="@lang('menssages.logo1')" alt="alianza socialab"  style="position: relative;top: -10px;">
             </div>
            
         </footer>
     </body>
     <script>
+        $(window).scroll(function() {
+          if ($("#nav").offset().top > 56) {
+
+                $("#nav").removeClass("barra0").addClass("barra1");;
+
+              $("#accion").removeClass("enaccion0").addClass("enaccion1");;
+
+              $("#ideas").removeClass("ideas0").addClass("ideas1");;
+
+              $("#btnbandera").removeClass("marino").addClass("celeste");;
+
+              $("#dropbandera").removeClass("marino").addClass("celeste");;
+
+              $("#icono").removeClass("iconceleste").addClass("iconblanco");;
+
+              $("#btnbandera").removeClass("idioma").addClass("idioma1");
+              $("#idiomaoff").removeClass("idioma").addClass("idioma1");
+
+          } else {
+              $("#nav").removeClass("barra1").addClass("barra0");;
+
+              $("#accion").removeClass("enaccion1").addClass("enaccion0");;
+
+              $("#ideas").removeClass("ideas1").addClass("ideas0");;
+
+              $("#btnbandera").removeClass("celeste").addClass("marino");;
+
+              $("#dropbandera").removeClass("celeste").addClass("marino");;
+
+              $("#icono").removeClass("iconblanco").addClass("iconceleste");;
+
+              $("#btnbandera").removeClass("idioma1").addClass("idioma");
+              $("#idiomaoff").removeClass("idioma1").addClass("idioma");
+          }
+        });
+    </script>
+    <script>
+      $(document).ready(function(){
+            $(".collapse").on('show.bs.collapse', function(){
+                $(this).prev(".list-group-item").find(".fa").removeClass("fa-plus").addClass("fa-minus");
+            }).on('hide.bs.collapse', function(){
+                $(this).prev(".list-group-item").find(".fa").removeClass("fa-minus").addClass("fa-plus");
+            });
+              $(".move-top").each(function(i, el) {
+                var el = $(el);
+                if (el.visible(true)) {
+                  el.addClass("come-top"); 
+                } 
+              });
+              $(".move-bottom").each(function(i, el) {
+                var el = $(el);
+                if (el.visible(true)) {
+                  el.addClass("come-bottom"); 
+                } 
+              });
+          
+        });
+      </script>
+    <script>
+      $(window).scroll(function(event) {
+        var moveRight = $(".move-right").each(function(i, el) {
+          var el = $(el);
+          if (el.visible(true)) {
+            el.addClass("come-right"); 
+          } 
+        });
+        $(".move-left").each(function(i, el) {
+          var el = $(el);
+          if (el.visible(true)) {
+            el.addClass("come-left"); 
+          } 
+        });
+        
+        /////////////////////// BOTONES
+        $(".boton1").each(function(i, el) {
+          var el = $(el);
+          if (el.visible(true)) {
+            el.addClass("animatedd");
+           // el.addClass("opacidadbtn"); 
+          } 
+        });       
+        $(".boton3").each(function(i, el) {
+          var el = $(el);
+          if (el.visible(true)) {
+            el.addClass("animatedd"); 
+          } 
+        });       
+        $(".boton5").each(function(i, el) {
+          var el = $(el);
+          if (el.visible(true)) {
+            el.addClass("animatedd"); 
+          } 
+        });
+        // /////////////////////////////   ICONOS
+        $("#icon1").each(function(i, el) {
+          var el = $(el);
+          if (el.visible(true)) {
+            el.addClass("come-top1"); 
+          } 
+        });
+        $("#icon2").each(function(i, el) {
+          var el = $(el);
+          if (el.visible(true)) {
+            el.addClass("come-top2"); 
+          } 
+        });
+        $("#icon3").each(function(i, el) {
+          var el = $(el);
+          if (el.visible(true)) {
+            el.addClass("come-top3"); 
+          } 
+        });
+        $("#icon4").each(function(i, el) {
+          var el = $(el);
+          if (el.visible(true)) {
+            el.addClass("come-top4"); 
+          } 
+        });
+        $("#icon5").each(function(i, el) {
+          var el = $(el);
+          if (el.visible(true)) {
+            el.addClass("come-top3"); 
+          } 
+        });
+        $("#icon6").each(function(i, el) {
+          var el = $(el);
+          if (el.visible(true)) {
+            el.addClass("come-top2"); 
+          } 
+        });
+        $("#icon7").each(function(i, el) {
+          var el = $(el);
+          if (el.visible(true)) {
+            el.addClass("come-top1"); 
+          } 
+        });       
+      });
+  </script>
+  <!-- <script>
+    $(document).ready(function(){
+      
+      $("a").on('click', function(event) {
+        
+        if (this.hash !== "") {
+        
+          event.preventDefault();
+          var hash = this.hash;
+
+          $('html, body').animate({scrollTop: $(hash).offset().top}, 800, function(){
+            window.location.hash = hash;
+          });
+        } 
+      });
+    });
+  </script> -->
+    {{-- <script>
         window.onload = function() {
 
             var ln = x=window.navigator.language||navigator.browserLanguage;
@@ -165,102 +321,5 @@
                 CAT1.setAttribute("src", "images/cat1.jpg");
                 CAT2.setAttribute("src", "images/cat2.jpg");
         }
-    </script>
-    <script>
-        $(window).scroll(function() {
-          if ($("#nav").offset().top > 56) {
-
-                $("#nav").removeClass("barra0");
-              $("#nav").addClass("barra1");
-
-              $("#accion").removeClass("enaccion0");
-              $("#accion").addClass("enaccion1");
-
-              $("#ideas").removeClass("ideas0");
-              $("#ideas").addClass("ideas1");
-
-              $("#btnbandera").removeClass("marino");
-              $("#btnbandera").addClass("celeste");
-
-              $("#dropbandera").removeClass("marino");
-              $("#dropbandera").addClass("celeste");
-
-              $("#icono").removeClass("iconceleste");
-              $("#icono").addClass("iconblanco");
-          } else {
-              $("#nav").removeClass("barra1");
-              $("#nav").addClass("barra0");
-
-              $("#accion").removeClass("enaccion1");
-              $("#accion").addClass("enaccion0");
-
-              $("#ideas").removeClass("ideas1");
-              $("#ideas").addClass("ideas0");
-
-              $("#btnbandera").removeClass("celeste");
-              $("#btnbandera").addClass("marino");
-
-              $("#dropbandera").removeClass("celeste");
-              $("#dropbandera").addClass("marino");
-
-              $("#icono").removeClass("iconblanco");
-              $("#icono").addClass("iconceleste");
-          }
-        });
-    </script>
-    <script>
-      $(document).ready(function(){
-            $(".collapse").on('show.bs.collapse', function(){
-                $(this).prev(".list-group-item").find(".fa").removeClass("fa-plus").addClass("fa-minus");
-            }).on('hide.bs.collapse', function(){
-                $(this).prev(".list-group-item").find(".fa").removeClass("fa-minus").addClass("fa-plus");
-            });
-            
-        });
-      </script>
-    <script>
-      $(window).scroll(function(event) {
-        var moveRight = $(".move-right").each(function(i, el) {
-          var el = $(el);
-          if (el.visible(true)) {
-            el.addClass("come-right"); 
-          } 
-        });
-        $(".move-left").each(function(i, el) {
-          var el = $(el);
-          if (el.visible(true)) {
-            el.addClass("come-left"); 
-          } 
-        });
-        // $(".move-top").each(function(i, el) {
-        //   var el = $(el);
-        //   if (el.visible(true)) {
-        //     el.addClass("come-top"); 
-        //   } 
-        // });
-        // $(".move-bottom").each(function(i, el) {
-        //   var el = $(el);
-        //   if (el.visible(true)) {
-        //     el.addClass("come-bottom"); 
-        //   } 
-        // });        
-      });
-  </script>
-  <!-- <script>
-    $(document).ready(function(){
-      
-      $("a").on('click', function(event) {
-        
-        if (this.hash !== "") {
-        
-          event.preventDefault();
-          var hash = this.hash;
-
-          $('html, body').animate({scrollTop: $(hash).offset().top}, 800, function(){
-            window.location.hash = hash;
-          });
-        } 
-      });
-    });
-  </script> -->
+    </script> --}}
 </html>

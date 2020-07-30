@@ -1,7 +1,9 @@
 {{-- FAQ --}}
 <section id="faq" class=" d-flex flex-wrap flex-lg-row oh pt-4 pt-md-5"  style="background-color:#ecfcf4;margin:0%; ">
     <div class="col-12 text-center mb-4 mb-md-5">
-        <h1  class="subtitulo" style="color: #24939d;">
+        <h1  class="" style="color: #24939d;line-height: 1.2em;
+                    font-weight: 650;
+                    letter-spacing: .01em;">
             @lang('menssages.pf')
         </h1>
         <div class="col-8 col-md-7 col-lg-5 srr" style="height:4px;background-color:#24939d;display:inline-block;border-radius: 3px;position: relative;top: -5px;"></div>

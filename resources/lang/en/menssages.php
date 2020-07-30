@@ -26,8 +26,17 @@ return [
          desalinization, water reuse and/or management pilots.',
 
     'part' => 'APPLY',
+    'part1'=>'
+        <button id="" class="boton1 focus participa col-6 col-md-6 col-lg-5 mt-5 btn btn-lg" 
+            style="background-color:#04b3bb; ">
+            <a style="color:#ecfcf4;" href="https://comunidad.socialab.com//challenges/ideasenaccionexcelencia" target="_blank" >
+                <h3 class="part1">
+                    APPLY
+                </h3> 
+            </a>    
+        </button>',
     'dqst' => 'What is it about?',
-    'cat' => 'Category',
+    'cat' => 'CATEGORY',
 
     'cat1' => 'Innovative Excellence',
 
@@ -85,6 +94,9 @@ return [
     'banderaoff' => 'flag-icon-es',
     'linkbanderaoff'=>'/lang/es',
     'onClick'=>'cambiarImgEs()',
+    'idioma'=>'English',
+    'idiomaoff'=>'Español',
+    'linkidiomaoff'=>'/lang/es',
 
     //PREGUNTAS FRECUENTES / FAQ
     'pf'=>'Frequently Asked Questions',
