@@ -17,6 +17,6 @@ class mailController extends Controller
         $mensaje="Mensaje enviado con exito";
 
         \Session::flash('mensaje', $mensaje);
-        return redirect('/')->with(["mensaje",$mensaje]);
+        return redirect('/#form')->with(["mensaje",$mensaje]);
     }
 }

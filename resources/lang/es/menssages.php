@@ -21,13 +21,14 @@ return [
         inteligentes, desalinización, reúso y/o gestión.',
 
     'part' => 'PARTICIPA',
-    'part1'=>'<button class="btn btn-lg" style="background-color:#04b3bb;" >
-                <a href="https://comunidad.socialab.com//challenges/ideasenaccionexcelencia"  target="_blank">
-                    <h3 class="part1">
-                        PARTICIPA
-                    </h3>
-                </a>
-            </button>',
+    'part1'=>'<button id="" class="boton1 participa col-6 col-md-6 col-lg-5 mt-4 btn btn-lg" 
+    style="background-color:#04b3bb; ">
+    <a style="color:#ecfcf4;" href="https://comunidad.socialab.com//challenges/ideasenaccionexcelencia" target="_blank" >
+        <h3 class="part1">
+            PARTICIPA
+        </h3> 
+    </a>    
+</button>',
     'dqst' => '¿De qué se trata?',
     'cat' => 'CATEGORÍA',
     'cat1' => 'Excelencia Innovadora Empresarial',
@@ -62,7 +63,7 @@ return [
         mediante soluciones innovadoras en tecnologías inteligentes, desalinización, 
         reúso y/o gestión.',
 
-    'i4' => '<strong>-	Tecnologías <br> Inteligentes <br> (Smart Water<br> Infrastructure<br> 
+    'i4' => '<strong>Tecnologías <br> Inteligentes <br> (Smart Water<br> Infrastructure<br> 
             Technologies -<br> (SWIT))</strong>',
     'i5' => '<strong> Desalinización </strong>',
     'i6' => '<strong> Tratamiento de <br>
@@ -99,6 +100,9 @@ return [
     'banderaoff' => 'flag-icon-gb',
     'linkbanderaoff'=>'/lang/en',
     'onClick'=>'cambiarImgEn()',
+    'idiomaoff'=>'English',
+    'idioma'=>'Español',
+    'linkidiomaoff'=>'/lang/en',
 
     //PREGUNTAS FRECUENTES / FAQ
     'pf'=>'Preguntas Frecuentes',

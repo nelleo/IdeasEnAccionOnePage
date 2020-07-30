@@ -1,7 +1,9 @@
 {{-- FAQ --}}
-<section id="FAQ" class=" d-flex flex-wrap flex-lg-row oh pt-4 pt-md-5"  style="background-color:#ecfcf4;margin:0%; ">
+<section id="faq" class=" d-flex flex-wrap flex-lg-row oh pt-4 pt-md-5"  style="background-color:#ecfcf4;margin:0%; ">
     <div class="col-12 text-center mb-4 mb-md-5">
-        <h1  class="subtitulo" style="color: #24939d;">
+        <h1  class="" style="color: #24939d;line-height: 1.2em;
+                    font-weight: 650;
+                    letter-spacing: .01em;">
             @lang('menssages.pf')
         </h1>
         <div class="col-8 col-md-7 col-lg-5 srr" style="height:4px;background-color:#24939d;display:inline-block;border-radius: 3px;position: relative;top: -5px;"></div>
@@ -12,7 +14,7 @@
             <div class="panel-heading mb-4  txtmob">
                 <h3 class="panel-title subtitulo" style="color: #54d9da;">@lang('menssages.prge')</h3>
             </div>
-            <ul class="list-group celesteclaro" >
+            <ul class="list-group celesteclaro move-right" >
                 <li class="list-group-item verdeagua"  >
                     
                     <a id="a1" class="btn txtleft celesteclaro fontancor" data-toggle="collapse" href="#pr1" role="button" 
@@ -43,7 +45,7 @@
             <div class="panel-heading mb-4 txtmob">
                 <h3 class="panel-title subtitulo" style="color: #54d9da;">@lang('menssages.cc')</h3>
             </div>
-            <ul class="list-group celesteclaro">
+            <ul class="list-group celesteclaro move-right">
                 <li class="list-group-item verdeagua">
                     <a id="a3" class="btn txtleft celesteclaro fontancor"  data-toggle="collapse" href="#pr11" role="button" 
                         aria-expanded="false" aria-controls="collapseExample" >
@@ -86,7 +88,7 @@
             <div class="panel-heading mb-4  txtmob">
                 <h3 class="panel-title subtitulo" style="color: #54d9da;">@lang('menssages.cie')</h3>
             </div>
-            <ul class="list-group celesteclaro">
+            <ul class="list-group celesteclaro move-left">
                 <li class="list-group-item verdeagua">
                     <a id="a6" class="btn txtleft celesteclaro fontancor"  data-toggle="collapse" href="#pr3" role="button" 
                         aria-expanded="false" aria-controls="collapseExample" >

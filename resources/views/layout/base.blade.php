@@ -8,6 +8,7 @@
 
         <!-- Fonts -->
         <link href="https://fonts.googleapis.com/css?family=Monserrat:200,600" rel="stylesheet">
+        {{-- <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap" rel="stylesheet"> --}}
 
         <!-- Styles -->
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
@@ -19,10 +20,10 @@
         <link rel="stylesheet" href="{{ mix('css/appp.css')}}">
 
         <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
-        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
        
-        
+        <script src="{{ mix('js/app.js')}}"></script>
 
         {{-- ICONO --}}
         <link rel="icon" type="image/ico" href="img/favicon.ico">
@@ -57,34 +58,34 @@
       <div class="collapse navbar-collapse" id="navbarSupportedContent" style="font-size:smaller;font-weight: 600;">
         <ul class="navbar-nav ml-auto">
           <li class="nav-item active">
-            <a class="nav-link itm-nav" href="/#Home" style="color: aliceblue;"><strong> Home</strong></a>
+            <a class="nav-link itm-nav" href="/#home" style="color: aliceblue;"><strong> Home</strong></a>
           </li>
           <li class="nav-item">
-            <a class="nav-link itm-nav" href="/#Categorías" style="color: aliceblue;">@lang('menssages.cats')</a>
+            <a class="nav-link itm-nav" href="/#categorias" style="color: aliceblue;">@lang('menssages.cats')</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link itm-nav" href="/#ExelenciaInnovadoraempresarial" style="color: aliceblue;">@lang('menssages.cat1')</a>
+            <a class="nav-link itm-nav" href="/#excelenciainnovadoraempresarial" style="color: aliceblue;">@lang('menssages.cat1')</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link itm-nav" href="/#Desafíos" style="color: aliceblue;">@lang('menssages.cat2')</a>
+            <a class="nav-link itm-nav" href="/#desafios" style="color: aliceblue;">@lang('menssages.cat2')</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link itm-nav" href="/#FAQ" style="color: aliceblue;">FAQ</a>
+            <a class="nav-link itm-nav" href="/#faq" style="color: aliceblue;">FAQ</a>
           </li>
           <li class="nav-item mr-md-3">
             <a class="nav-link itm-nav" href="/#form" style="color: aliceblue;">@lang('menssages.contac')</a>
           </li>
-          <div class="dropdown">
-            <button id="btnbandera" class="btn btn-secondary dropdown-toggle marino ml-md-1 mt-md-1" type="button" id="dropdownMenuButton" 
-            data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" style="padding:0rem!important;border-color:#061939">
-                    <span class="flag-icon @lang('menssages.bandera') rounded-circle "> </span></a>
-              </button>
+          <div class="dropdown" >
+            <button id="btnbandera" class="idioma btn btn-secondary dropdown-toggle marino ml-md-1 " type="button" id="dropdownMenuButton" 
+            data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" style="margin-top: .4rem!important;">
+                @lang('menssages.idioma'){{-- <span class="flag-icon @lang('menssages.bandera') rounded-circle "> </span> --}}
+            </button>
               {{--     min-width: auto; --}}
-            <div id="dropbandera" class="dropdown-menu marino droppadding" aria-labelledby="dropdownMenuButton" >
-                <a id="click" class="flag-icon @lang('menssages.banderaoff') rounded-circle" onclick="@lang('menssages.onClick')" href="@lang('menssages.linkbanderaoff')" >
-                </a>
-               
-            
+            <div id="dropbandera" class="idioma dropdown-menu marino droppadding ml-md-1" aria-labelledby="dropdownMenuButton" >
+                {{-- <a id="click" class="flag-icon @lang('menssages.banderaoff') rounded-circle" onclick="@lang('menssages.onClick')" href="@lang('menssages.linkbanderaoff')" >
+                </a> --}}
+                <a id="idiomaoff" class="idioma" style="font-size:100%" href="@lang('menssages.linkidiomaoff')" onclick="@lang('menssages.onClick')">@lang('menssages.idiomaoff')</a>
+  
             </div>
           </div>
         </ul>
@@ -92,23 +93,17 @@
     </nav>
     
 
-        <header id="Home" class="d-flex w-100 marino align-content-between justify-content-center">
-            
-            <div class="d-none d-sm-block oh">
-                <img class="fr" src="images/img--01.jpg" alt="misc titulo 1">
+        <header id="home" class="d-flex w-100 marino align-content-between justify-content-center">
+            {{-- move-right2 --}}
+            <div class="d-none d-sm-block oh ">
+                <img class="fr " src="images/img--01.jpg" alt="misc titulo 1">
             </div>
             <div class="" style="display:block">
-                <div class="pl-5 " style="float:right;"> 
-                    @if(Session::has('mensaje'))
-                        <div class="alert alert-success mt-1 mb-1 alerta text-center" role="alert">
-                           <p>{{ Session::get('mensaje')}} </p> 
-                        </div>
-                    @endif
+                
+                <div class="">
+                    <img id="img1" class="w1 move-top" src="@lang('menssages.img1')" alt="titulo pricipal">
                 </div>
-                <div>
-                    <img id="img1" class="w1" src="@lang('menssages.img1')" alt="titulo pricipal">
-                </div>
-                <div class="ptc d-flex pl-3">
+                <div class="ptc d-flex pl-3 move-bottom">
                     <img class="fl" src="images/img--03.jpg" alt="titulo bajada">
                     <h2 class="ctc text-center align-self-center px-5 py-3 mt-1" 
                         style="color: aliceblue;font-weight: 600;font-size: x-large!important;">
@@ -117,9 +112,9 @@
                 </div>
                 
             </div>
-            
-            <div class="d-none d-sm-block oh">
-                <img class="fl" src="images/img--04.jpg" alt="misc titulo 1">
+            {{-- move-left2 --}}
+            <div class="d-none d-sm-block oh ">
+                <img class="fl " src="images/img--04.jpg" alt="misc titulo 1">
             </div>
         </header>
 
@@ -128,13 +123,169 @@
         <footer class="text-center " style="margin:0%;min-height: 450px;">
             
             <div >
-              <img class="" src="@lang('menssages.logo2')" alt="logo BID" style="position: relative;top: -10px;">
-              <img class="" src="@lang('menssages.logo1')" alt="alianza socialab"  style="position: relative;top: -10px;">
+              <img class="move-left" src="@lang('menssages.logo2')" alt="logo BID" style="position: relative;top: -10px;">
+              <img class="move-right" src="@lang('menssages.logo1')" alt="alianza socialab"  style="position: relative;top: -10px;">
             </div>
            
         </footer>
     </body>
     <script>
+        $(window).scroll(function() {
+          if ($("#nav").offset().top > 56) {
+
+                $("#nav").removeClass("barra0").addClass("barra1");;
+
+              $("#accion").removeClass("enaccion0").addClass("enaccion1");;
+
+              $("#ideas").removeClass("ideas0").addClass("ideas1");;
+
+              $("#btnbandera").removeClass("marino").addClass("celeste");;
+
+              $("#dropbandera").removeClass("marino").addClass("celeste");;
+
+              $("#icono").removeClass("iconceleste").addClass("iconblanco");;
+
+              $("#btnbandera").removeClass("idioma").addClass("idioma1");
+              $("#idiomaoff").removeClass("idioma").addClass("idioma1");
+
+          } else {
+              $("#nav").removeClass("barra1").addClass("barra0");;
+
+              $("#accion").removeClass("enaccion1").addClass("enaccion0");;
+
+              $("#ideas").removeClass("ideas1").addClass("ideas0");;
+
+              $("#btnbandera").removeClass("celeste").addClass("marino");;
+
+              $("#dropbandera").removeClass("celeste").addClass("marino");;
+
+              $("#icono").removeClass("iconblanco").addClass("iconceleste");;
+
+              $("#btnbandera").removeClass("idioma1").addClass("idioma");
+              $("#idiomaoff").removeClass("idioma1").addClass("idioma");
+          }
+        });
+    </script>
+    <script>
+      $(document).ready(function(){
+            $(".collapse").on('show.bs.collapse', function(){
+                $(this).prev(".list-group-item").find(".fa").removeClass("fa-plus").addClass("fa-minus");
+            }).on('hide.bs.collapse', function(){
+                $(this).prev(".list-group-item").find(".fa").removeClass("fa-minus").addClass("fa-plus");
+            });
+              $(".move-top").each(function(i, el) {
+                var el = $(el);
+                if (el.visible(true)) {
+                  el.addClass("come-top"); 
+                } 
+              });
+              $(".move-bottom").each(function(i, el) {
+                var el = $(el);
+                if (el.visible(true)) {
+                  el.addClass("come-bottom"); 
+                } 
+              });
+          
+        });
+      </script>
+    <script>
+      $(window).scroll(function(event) {
+        var moveRight = $(".move-right").each(function(i, el) {
+          var el = $(el);
+          if (el.visible(true)) {
+            el.addClass("come-right"); 
+          } 
+        });
+        $(".move-left").each(function(i, el) {
+          var el = $(el);
+          if (el.visible(true)) {
+            el.addClass("come-left"); 
+          } 
+        });
+        
+        /////////////////////// BOTONES
+        $(".boton1").each(function(i, el) {
+          var el = $(el);
+          if (el.visible(true)) {
+            el.addClass("animatedd");
+           // el.addClass("opacidadbtn"); 
+          } 
+        });       
+        $(".boton3").each(function(i, el) {
+          var el = $(el);
+          if (el.visible(true)) {
+            el.addClass("animatedd"); 
+          } 
+        });       
+        $(".boton5").each(function(i, el) {
+          var el = $(el);
+          if (el.visible(true)) {
+            el.addClass("animatedd"); 
+          } 
+        });
+        // /////////////////////////////   ICONOS
+        $("#icon1").each(function(i, el) {
+          var el = $(el);
+          if (el.visible(true)) {
+            el.addClass("come-top1"); 
+          } 
+        });
+        $("#icon2").each(function(i, el) {
+          var el = $(el);
+          if (el.visible(true)) {
+            el.addClass("come-top2"); 
+          } 
+        });
+        $("#icon3").each(function(i, el) {
+          var el = $(el);
+          if (el.visible(true)) {
+            el.addClass("come-top3"); 
+          } 
+        });
+        $("#icon4").each(function(i, el) {
+          var el = $(el);
+          if (el.visible(true)) {
+            el.addClass("come-top4"); 
+          } 
+        });
+        $("#icon5").each(function(i, el) {
+          var el = $(el);
+          if (el.visible(true)) {
+            el.addClass("come-top3"); 
+          } 
+        });
+        $("#icon6").each(function(i, el) {
+          var el = $(el);
+          if (el.visible(true)) {
+            el.addClass("come-top2"); 
+          } 
+        });
+        $("#icon7").each(function(i, el) {
+          var el = $(el);
+          if (el.visible(true)) {
+            el.addClass("come-top1"); 
+          } 
+        });       
+      });
+  </script>
+  <!-- <script>
+    $(document).ready(function(){
+      
+      $("a").on('click', function(event) {
+        
+        if (this.hash !== "") {
+        
+          event.preventDefault();
+          var hash = this.hash;
+
+          $('html, body').animate({scrollTop: $(hash).offset().top}, 800, function(){
+            window.location.hash = hash;
+          });
+        } 
+      });
+    });
+  </script> -->
+    {{-- <script>
         window.onload = function() {
 
             var ln = x=window.navigator.language||navigator.browserLanguage;
@@ -170,6 +321,7 @@
                 CAT1.setAttribute("src", "images/cat1.jpg");
                 CAT2.setAttribute("src", "images/cat2.jpg");
         }
+<<<<<<< HEAD
     </script>
     <script>
         $(window).scroll(function() {
@@ -215,4 +367,7 @@
     });
 
   </script>
+=======
+    </script> --}}
+>>>>>>> master
 </html>
