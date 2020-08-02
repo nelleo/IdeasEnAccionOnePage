@@ -9,7 +9,7 @@
           </div>
       </div>
       <div class="col-md-6 col-lg-6">
-          <form  class="ml-4 mr-md-5  mt-4 mb-5 text-right" method="POST" action="/envioMail" >
+          <form  class="ml-4 mr-md-5  mt-4 mb-5 text-right" method="POST" action="/#" >
               @csrf
               <div class="row mb-1 mw-100">
                 <div class=" col-md-4 pb-3" >

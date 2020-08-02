@@ -1,0 +1,34 @@
+Route::get('/foo', function () {
+    $exitCode = Artisan::call('cache:clear');
+});
+Route::get('/config-cache', function() {
+    $exitCode = Artisan::call('config:cache');
+    return '<h1>Clear Config cleared</h1>';
+});
+
+https://styde.net/aplicacion-multilenguaje-en-laravel-5-1/
+
+problema mails ideas en acccion 
+
+problema en el serv
+
+The system sends “premioideasenaccion.com”’s outgoing email from the “192.99.99.213” IP address.
+
+ The only PTR value for this IP address must be “m18h.tophosting.net”. 
+
+This is the name that this server sends with SMTP’s “HELO” command to send “premioideasenaccion.com”’s outgoing email.
+
+1 unexpected PTR value exists for this IP address:
+
+chevroparts.com
+To fix this problem, contact your system administrator and request 
+that they replace all PTR records for “213.99.99.192.in-addr.arpa”
+ with the fo
+
+curso vueJS https://uplod.net/9bfeboholugx917r
+
+geo ip https://lyften.com/projects/laravel-geoip/doc
+
+lib animacion js https://code.tutsplus.com/es/tutorials/javascript-based-animations-using-animejs-targets-and-properties--cms-28894
+
+rotacion https://developer.mozilla.org/en-US/docs/Web/CSS/transform-function/rotateY

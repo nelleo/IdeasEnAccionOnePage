@@ -36,7 +36,7 @@ return [
     'part1'=>'
         <button id="" class=" move-right boton1 participa col-7 col-md-7 col-lg-5 mt-5 btn btn-lg px-1" 
             style="background-color:#034360; ">
-            <a style="color:#ecfcf4;" href="https://comunidad.socialab.com//challenges/ideasenaccionexcelencia" target="_blank" >
+            <a style="color:#ecfcf4;" href="#" target="_blank" >
                 <h3 class="part1">
                     APPLY
                 </h3> 
