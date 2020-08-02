@@ -34,13 +34,13 @@
               </p>
         </div>
         <div class="col-md-6 mx-auto text-center mt-4">
-            <button id="" class="boton3 focuss  col-md-10 mt-4 btn" style="background-color:#ecfcf4;font-weight: 500; ">
+            <button id="" class="boton1 focuss  col-md-10 mt-4 btn" style="background-color:#ecfcf4;font-weight: 500;opacity:0.0;  ">
                 <a style="color:#044363;" href="https://comunidad.socialab.com//challenges/ideasenaccionexcelencia"  target="_blank">
                      @lang('menssages.etp') 
                 </a>
             </button>
             <br>
-            <button id="" class="boton3 focuss  col-md-10 mt-4 mb-5 btn" style="background-color:#044363;font-size: small; ">
+            <button id="" class="boton2 focuss  col-md-10 mt-4 mb-5 btn" style="background-color:#044363;font-size: small;opacity:0.0;  ">
                 <a style="color:#ecfcf4;" href="/download" >
                     @lang('menssages.byc') 
                 </a>    

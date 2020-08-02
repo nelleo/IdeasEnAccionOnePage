@@ -202,6 +202,18 @@
             el.addClass("come-left"); 
           } 
         });
+        $(".move-lefto").each(function(i, el) {
+          var el = $(el);
+          if (el.visible(true)) {
+            el.addClass("come-lefto"); 
+          } 
+        });
+        $(".move-righto").each(function(i, el) {
+          var el = $(el);
+          if (el.visible(true)) {
+            el.addClass("come-righto"); 
+          } 
+        });
         
         /////////////////////// BOTONES
         $(".boton1").each(function(i, el) {
@@ -211,18 +223,13 @@
            // el.addClass("opacidadbtn"); 
           } 
         });       
-        $(".boton3").each(function(i, el) {
+        $(".boton2").each(function(i, el) {
           var el = $(el);
           if (el.visible(true)) {
-            el.addClass("animatedd"); 
+            el.addClass("animateddo"); 
           } 
         });       
-        $(".boton5").each(function(i, el) {
-          var el = $(el);
-          if (el.visible(true)) {
-            el.addClass("animatedd"); 
-          } 
-        });
+
         // /////////////////////////////   ICONOS
         $("#icon1").each(function(i, el) {
           var el = $(el);
@@ -321,53 +328,5 @@
                 CAT1.setAttribute("src", "images/cat1.jpg");
                 CAT2.setAttribute("src", "images/cat2.jpg");
         }
-<<<<<<< HEAD
-    </script>
-    <script>
-        $(window).scroll(function() {
-          if ($("#nav").offset().top > 56) {
-
-              $("#nav").removeClass("barra0").addClass("barra1");
-
-              $("#accion").removeClass("enaccion0").addClass("enaccion1");
-
-              $("#ideas").removeClass("ideas0").addClass("ideas1");
-
-              $("#btnbandera").removeClass("marino").addClass("celeste");
-
-              $("#dropbandera").removeClass("marino").addClass("celeste");
-
-              $("#icono").removeClass("iconceleste").addClass("iconblanco");
-
-          } else {
-
-              $("#nav").removeClass("barra1").addClass("barra0");
-
-              $("#accion").removeClass("enaccion1").addClass("enaccion0");
-
-              $("#ideas").removeClass("ideas1").addClass("ideas0");
-
-              $("#btnbandera").removeClass("celeste").addClass("marino");
-
-              $("#dropbandera").removeClass("celeste").addClass("marino");
-
-              $("#icono").removeClass("iconblanco").addClass("iconceleste");
-          }
-        });
-  </script>
-  <script>
-  $(document).ready(function(){
-
-        // Toggle plus minus icon on show hide of collapse element
-        $(".collapse").on('show.bs.collapse', function(){
-            $(this).prev(".list-group-item").find(".fa").removeClass("fa-plus").addClass("fa-minus");
-        }).on('hide.bs.collapse', function(){
-            $(this).prev(".list-group-item").find(".fa").removeClass("fa-minus").addClass("fa-plus");
-        });
-    });
-
-  </script>
-=======
     </script> --}}
->>>>>>> master
 </html>

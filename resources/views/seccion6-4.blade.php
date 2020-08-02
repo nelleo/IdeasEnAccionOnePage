@@ -8,7 +8,7 @@
             <h1 class="" style="line-height: 1.2em;color: aliceblue;font-weight: 650;letter-spacing:0.01em">
                 @lang('menssages.poga')
             </h1>
-            <div style="height: 4px;width: 270px;background-color:#fff;display:inline-block;border-radius: 3px;position: relative;top: -5px;"></div>
+            <div style="height: 4px;width: 250px;background-color:#fff;display:inline-block;border-radius: 3px;position: relative;top: -5px;"></div>
             <p class="w1 mt-4 px-4 pb-5" style="color: aliceblue;font-size: 1.4em;font-weight: 650;">
                 @lang('menssages.p9')
             </p>

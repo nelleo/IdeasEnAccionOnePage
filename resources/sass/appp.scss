@@ -510,7 +510,7 @@ footer{
     text-align: center;
     top: 2.5em;
     left: 0.4em;
-    font-size: x-large;
+    font-size: large;
 }
 .part2{
     color:#04b3bb; 
@@ -521,20 +521,20 @@ footer{
     text-align: center;
     top: 2.5em;
     left: 0.4em;
-    font-size: x-large;
+    font-size: large;
 }
 .dqst{
     position: relative;
     text-align: center;
-    top: 3.9em;
-    color:#044363;
+    top: -.6em;
+    color:#061939;
     font-weight: 650;
-    font-size: 2em!important;
+    font-size: 1.9em!important;
 }
 .cat{
-    font-size: 2em!important;
-    top: 2.5em;
-    color: #044363;
+    font-size: 1.9em!important;
+    top: -0.5em;
+    color: #00b1b8;
     font-weight: 650;
     position: relative;
     text-align: center;
@@ -687,23 +687,23 @@ footer{
 // }
 @media (min-width: 1100px){
     .srr{
-        width: 40%!important;
+        width: 36%!important;
     }
 }
 
 @media (min-width: 1150px){
     .srr{
-        width: 37%!important;
+        width: 33%!important;
     }
 }
 
 @media (min-width: 1250px){
     .srr{
-        width: 35%!important;
+        width: 31%!important;
     }
 }
 .subtitulo{
-    font-size: 1.6em!important;
+    font-size: 1.5em!important;
     line-height: 1.2em;
     font-weight: 650;
     letter-spacing:0.01em;
@@ -768,6 +768,38 @@ html {
       transform: translateX(0);
     }
 }
+/////////////////////// MOV EN X Y OPACIADAD 
+.come-righto{
+    // transform: translateX(-50px);
+    animation: come-righto 1.5s ease forwards;
+  }
+  
+  .come-lefto{
+    // transform: translateX(50px);
+    animation: come-lefto 1.5s ease forwards;
+  }
+  
+  @keyframes come-righto{
+      from{
+        transform: translateX(-150px);
+        opacity:0.0;
+      }
+      to{
+        transform: translateX(0);
+        opacity:1.0;
+      }
+  }
+
+  @keyframes come-lefto{
+    from{
+      transform: translateX(150px);
+      opacity:0.0;
+    }
+    to{
+      transform: translateX(0);
+      opacity:1.0;
+    }
+}
 ////////////////////////// MOVIMIENTOS EN VERTICAL Y OPACIDAD
 .come-top{
     // transform: translateX(-50px);
@@ -821,49 +853,19 @@ html {
 ///////////////////////////////////////////
 .focuss:hover{
     transition: ease .5s all;
-    max-width: 80rem;
+    max-width: 20rem;
 }
 .participa:hover{
     transition: ease .5s all;
-    max-width: 15rem;
+    max-width: 13rem;
 }
 
-////// EFECTO REBOTE    animation: come-top 1.5s ease forwards;     transition: ease 1s all ;
-.animated {
-    -webkit-animation-duration: 4s!important;
-    animation-duration: 4s!important;
-    -webkit-animation-fill-mode: both!important;
-    animation-fill-mode: both!important;
-    -webkit-animation-timing-function: linear!important;
-    animation-timing-function: linear!important;
-    animation-iteration-count: 3!important;
-    -webkit-animation-iteration-count: 3!important;
-  }
-  
-  @-webkit-keyframes bounce {
-    0%, 20%, 40%, 60%, 80%, 100% {-webkit-transform: translateY(0);}
-    50% {-webkit-transform: translateY(-10px);}
-  } 
-  
-  @keyframes bounce { 
-    0%, 20%, 40%, 60%, 80%, 100% {
-           transform: translateY(0);
-       }
-    50% {
-           transform: translateY(-10px);
-       }
-  } 
-  
-  .bounce { 
-    -webkit-animation-name: bounce!important;
-    animation-name: bounce!important;
-    animation: bounce .5s ease forwards!important;
-  }
- .animatedd{
-        //transition: ease 1s all ;
-        animation: bouncee .5s ease forwards;
+////// EFECTO REBOTE  
+ .animatedd{  
+        transition: ease 2s ;
+        opacity:1.0!important;
+        animation: bouncee 0.7s ease forwards;
         animation-iteration-count:2;
-//     animation: bounce 1s alternate 3 ease all;
  }
  @keyframes bouncee { 
     from{
@@ -873,22 +875,29 @@ html {
         transform: scale(1.0,1.0);
       }
 
-//        0%{
-// //         transform: translateY(0);
-//      }
-//      100%{
-// //         transform: translateY(-10px);
-//    }
+
  } 
+ .animateddo{
+    transition-delay: 2s;
+    transition: ease-in 2s ;
+    opacity:1.0!important;
+    animation: bounceeo 0.5s ease forwards;
+    animation-iteration-count:4;
+}
+@keyframes bounceeo { 
+from{
+    transform: scale(1.1,1.1);
+      }
+  to{
+    transform: scale(1.0,1.0);
+  }
+}
 
 
 
   a{
      text-decoration: none!important; 
   }
-//   img.cover{
-//     object-fit: cover;
-// }
 h1{
-    font-size: 2.4em!important;
+    font-size: 2.3em!important;
 }

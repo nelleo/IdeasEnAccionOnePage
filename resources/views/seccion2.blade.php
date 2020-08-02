@@ -1,32 +1,31 @@
-<div id="categorias" class="d-flex justify-content-center flex-column">
-    <h1 class="cat">@lang('menssages.cats')</h1>
-    <img src="images/img--08.jpg" alt="olas">
+<div id="categorias" class="row w-100" style="margin: unset;justify-content: center;">
+    {{-- d-flex justify-content-center flex-column --}}
+    <h1 class="cat col-12 mt-5">@lang('menssages.cats')</h1>
+    <div style="height: 4px;width: 160px;background-color:#00b1b8;display:inline-block;border-radius: 3px;position: relative;top: -5px;"></div>
+    <img src="images/olas1new.jpg" alt="olas" class="w-100 mt-3">
+ 
 </div>
-<section class="d-flex mt-5 justify-content-around flex-wrap" style="justify-content: center">
+<section class="row w-100" style="margin: unset; background-color:green;">
 
-    <div class="text-center move-right" style="margin-bottom: 6rem;">
+    <div class="col-12 col-md-6 text-center  pt-4 pb-5" style="background-color:#00b1b8;">
 
-        <img id="cat1" class=" mw-100" src="@lang('menssages.imgcat1')" alt="titulo excelencia innovadora empresarial">
-        <p class="p-4" style="max-width: 500px;color:#ecfcf4;font-size:large; ">@lang('menssages.p2')</p>
-        @lang('menssages.part1')
-
-    </div>
-    <div class="text-center move-left">
-
-        <img id="cat2" class="mw-100" src="@lang('menssages.imgcat2')" alt="titulo desafíos">
-        <p class="p-4 mb-2" style="max-width: 500px;color:#ecfcf4;font-size:large;">@lang('menssages.p3')</p>
-        <button id="" class=" boton1  participa col-6 col-md-6 col-lg-5 mt-5 btn btn-lg" 
-            style="background-color:#ecfcf4; ">
-            <a style="color:#04b3bb;" href="https://comunidad.socialab.com//challenges/ideasenacciondesafios" target="_blank" >
-                <h3 class="part2">@lang('menssages.part')</h3> 
-            </a>    
-        </button>
-        
+            <img id="cat1" class="move-righto  mw-100" src="@lang('menssages.imgcat1')" alt="titulo excelencia innovadora empresarial">
+            <p class="move-righto p-4 mx-auto" style="max-width: 500px;color:#ecfcf4;font-size:large; ">@lang('menssages.p2')</p>
+            @lang('menssages.part1')
+    
     </div>
 
+    <div class="col-12 col-md-6 text-center  pt-4 pb-5" style="background-color:#ecfcf4; ">
+
+        <img id="cat2 " class="move-lefto mw-100" src="@lang('menssages.imgcat2')" alt="titulo desafíos">
+        <p class="p-4 mb-2 mb-lg-2 mt-lg-4 mx-auto move-lefto" style="max-width: 500px;color:#00b1b8;font-size:large;">@lang('menssages.p3')</p>
+        @lang('menssages.part2')
+    </div>
 
 </section>
-<div class="d-flex justify-content-center flex-column">
-    <h1 class="dqst">@lang('menssages.dqst')</h1> 
-    <img src="images/img--14-f.jpg" alt="fondo ¿De qué trata?" style="position: relative;z-index:-1;bottom:-2px;">
+<div class="row w-100" style="background-color: #0494a3;margin: unset;justify-content: center;">
+    
+    <h1 class="dqst col-12 mt-5" >@lang('menssages.dqst')</h1>
+    <div style="height: 4px;width: 240px;background-color:#061939;display:inline-block;border-radius: 3px;position: relative;top: -5px;"></div> 
+    <img class="w-100" src="images/olas2new.jpg" alt="fondo ¿De qué trata?" style="position: relative;bottom: -1px;">
 </div>

@@ -39,13 +39,13 @@
                     @lang('menssages.p8')
                 </p>
             <div class="col-md-6 mx-auto text-center mt-4">
-                <button id="" class="boton5 focuss  col-md-10 mt-4 btn" style="background-color:#24959e;font-weight: 500; ">
+                <button id="" class="boton1 focuss  col-md-10 mt-4 btn" style="background-color:#24959e;font-weight: 500;opacity:0.0; ">
                     <a href="https://comunidad.socialab.com//challenges/ideasenacciondesafios" target="_blank"
                         style="color:#ecfcf4;">
                         @lang('menssages.etp')
                     </a>
                 </button>
-                <button id="" class="boton5 focuss  col-md-10 mt-4  mb-5 btn" style="background-color:#54d9da;color:#24959e;font-size: small; ">
+                <button id="" class="boton2 focuss  col-md-10 mt-4  mb-5 btn" style="background-color:#54d9da;color:#24959e;font-size: small;opacity:0;.0; ">
                     @lang('menssages.byc')
                 </button>
             </div>

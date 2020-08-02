@@ -25,10 +25,17 @@ return [
         <strong>challenges</strong> that can be solved through the implementation of innovative smart technologies,
          desalinization, water reuse and/or management pilots.',
 
-    'part' => 'APPLY',
+    'part2' => '<button id="" class=" boton2  participa col-7 col-md-7 col-lg-5 mt-3 mt-md-1 mt-lg-4 btn btn-lg px-1" 
+                style="background-color:#00b1b8; ">
+                <a  href="https://comunidad.socialab.com//challenges/ideasenacciondesafios" target="_blank" >
+                    <h3 style="color:#ecfcf4;" class="part2"> 
+                        APPLY
+                    </h3> 
+                </a>    
+            </button>',
     'part1'=>'
-        <button id="" class="boton1 participa col-6 col-md-6 col-lg-5 mt-5 btn btn-lg" 
-            style="background-color:#04b3bb; ">
+        <button id="" class=" move-right boton1 participa col-7 col-md-7 col-lg-5 mt-5 btn btn-lg px-1" 
+            style="background-color:#034360; ">
             <a style="color:#ecfcf4;" href="https://comunidad.socialab.com//challenges/ideasenaccionexcelencia" target="_blank" >
                 <h3 class="part1">
                     APPLY
@@ -85,8 +92,8 @@ return [
     'msj' => 'Message',
     'send' => 'SEND',
     'img1' => 'images/titulo.jpg',
-    'imgcat1' => 'images/cat1.jpg',
-    'imgcat2' => 'images/cat2.jpg',
+    'imgcat1' => 'images/img--09-i.jpg',
+    'imgcat2' => 'images/img--12-i.jpg',
     "logo1"=>"images/logo-socialab-ingles.jpg",
     "logo2"=>"images/logo-bid-ingles.jpg",
 

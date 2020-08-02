@@ -20,15 +20,23 @@ return [
         que puedan ser solucionados a través de la implementación de pilotos innovadores en tecnologías
         inteligentes, desalinización, reúso y/o gestión.',
 
-    'part' => 'PARTICIPA',
-    'part1'=>'<button id="" class="boton1 participa col-6 col-md-6 col-lg-5 mt-4 btn btn-lg" 
-    style="background-color:#04b3bb; ">
-    <a style="color:#ecfcf4;" href="https://comunidad.socialab.com//challenges/ideasenaccionexcelencia" target="_blank" >
-        <h3 class="part1">
-            PARTICIPA
-        </h3> 
-    </a>    
-</button>',
+    'part2' => '<button id="" class=" boton2  participa col-7 col-md-7 col-lg-5 mt-3 mt-md-1 mt-lg-5 btn btn-lg px-1" 
+                    style="background-color:#00b1b8; opacity:0.0; ">
+                    <a  href="https://comunidad.socialab.com//challenges/ideasenacciondesafios" target="_blank" >
+                        <h3 style="color:#ecfcf4;" class="part2"> 
+                            PARTICIPA
+                        </h3> 
+                    </a>    
+                </button>',
+    'part1'=>'
+    <button id="" class="move-right boton1 participa col-7 col-md-7 col-lg-5 mt-4 mt-md-5  mt-lg-5 btn btn-lg px-1" 
+        style="background-color:#034360;opacity:0.0; ">
+        <a style="color:#ecfcf4;" href="https://comunidad.socialab.com//challenges/ideasenaccionexcelencia" target="_blank" >
+            <h3 class="part1">
+                PARTICIPA
+            </h3> 
+        </a>    
+    </button>',
     'dqst' => '¿De qué se trata?',
     'cat' => 'CATEGORÍA',
     'cat1' => 'Excelencia Innovadora Empresarial',
@@ -90,9 +98,9 @@ return [
     'mail' => 'Dirección de correro electrónico',
     'msj' => 'Mensaje',
     'send' => 'ENVIAR',
-    'img1' => 'images/img--02.jpg',
-    'imgcat1' => 'images/img--09.jpg',
-    'imgcat2' => 'images/img--12.jpg',
+    'img1' => 'images/titulo2.jpg',
+    'imgcat1' => 'images/img--09n.jpg',
+    'imgcat2' => 'images/img--12n.jpg',
     "logo1"=>"images/img--36.png",
     "logo2"=>"images/logo-BID.png",
 
