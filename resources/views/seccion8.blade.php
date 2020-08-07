@@ -13,7 +13,9 @@
               @csrf
               <div class="row mb-1 mw-100">
                 <div class=" col-md-4 pb-3" >
-                  <input type="text" style="color: aliceblue;" class="form-control marino mt-md-1" name="nombre" value="{{ old('nombre') }}" required autocomplete="nombre"   placeholder="@lang('menssages.name')">
+                  <input type="text" style="color: aliceblue;" class="form-control marino mt-md-1" name="nombre" 
+                         value="{{ old('nombre') }}" required autocomplete="nombre"   placeholder="@lang('menssages.name')"
+                         title="complete this field">
                   @error('nombre')
                   <span class="invalid-feedback" role="alert">
                       <strong>{{ $message }}</strong>
@@ -21,7 +23,9 @@
                   @enderror
                 </div>
                 <div class="form-group col-md-8 mt-3 mt-md-1">
-                  <input type="email"style="color: aliceblue;" class="form-control @error('email') is-invalid @enderror marino" name="email" value="{{ old('email') }}" required autocomplete="email"  placeholder="@lang('menssages.mail')" >
+                  <input type="email"style="color: aliceblue;" class="form-control @error('email') is-invalid @enderror marino"
+                   name="email" value="{{ old('email') }}" required autocomplete="email"  placeholder="@lang('menssages.mail')"
+                   title="complete this field" oninvalid="InvalidMsg(this);" oninput="InvalidMsg(this);">
                   @error('email')
                   <span class="invalid-feedback" role="alert">
                     <strong>{{ $message }}</strong>
@@ -31,7 +35,9 @@
               </div>
               <div class="row mb-3 mw-100">
                   <div class="form-group col-md-12 mt-2">
-                    <textarea style="color: aliceblue;" class="form-control @error('mensaje') is-invalid @enderror radius marino" name="mensaje"  value="{{ old('mensaje') }}" id="" cols="30" rows="5" required autocomplete="mensaje"  placeholder="@lang('menssages.msj')" ></textarea>                              
+                    <textarea style="color: aliceblue;" class="form-control @error('mensaje') is-invalid @enderror radius marino"
+                     name="mensaje"  value="{{ old('mensaje') }}" id="" cols="30" rows="5" required autocomplete="mensaje" 
+                      placeholder="@lang('menssages.msj')"  title="complete this field"></textarea>                              
                     @error('mensaje')
                   <span class="invalid-feedback" role="alert">
                       <strong>{{ $message }}</strong>

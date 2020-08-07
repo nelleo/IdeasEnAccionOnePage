@@ -292,41 +292,40 @@
       });
     });
   </script> -->
-    {{-- <script>
-        window.onload = function() {
-
-            var ln = x=window.navigator.language||navigator.browserLanguage;
-            if(ln == 'en'){
-               // window.location.href = 'index_en.html';si esta en inglés va a ingles
-               cambiarImgEn()
-               document.getElementById("click").click();
-               return break
-            }else if(ln == 'es'){
-                cambiarImgEs()//window.location.href = 'index_es.html'; // si es es va a español
-                document.getElementById("click").click();
-                return break
-            }else{
-                cambiarImgEn()//window.location.href = 'index_es.html'; // si no es ninguna de los dos va a español
-                document.getElementById("click").click();
-                return break
-            }
-        }
+    <script>
         
-        function cambiarImgEs() {
-            var IMG = document.getElementById("img1");
-            var CAT1 = document.getElementById("cat1");
-            var CAT2 = document.getElementById("cat2");
-                IMG.setAttribute("src", "images/img--02.jpg");
-                CAT1.setAttribute("src", "images/img--09.jpg");
-                CAT2.setAttribute("src", "images/img--12.jpg");
-        }
-        function cambiarImgEn() {
-            var IMG = document.getElementById("img1");
-            var CAT1 = document.getElementById("cat1");
-            var CAT2 = document.getElementById("cat2");
-                IMG.setAttribute("src", "images/titulo.jpg");
-                CAT1.setAttribute("src", "images/cat1.jpg");
-                CAT2.setAttribute("src", "images/cat2.jpg");
-        }
-    </script> --}}
+      funcion msjErrorEnglish(textbox){
+        var ln = x=window.navigator.language||navigator.browserLanguage;
+            if(ln == 'en'|| ln != 'es' ){
+              // window.location.href = 'index_en.html';si esta en inglés va a ingles
+              if (textbox.value == '') {
+                  textbox.setCustomValidity('Lütfen işaretli yerleri doldurunuz');
+              }
+              else if (textbox.validity.typeMismatch){{
+                  textbox.setCustomValidity('please enter a valid email address');
+              }
+              else {
+                  textbox.setCustomValidity('');
+              }
+              return true;
+            } 
+      }       
+        // {{--window.onload = function() {
+          //    function cambiarImgEs() {
+        //     var IMG = document.getElementById("img1");
+        //     var CAT1 = document.getElementById("cat1");
+        //     var CAT2 = document.getElementById("cat2");
+        //         IMG.setAttribute("src", "images/img--02.jpg");
+        //         CAT1.setAttribute("src", "images/img--09.jpg");
+        //         CAT2.setAttribute("src", "images/img--12.jpg");
+        // }
+        // function cambiarImgEn() {
+        //     var IMG = document.getElementById("img1");
+        //     var CAT1 = document.getElementById("cat1");
+        //     var CAT2 = document.getElementById("cat2");
+        //         IMG.setAttribute("src", "images/titulo.jpg");
+        //         CAT1.setAttribute("src", "images/cat1.jpg");
+        //         CAT2.setAttribute("src", "images/cat2.jpg");
+        // }--}}
+    </script> 
 </html>

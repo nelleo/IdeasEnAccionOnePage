@@ -9,10 +9,10 @@ use Mail;
 class mailController extends Controller
 {
     public function send(Request $datos){
+
+        $correo=["agua@iadb.org","argentina@socialab.com"];
         
         Mail::to("castrogoll.99@gmail.com")->send(new NuevaConsulta($datos));
-
-         $correo=["agua@iadb.org","argentina@socialab.com"];
 
         $mensaje="Mensaje enviado con exito";
 
